@@ -167,7 +167,7 @@
   $content .= $template->getSection('PageBody');
 
   # Replace template labels with real data
-  $styleSheet = 'style.css';
+  $styleSheet = 'css/bootstrap.css';
   $errMsgClass   = (!empty($msg)) ? "ShowError" : "HideError";
   $errMsgStyle   = $template->getSection($errMsgClass);
 /* These are the most common template replacement tags used. Any additional
@@ -236,8 +236,8 @@
       $linkClass = $needle['[linkHref]'];
       $linkClass = str_replace(' href="index.php?page=', '', $linkClass);
       $linkClass = str_replace('"', '', $linkClass);
-      $curClass = ($linkClass == $curPage) ? 'selected' : 'noClass';
-      if ($curPage == 'main') $curClass = (stripos($linkClass,'main') !== false) ? 'selected' : 'noClass';
+      $curClass = ($linkClass == $curPage) ? 'active' : 'noClass';
+      if ($curPage == 'main') $curClass = (stripos($linkClass,'main') !== false) ? 'active' : 'noClass';
       $tmp = str_replace('[curClass]', $curClass, $tmp);
       $out .= "$tmp\n";
     }
@@ -265,6 +265,8 @@ endFooter;
   function makeTopLinks() {
     $out = array(
                          array(
+                               '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="index.php?page=main"',
                                '[linkOnclick]' => '',
@@ -273,6 +275,8 @@ endFooter;
                                '[linkLabel]' => 'Home'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="'.NEWS_URL.'"',
                                '[linkOnclick]' => '',
@@ -281,6 +285,8 @@ endFooter;
                                '[linkLabel]' => 'News'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="'.DOCS_URL.'"',
                                '[linkOnclick]' => '',
@@ -289,6 +295,8 @@ endFooter;
                                '[linkLabel]' => 'Documentation'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="index.php?page=bugs"',
                                '[linkOnclick]' => '',
@@ -297,6 +305,8 @@ endFooter;
                                '[linkLabel]' => 'Bug Reporting'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="index.php?page=stats"',
                                '[linkOnclick]' => '',
@@ -305,6 +315,8 @@ endFooter;
                                '[linkLabel]' => 'Stats'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => ' class="[curClass]"',
                                '[linkHref]' => ' href="index.php?page=support"',
                                '[linkOnclick]' => '',
@@ -313,6 +325,8 @@ endFooter;
                                '[linkLabel]' => 'Support'
                                ),
                          array(
+                           '[li]'=> '<li>',
+                               '[fli]' => ' </li>',
                                '[linkClass]' => '',
                                '[linkHref]' => ' href="index.php?page=logout"',
                                '[linkOnclick]' => '',
@@ -326,7 +340,9 @@ endFooter;
   function makeLeftLinks() {
     $out = array(
                  array( # Change bot
-                       '[linkClass]' => ' class="[curClass]"',
+                   '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=select_bots"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Change or edit the current bot"',
@@ -334,7 +350,9 @@ endFooter;
                        '[linkLabel]' => 'Change/Edit Bot: ([curBot])'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=botpersonality"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Edit your bot\'s personality"',
@@ -342,7 +360,9 @@ endFooter;
                        '[linkLabel]' => 'Bot Personality'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=logs"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="View the log files"',
@@ -350,7 +370,9 @@ endFooter;
                        '[linkLabel]' => 'Logs'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=teach"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Train your bot"',
@@ -358,7 +380,9 @@ endFooter;
                        '[linkLabel]' => 'Teach'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=upload"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Upload AIML files"',
@@ -366,7 +390,9 @@ endFooter;
                        '[linkLabel]' => 'Upload AIML'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=download"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Download AIML files"',
@@ -374,7 +400,9 @@ endFooter;
                        '[linkLabel]' => 'Download AIML'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=clear"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Clear AIML Categories"',
@@ -382,7 +410,9 @@ endFooter;
                        '[linkLabel]' => 'Clear AIML Categories'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=spellcheck"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Edit the SpellCheck entries"',
@@ -390,7 +420,9 @@ endFooter;
                        '[linkLabel]' => 'Spell Check'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=wordcensor"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Edit the Word Censor entries"',
@@ -398,7 +430,9 @@ endFooter;
                        '[linkLabel]' => 'Word Censor'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item [curClass]"',
                        '[linkHref]' => ' href="index.php?page=search"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Search and edit specific AIML categories"',
@@ -406,7 +440,9 @@ endFooter;
                        '[linkLabel]' => 'Search/Edit AIML'
                  ),
                  array(
-                       '[linkClass]' => ' class="[curClass]"',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item"',
                        '[linkHref]' => ' href="index.php?page=demochat"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Run a demo version of your bot"',
@@ -414,7 +450,9 @@ endFooter;
                        '[linkLabel]' => 'Test Your Bot'
                  ),
                  array(
-                       '[linkClass]' => '',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item"',
                        '[linkHref]' => ' href="index.php?page=members"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Edit Admin Accounts"',
@@ -422,7 +460,9 @@ endFooter;
                        '[linkLabel]' => 'Edit Admin Accounts'
                  ),
                  array(
-                       '[linkClass]' => '',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item"',
                        '[linkHref]' => ' href="index.php?page=logout"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="Log out"',
@@ -430,15 +470,9 @@ endFooter;
                        '[linkLabel]' => 'Log Out'
                  ),
                  array(
-                       '[linkClass]' => '',
-                       '[linkHref]' => ' href="#"',
-                       '[linkOnclick]' => ' onclick="toggleLogo(); return false;"',
-                       '[linkAlt]' => ' alt="Toggle the Logo"',
-                       '[linkTitle]' => ' title="Toggle the Logo"',
-                       '[linkLabel]' => 'Toggle the Logo'
-                 ),
-                 array(
-                       '[linkClass]' => '',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item"',
                        '[linkHref]' => ' href="index.php?page=db_stats"',
                        '[linkOnclick]' => '',
                        '[linkAlt]' => ' alt="DB Stats"',
@@ -446,7 +480,9 @@ endFooter;
                        '[linkLabel]' => 'DB Stats'
                  ),
                  array(
-                       '[linkClass]' => '',
+                     '[li]'=> '',
+                               '[fli]' => '',
+                       '[linkClass]' => ' class="list-group-item"',
                        '[linkHref]' => ' href="' . _BASE_URL_ . '"',
                        '[linkOnclick]' => ' target="_blank"',
                        '[linkAlt]' => ' alt="open the page for [curBot] in a new tab/window"',

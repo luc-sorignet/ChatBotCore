@@ -93,8 +93,8 @@
     $dbh    = 'localhost';  # dev remote server location
     $dbPort = '3306';    # dev database name/prefix
     $dbn    = 'jarvis';    # dev database name/prefix
-    $dbu    = 'jarvis';       # dev database username
-    $dbp    = 'jarvis';  # dev database password
+    $dbu    = 'root';       # dev database username
+    $dbp    = '';  # dev database password
 
     //these are the admin DB settings in case you want make the admin a different db user with more privs
     $adm_dbu = 'admin';
@@ -166,7 +166,7 @@
     // Set Misc Data
     //------------------------------------------------------------------------
 
-    $botmaster_name = 'Luc';
+    $botmaster_name = 'TERUpssitech';
     $charset = 'ISO-8859-1';
     $charset = 'UTF-8';
 
