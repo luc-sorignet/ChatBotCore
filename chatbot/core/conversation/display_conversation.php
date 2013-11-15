@@ -106,8 +106,8 @@
     $bot_name = $convoArr['conversation']['bot_name'];
     foreach ($conversation as $index => $conversation_subarray)
     {
-      $show .= "<div class=\"usersay\">$user_name: " . stripslashes($conversation_subarray['input']) . "</div>";
-      $show .= "<div class=\"botsay\">$bot_name: " . stripslashes($conversation_subarray['response']) . "</div>";
+      $show .= "<div class=\"usersay\"><strong>$user_name</strong>: " . stripslashes($conversation_subarray['input']) . "</div>";
+      $show .= "<div class=\"botsay\"><strong>$bot_name</strong>: " . stripslashes($conversation_subarray['response']) . "</div>";
     }
     $convoArr['send_to_user'] = $show;
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Returning HTML", 4);

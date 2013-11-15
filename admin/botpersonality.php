@@ -46,9 +46,9 @@
 function getBot() {
   global $dbn;
   $dbConn = db_open();
-  $formCell  = '                <td><label for="[row_label]"><span class="label">[row_label]:</span></label> <span class="formw"><input name="[row_label]" id="[row_label]" value="[row_value]" /></span></td>
+  $formCell  = '                <td><label for="[row_label]">[row_label]:</label> <input name="[row_label]" id="[row_label]" value="[row_value]" /></td>
 ';
-  $blankCell ='                <td style="text-align: center"><label for="newEntryName[cid]"><span class="label">New Entry Name: <input name="newEntryName[cid]" id="newEntryName[cid]" style="width: 98%" /></label></span>&nbsp;<span class="formw"><label for="newEntryValue[cid]" style="float: left; padding-left: 3px;">New Entry Value: </label><input name="newEntryValue[cid]" id="newEntryValue[cid]" /></span></td>
+  $blankCell ='                <td><label for="newEntryName[cid]">New Entry Name: <input name="newEntryName[cid]" id="newEntryName[cid]" style="width: 98%" /></label>&nbsp;<label for="newEntryValue[cid]">New Entry Value: </label><input name="newEntryValue[cid]" id="newEntryValue[cid]" /></span></td>
 ';
   $startDiv = '      <td>' . "\n        ";
   $endDiv = "\n      </td>\n      <br />\n";
@@ -99,8 +99,8 @@ function getBot() {
   }
   if (empty($func)) $func = 'getBot';
   $form = <<<endForm2
-          <form name="botpersonality" action="index.php?page=botpersonality" method="post">
-            <table class="botForm">
+          <form class="form" name="botpersonality" action="index.php?page=botpersonality" method="post">
+            <table class="table botForm">
               <tr>
 $inputs
               </tr>
@@ -108,7 +108,7 @@ $inputs
                 <td colspan="3">
                   <input type="hidden" id="bot_id" name="bot_id" value="$bot_id">
                   <input type="hidden" id="func" name="func" value="$func">
-                  <input type="submit" name="action" id="action" value="$action">
+                  <input class="btn btn-primary" type="submit" name="action" id="action" value="$action">
                 </td>
               </tr>
             </table>
@@ -250,7 +250,7 @@ function addBotPersonality() {
     $out = '                <table class="botForm">
                   <tr>
 ';
-    $rowTemplate = '                    <td><label for="[field]"><span class="label">[uc_field]:</span></label> <span class="formw"><input name="[field]" id="[field]" value="" /></span></td>
+    $rowTemplate = '                    <td><label for="[field]">[uc_field]:</span> <input name="[field]" id="[field]" value="" /></td>
 ';
     $tr = '                  </tr>
                   <tr>
@@ -260,9 +260,9 @@ function addBotPersonality() {
 
     $lastBit = '                  </tr>
                   <tr>
-                    <td style="text-align: center"><label for="newEntryName[0]"><span class="label">New Entry Name: <input name="newEntryName[0]" id="newEntryName[0]" style="width: 98%" /></label></span>&nbsp;<span class="formw"><label for="newEntryValue[0]" style="float: left; padding-left: 3px;">New Entry Value: </label><input name="newEntryValue[0]" id="newEntryValue[0]" /></span></td>
-                    <td style="text-align: center"><label for="newEntryName[1]"><span class="label">New Entry Name: <input name="newEntryName[1]" id="newEntryName[1]" style="width: 98%" /></label></span>&nbsp;<span class="formw"><label for="newEntryValue[1]" style="float: left; padding-left: 3px;">New Entry Value: </label><input name="newEntryValue[1]" id="newEntryValue[1]" /></span></td>
-                    <td style="text-align: center"><label for="newEntryName[2]"><span class="label">New Entry Name: <input name="newEntryName[2]" id="newEntryName[2]" style="width: 98%" /></label></span>&nbsp;<span class="formw"><label for="newEntryValue[2]" style="float: left; padding-left: 3px;">New Entry Value: </label><input name="newEntryValue[2]" id="newEntryValue[2]" /></span></td>
+                    <td ><label for="newEntryName[0]">New Entry Name: <input name="newEntryName[0]" id="newEntryName[0]"  /></label>&nbsp;<label for="newEntryValue[0]" >New Entry Value: </label><input name="newEntryValue[0]" id="newEntryValue[0]" /></td>
+                    <td ><label for="newEntryName[1]">New Entry Name: <input name="newEntryName[1]" id="newEntryName[1]"  /></label>&nbsp;<label for="newEntryValue[1]" >New Entry Value: </label><input name="newEntryValue[1]" id="newEntryValue[1]" /></td>
+                    <td ><label for="newEntryName[2]">New Entry Name: <input name="newEntryName[2]" id="newEntryName[2]"  /></label>&nbsp;<label for="newEntryValue[2]" >New Entry Value: </label><input name="newEntryValue[2]" id="newEntryValue[2]" /></td>
                   </tr>
                 </table>
 ';

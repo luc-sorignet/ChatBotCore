@@ -153,6 +153,8 @@ endScript;
       $tmpLink = str_replace('[linkOnclick]', '', $tmpLink);
       $tmpLink = str_replace('[linkTitle]', " title=\"Edit spelling correction for the word '$missspelling'\"", $tmpLink);
       $tmpLink = str_replace('[linkLabel]', $missspelling, $tmpLink);
+      $tmpLink = str_replace('[li]', '', $tmpLink);
+      $tmpLink = str_replace('[fli]', ',', $tmpLink);
       $links .= "$tmpLink\n";
       $count++;
     }
@@ -225,7 +227,7 @@ function runSpellSearch() {
     $search = mysql_real_escape_string(trim($post_vars['search']));
     $sql = "SELECT * FROM `spellcheck` WHERE `missspelling` LIKE '%$search%' OR `correction` LIKE '%$search%' LIMIT 50";
     if (($result = mysql_query($sql, $dbConn)) === false) throw new Exception('You have a SQL error on line '. __LINE__ . ' of ' . __FILE__ . '. Error message is: ' . mysql_error() . ".<br />\nSQL = $sql<br />\n");
-    $htmltbl = '<table>
+    $htmltbl = '<table class="table">
                   <thead>
                     <tr>
                       <th class="sortable">missspelling</th>

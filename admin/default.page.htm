@@ -14,11 +14,11 @@
     
 [topNav]
     <div class="container" id="wrapper">
-
-[leftNav]
-[main]
-[rightNav]
-[footer]
+    <div class="row row-offcanvas row-offcanvas-right">
+    [leftNav]
+    [main]
+    [rightNav]
+    </div>
     </div>
 [lowerScripts]
   </body>
@@ -63,16 +63,20 @@ between the start and end section tags are the only parts of the template that a
           <div class="closeButton" id="closeButton" onclick="closeStatus('errMsg')" title="Click to hide">&nbsp;</div>
 [errMsg]
         </div>
-      <div  class="row row-offcanvas row-offcanvas-right" id="main">
-   
-[divDecoration]
+      <div   id="main">
+        <div class="col-xs-12 col-sm-6" id="main_content">
         <div class="page-header" id="main_title">
           <h1>[mainTitle]</h1>
         </div>
-        <div class="row" id="main_content">
-[mainContent]
+
+        <div class="row">
+          [mainContent]
+          [footer]
+        </div>
+            
       
         </div>
+
       </div>
 <!-- Section Main End -->
 <!-- Section RightNav Start -->
@@ -83,8 +87,8 @@ between the start and end section tags are the only parts of the template that a
       </div>
 <!-- Section RightNav End -->
 <!-- Section Footer Start -->
-<hr>
        <div id="footer">
+       <hr>
           <footer>
           <div id="script_version">[version]</div>
             [FooterInfo]
@@ -122,6 +126,16 @@ between the start and end section tags are the only parts of the template that a
         #main { right: 25px; }
       </style>
 <!-- Section NoRightNav End -->
+<!-- Section NoFooter Start -->
+[blank]<style type="text/css">
+        #footer { display: none; }
+      </style>
+<!-- Section NoFooter End -->
+<!-- Section NoTitle Start -->
+[blank]<style type="text/css">
+        #main_title { display: none; }
+      </style>
+<!-- Section NoTitle End -->
 <!-- Section NoLeftNav Start -->
 [blank]    <style type="text/css">
       #left_nav { display: none; }
@@ -142,7 +156,49 @@ between the start and end section tags are the only parts of the template that a
 [blank]        <div class="errMsg">[errorMessage]</div>
 <!-- Section ErrorMessage End -->
 <!-- Section LoginForm Start -->
-
+ <style type="text/css">
+      body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+#footer{display:none;}
+#main_title{display:none;}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+    </style>
 
 
       <form class="form-signin"  id="fm-form" method="post" action="index.php?page=login">
@@ -170,15 +226,15 @@ between the start and end section tags are the only parts of the template that a
 <!-- Section SelectBotForm Start -->
 
 [blank]    <!--fieldset-->
-      <form id="botAttributes" action="index.php?page=select_bots" method="post">
+      <form class ="form" id="botAttributes" action="index.php?page=select_bots" method="post">
         <div class="leftHalf noBorder">
-          <table class="formTable">
+          <table class="table formTable">
             <tr>
-              <td width="40%"><label for="bot_name"><span class="label">Bot Name</span></label></td>
+              <td width="40%"><label for="bot_name">Bot Name</label></td>
               <td width="60%"><span class="formw"><input type="text"  class="fm-req" id="bot_name" name="bot_name" value="[bot_name]"/></span></td>
             </tr>
             <tr>
-              <td><label for="bot_active"><span class="label">Bot Active</span></label></td>
+              <td><label for="bot_active">Bot Active</label></td>
               <td>
                 <span class="formw">
                   <select name="bot_active" id="bot_active">
@@ -189,7 +245,7 @@ between the start and end section tags are the only parts of the template that a
               </td>
             </tr>
             <tr>
-              <td><label for="format"><span class="label">Response Format</span></label></td>
+              <td><label for="format">Response Format</label></td>
               <td>
                 <span class="formw">
                   <select name="format" id="format">
@@ -201,7 +257,7 @@ between the start and end section tags are the only parts of the template that a
               </td>
             </tr>
             <tr>
-              <td><label for="unknown_user"><span class="label">Unknown User</span></label></td>
+              <td><label for="unknown_user">Unknown User</label></td>
               <td>
                 <span class="formw">
                   <input type="text" name="unknown_user" id="unknown_user" value="[unknown_user]">
@@ -209,7 +265,7 @@ between the start and end section tags are the only parts of the template that a
               </td>
             </tr>
             <tr>
-              <td><label for="debugemail"><span class="label">Debug Email Address</span></label></td>
+              <td><label for="debugemail">Debug Email Address</label></td>
               <td>
                 <span class="formw">
                   <input type="text" name="debugemail" id="debugemail" value="[bot_debugemail]" />
@@ -217,7 +273,7 @@ between the start and end section tags are the only parts of the template that a
               </td>
             </tr>
             <tr>
-              <td><label for="default_aiml_pattern"><span class="label">Default Pickup Line Pattern</span></label></td>
+              <td><label for="default_aiml_pattern">Default Pickup Line Pattern</label></td>
               <td>
                 <span class="formw">
                   <input type="text" name="default_aiml_pattern" id="default_aiml_pattern" value="[bot_default_aiml_pattern]" />
@@ -225,7 +281,7 @@ between the start and end section tags are the only parts of the template that a
               </td>
             </tr>
             <tr>
-              <td><label for="error_response"><span class="label">Error Response Message</span></label></td>
+              <td><label for="error_response">Error Response Message</label></td>
               <td>
                 <span class="formw">
                   <input type="text" name="error_response" id="error_response" value="[bot_error_response]" />
@@ -235,60 +291,58 @@ between the start and end section tags are the only parts of the template that a
           </table>
         </div>
         <div class="rightHalf noBorder">
-          <table class="formTable">
+          <table class=" table formTable">
           <tr>
-            <td width="40%"><label for="bot_desc"><span class="label">Bot Description</span></label></td>
-            <td width="60%"><span class="formw">
+            <td width="40%"><label for="bot_desc">Bot Description</label></td>
+            <td width="60%">
               <textarea id="bot_desc" name="bot_desc">[bot_desc]</textarea>
-            </span></td>
+            </td>
           </tr>
           <tr>
-            <td><label for="bot_parent_id"><span class="label">Bot Parent Name</span></label></td>
-            <td><span class="formw">
+            <td><label for="bot_parent_id">Bot Parent Name</label></td>
+            <td>
               <select name="bot_parent_id" id="bot_parent_id">
 [parent_options]
               </select>
-            </span></td>
+            </td>
           </tr>
           <tr>
-            <td><label for="save_state"><span class="label">Save State</span></label></td>
-            <td><span class="formw">
+            <td><label for="save_state">Save State</label></td>
+            <td>
               <select name="save_state" id="save_state">
                     <option value="session" [sel_session]>Session</option>
                     <option value="database" [sel_db]>Database</option>
               </select>
-            </span></td>
+            </td>
           </tr>
             <tr>
-              <td><label for="default_remember_up_to"><span class="label">Bot History Lines</span></label></td>
+              <td><label for="default_remember_up_to">Bot History Lines</label></td>
               <td>
-                <span class="formw">
                   <input type="text"  class="fm-req" id="remember_up_to" name="remember_up_to" value="[remember_up_to]"/>
-                </span>
               </td>
             </tr>
           <tr>
-            <td><label for="conversation_lines"><span class="label">Chat Lines To Display</span></label></td>
-            <td><span class="formw">
+            <td><label for="conversation_lines">Chat Lines To Display</label></td>
+            <td>
               <input type="text"  class="fm-req" id="conversation_lines" name="conversation_lines" value="[bot_conversation_lines]"/>
-            </span></td>
+           </td>
           </tr>
             <tr>
-              <td><label for="debugmode"><span class="label">Debug Mode</span></label></td>
+              <td><label for="debugmode">Debug Mode</label></td>
               <td>
-                <span class="formw">
+          
                   <select name="debugmode" id="debugmode">
                     <option value="0" [dm_]>source code view - show debugging in source code</option>
                     <option value="1" [dm_i]>file log - log debugging to a file</option>
                     <option value="2" [dm_ii]>page view - display debugging on the webpage</option>
                     <option value="3" [dm_iii]>email each conversation line (not recommended)</option>
                   </select>
-                </span>
+             
               </td>
             </tr>
           <tr>
-            <td><label for="debugshow"><span class="label">Debug Level</span></label></td>
-            <td><span class="formw">
+            <td><label for="debugshow">Debug Level</label></td>
+            <td>
               <select name="debugshow" id="debugshow">
                   <option value="0" [ds_]>Show no debugging</option>
                   <option value="1" [ds_i]>errors only</option>
@@ -296,13 +350,13 @@ between the start and end section tags are the only parts of the template that a
                   <option value="3" [ds_iii]>general + errors + sql</option>
                   <option value="4" [ds_iv]>show everything</option>
               </select>
-            </span></td>
+           </td>
           </tr>
           </table>
         </div>
         <input type="hidden" id="bot_id" name="bot_id" value="[bot_id]"/>
         <div id="fm-submit" class="row fm-req center">
-          <input type="submit" name="action" id="action" value="[action]"/>
+          <input type="submit" name="action" id="action" class="btn btn-primary" value="[action]"/>
         </div>
       </form>
     <!--/fieldset-->
@@ -315,7 +369,7 @@ between the start and end section tags are the only parts of the template that a
 <!-- Section FormRow End -->
 <!-- Section ConversationLogs1 Start -->
         <div id="pTitle">[bot_name]'s Conversation Logs</div>
-        <p>[convo]</p>
+        <p>[select][convo]</p>
       </div>
 <!-- Section ConversationLogs1 End -->
 <!-- Section SpellcheckForm Start -->
@@ -375,7 +429,7 @@ between the start and end section tags are the only parts of the template that a
 <!-- Section EditSpellForm End -->
 <!-- Section WordCensorForm Start -->
         <fieldset style="margin-bottom: 3px;">
-          <form id="wordCensor" action="index.php?page=wordcensor&amp;group=[group]" method="post">
+          <form class="form" id="wordCensor" action="index.php?page=wordcensor&amp;group=[group]" method="post">
             <div class="row bold">Add an improper word and it's replacement:</div>
             <div class="row fm-opt">
               <label for="word_to_censor">Bad word: </label>

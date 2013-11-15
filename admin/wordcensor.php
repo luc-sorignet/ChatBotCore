@@ -153,6 +153,8 @@ endScript;
       $tmpLink = str_replace('[linkOnclick]', '', $tmpLink);
       $tmpLink = str_replace('[linkTitle]', " title=\"Edit spelling replace_with for the word '$word_to_censor'\"", $tmpLink);
       $tmpLink = str_replace('[linkLabel]', $word_to_censor, $tmpLink);
+      $tmpLink = str_replace('[li]', '', $tmpLink);
+      $tmpLink = str_replace('[fli]', ',', $tmpLink);
       $links .= "$tmpLink\n";
       $count++;
     }

@@ -11,7 +11,7 @@
 $get_vars = filter_input_array(INPUT_GET);
 $show = (isset($get_vars['showing'])) ? $get_vars['showing'] : "last 20";//showThis($show)
 $show_this = showThis($show);
-$convo = (isset($get_vars['id'])) ? getuserConvo($get_vars['id'],$show) : "Please select a conversation from the side bar.";
+$convo = (isset($get_vars['id'])) ? getuserConvo($get_vars['id'],$show) : "Please select a conversation.";
 $user_list = (isset($get_vars['id'])) ? getuserList($get_vars['id'],$show) : getuserList($_SESSION['poadmin']['bot_id'],$show);
 $bot_name = (isset($_SESSION['poadmin']['bot_name'])) ? $_SESSION['poadmin']['bot_name'] : 'unknown';
 $upperScripts = <<<endScript
@@ -49,7 +49,7 @@ endScript;
     $FooterInfo    = getFooter();
     $errMsgClass   = (!empty($msg)) ? "ShowError" : "HideError";
     $errMsgStyle   = $template->getSection($errMsgClass);
-    $rightNav       = $template->getSection('RightNav');
+    $rightNav       = '';
     $navHeader     = $template->getSection('NavHeader');
     $noLeftNav     = '';
     $noTopNav      = '';
@@ -58,13 +58,11 @@ endScript;
     $pageTitle     = 'My-Program O - Chat Logs';
     $mainContent   = $template->getSection('ConversationLogs1');
     $mainTitle     = 'Chat Logs';
-
-    $rightNav    = str_replace('[rightNavLinks]', $show_this . $user_list, $rightNav);
-    $rightNav    = str_replace('[navHeader]', $navHeader, $rightNav);
-    $rightNav    = str_replace('[headerTitle]', 'Log Actions:', $rightNav);
+    $mainContent = str_replace('[select]', $show_this . $user_list, $mainContent);
     $mainContent = str_replace('[show_this]', '', $mainContent);
     $mainContent = str_replace('[convo]', $convo, $mainContent);
     $mainContent = str_replace('[bot_name]', $bot_name, $mainContent);
+    
 
 function getUserNames() {
   $dbConn = db_open();
@@ -134,6 +132,8 @@ endList;
     $tmpLink = str_replace('[linkHref]',"href=\"index.php?page=logs&showing=$showing&id=$user_id#$user_id\" name=\"$user_id\"", $tmpLink);
     $tmpLink = str_replace('[linkTitle]'," title=\"Show entries for user $userName\"", $tmpLink);
     $tmpLink = str_replace('[linkLabel]',"USER:$userName($TOT)", $tmpLink);
+    $tmpLink = str_replace('[li]',"", $tmpLink);
+    $tmpLink = str_replace('[fli]',"", $tmpLink);
     $anchor = "            <a name=\"$user_id\" />\n";
     $anchor = '';
     $list .= "$tmpLink\n$anchor";
@@ -161,7 +161,7 @@ function showThis($showing="last 20") {
           <select name="showing" id="showing">
 $options
           </select>
-        <input type="submit" id="submit" name="submit" value="show">
+        <input class="btn btn-primary" type="submit" id="submit" name="submit" value="show">
       </form>
 endForm;
   return $form;
