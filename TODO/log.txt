@@ -1,0 +1,94 @@
+Etudiant: quelles sont les matières principales enseignées ?
+
+Etudiant: combien a-t-on d heures de cours par semaine ?
+Etudiant: est-ce qu il y a beaucoup de math chez vous
+Etudiant: peut-on fabriquer des robots ?
+Etudiant: a quel niveau peut-on rentrer dans la formation SRI
+Etudiant: est-ce que l anglais est obligatoire ?
+Etudiant: y a-t-il des cours de chinois ?
+Etudiant: est-ce qu il y a beaucoup de filles dans chaque promotion
+Etudiant: a quel type de robot touche-t-on ?
+Etudiant: est-ce qu on fait de l inteligence artificielle ?
+
+Etudiant: est-ce qu il y a une aprè-midi réservée au sport
+Etudiant: est-ce qu on a beaucoup de vacances ?
+Etudiant: est-ce qu on a beaucoup de cours par semaine
+Etudiant: est-ce qu on peut faire un stage à l étranger ?
+
+Etudiant: est-ce qu on peut faire un stage en laboratoire
+Etudiant: a quelle période commence-t-on les cours ,
+Etudiant: quelle est durée d un stage
+Etudiant: est-ce qu on commence tôt le matin ?
+Etudiant: est-ce qu on finit tard le soir ?
+Etudiant: qu est-ce que le PGE
+Etudiant: merci pour votre réponse
+Etudiant: à quelle période doit-on faire un stage
+Etudiant: est-ce qu il y a un stage en L3
+Etudiant: est-ce qu il y a un stage en master
+Etudiant: est-ce que les stages sont obligatoires
+Etudiant: est-ce que la présence en cours est obligatoire ?
+Etudiant: est-ce que c est obligé d aller en cours
+Etudiant: est-ce qu on doit travailler chez soi ?
+Etudiant: est-ce que les ordinateurs sont fournis ?
+Etudiant: est-ce qu on doit acheter un ordinateur
+Etudiant: sur quel système d exploitation on travaille
+Etudiant: quels sont les langages qu on apprend ?
+Etudiant: est-ce qu on fait du C
+Etudiant: est-ce qu on apprend java
+Etudiant: est-ce qu il y a du controle continu ?
+Etudiant: est-ce qu il y a beaucoup d examens ?
+Etudiant: est-ce que les examens sont faciles ?
+Etudiant: qu est-ce que c est que le contrôle continu
+Etudiant: est-ce qu il y a des profs sympas
+Etudiant: est-ce qu il y a des profs chiants
+Etudiant: est-ce qu on est beaucoup par classe ?
+Etudiant: quel est le rôle d un tuteur de stage
+Etudiant: est-ce qu il y a beaucoup de formules à savoir
+Etudiant: est-ce qu on a des enseignements pratiques
+Etudiant: est-ce qu on fait des projets
+Etudiant: est-ce qu on fait des projets tout seul ou en groupe
+Etudiant: qu est-ce qu on peut faire comme LV2
+Etudiant: qu est-ce que ça veut dire SRI
+Etudiant: c est quoi SIR
+Etudiant: SMI c est pour quoi ?
+Etudiant: est-ce qu on a un diplôme d ingénieur à la fin ?
+Etudiant: ou peut-on avoir d autres informations sur la formation ?
+Etudiant: C es quoi les SHS ?
+Etudiant: c est quoi la gestion de projets ?
+Etudiant: pourquoi fait-on du marketing ?
+Etudiant: est-ce qu on fait de l objet ?
+Etudiant: est-ce qu on touche au Nao ?
+Etudiant: est-ce qu il y a de la robotique humanoïde ?
+Etudiant: est-ce qu on peut parler à un robot
+Etudiant: est-ce qu on peut faire parler un robot
+Etudiant: C est quoi le TER ?
+Etudiant: est-ce qu on peut faire des jeux vidéos chez vous
+Etudiant: est-ce qu il y a une récréation le matin et l après-midi
+Etudiant: où se passent les cours ?
+Etudiant: où se passent les TP ?
+Etudiant: c est quoi l AIP
+Etudiant: c est où le U3 ?
+Etudiant: c est qui le directeur ?
+Etudiant: qui je peux contacter pour avoir plus d informations
+Etudiant: est-ce qu on est obligé de travailler en groupe ?
+Etudiant: est-ce qu on peut être dispensé de coours si on travaille à coté ?
+Etudiant: si je suis absent à un examen est-ce que je dois redoubler ?
+Etudiant: qu est-ce que c est la compensation ?
+Etudiant: je ne sais pas ce qu on peut demander
+Etudiant: si je fé des fote sa marchent
+Etudiant: est-ce qu on peut utiliser son ordinateur en cours ?
+Etudiant: est-ce qu il y a des cours en anglais ?
+Etudiant: combien il y a d enseigannts différents
+Etudiant: si un prof ne nous plait pas on peut en changer ?
+Etudiant: est-ce qu il y a des cours sur le web ?
+Etudiant: est-ce qu on apprend le php ?
+Etudiant: c est quoi la vision ?
+Etudiant: est-ce qu il y a de l autom ?
+Etudiant: est-ce qu on peut rentrer après le bac ?
+Etudiant: est-ce qu on peut rentrer avec un DUT ?
+Etudiant: est-ce que quand on a fait un BTS on peut venir ?
+Etudiant: quel métier on peut faire après ?
+Etudiant: quel type de métier on peut faire ?
+Etudiant: est-ce qu on peut travailler chez airbus après
+Etudiant: est-ce qu Airbus prend des stagiaires ?
+Etudiant: où peut-on faire un stage ?

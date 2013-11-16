@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2013 TERUpssitech                                       -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 11-15-2013                                          -->
+<!--  file: bonjour.aiml                                                -->
+<aiml version="1.0">
+  <category>
+    <pattern>SALUT</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>BONJOUR</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>YO</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>HEY</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>BONJOUR *</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SALUT *</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>HEY *</pattern>
+    <template>
+      <random>
+        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
+        <li>Hey ! Besoin d'info ?</li>
+        <li>Salut, recherches tu des informations?</li>
+        <li>Plop ! as tu besoin de quelque chose ?</li>
+      </random>
+    </template>
+  </category>
+</aiml>

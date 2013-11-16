@@ -95,38 +95,38 @@
   [errorMessage]
   <form class='form' name="installForm" id="installForm" action="[PHP_SELF]" method="post">
     <a href="#" id="helpLink1" title="Get help for this page" name="helpLink1">Help!</a><br />
-    <table width="100%" cellpadding="2" cellspacing="0">
+    <table class="table" width="100%" cellpadding="2" cellspacing="0">
       <tr>
         <td width="50%">
-          <table width="100%" cellpadding="2" cellspacing="0">
+          <table class="table" width="100%" cellpadding="2" cellspacing="0">
             <tr>
               <td colspan="2" class="bold center underline" >Botmaster Info:</td>
             </tr>
             <tr>
-              <td class="label" width="60%"><label for="botmaster_name"><span class="helpButton" id="hb_botmaster_name"></span>Your Name</label></td>
+              <td  width="60%"><label for="botmaster_name"><span class="helpButton" id="hb_botmaster_name"></span>Your Name</label></td>
               <td class="formw" width="40%"><input name="botmaster_name" id="botmaster_name" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="debugemail"><span class="helpButton" id="hb_debugemail"> </span>Email Address</label></td>
+              <td ><label for="debugemail"><span class="helpButton" id="hb_debugemail"> </span>Email Address</label></td>
               <td class="formw"><input name="debugemail" id="debugemail" value="" /></td>
             </tr>
             <tr>
               <td class="bold center underline" colspan="2">Bot Configuration:</td>
             </tr>
             <tr>
-              <td class="label"><label for="bot_name"><span class="helpButton" id="hb_bot_name"> </span>Bot Name</label></td>
+              <td ><label for="bot_name"><span class="helpButton" id="hb_bot_name"> </span>Bot Name</label></td>
               <td class="formw"><input name="bot_name" id="bot_name" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="bot_desc"><span class="helpButton" id="hb_bot_desc"> </span>Bot Description</label></td>
+              <td ><label for="bot_desc"><span class="helpButton" id="hb_bot_desc"> </span>Bot Description</label></td>
               <td class="formw"><input name="bot_desc" id="bot_desc" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="bot_active"><span class="helpButton" id="hb_bot_active"> </span>Bot Active?</label></td>
+              <td ><label for="bot_active"><span class="helpButton" id="hb_bot_active"> </span>Bot Active?</label></td>
               <td class="formw"><input type="checkbox" name="bot_active" id="bot_active" value="1" checked="checked" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="format"><span class="helpButton" id="hb_format"> </span>Response Format</label></td>
+              <td ><label for="format"><span class="helpButton" id="hb_format"> </span>Response Format</label></td>
               <td class="formw">
                 <select name="format" id="format" size="1">
                   <option value="html" selected="selected">HTML</option>
@@ -149,54 +149,54 @@
           </table>
         </td>
         <td>
-          <table width="100%" cellpadding="2" cellspacing="0">
+          <table class="table" width="100%" cellpadding="2" cellspacing="0">
             <tr>
               <td class="bold center underline" colspan="2">Database Configuration:</td>
             </tr>
             <tr>
-              <td width="60%" class="label"><label for="dbh"><span class="helpButton" id="hb_dbh"> </span>DB Host Name</label></td>
+              <td width="60%" ><label for="dbh"><span class="helpButton" id="hb_dbh"> </span>DB Host Name</label></td>
               <td width="40%" class="formw"><input name="dbh" id="dbh" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="dbn"><span class="helpButton" id="hb_dbn"> </span>DB Name</label></td>
+              <td ><label for="dbn"><span class="helpButton" id="hb_dbn"> </span>DB Name</label></td>
               <td class="formw"><input name="dbn" id="dbn" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="dbPort"><span class="helpButton" id="hb_dbPort"> </span>DB Port</label></td>
+              <td ><label for="dbPort"><span class="helpButton" id="hb_dbPort"> </span>DB Port</label></td>
               <td class="formw"><input name="dbPort" id="dbPort" value="3306" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="dbu"><span class="helpButton" id="hb_dbu"> </span>DB Username</label></td>
+              <td ><label for="dbu"><span class="helpButton" id="hb_dbu"> </span>DB Username</label></td>
               <td class="formw"><input name="dbu" id="dbu" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="dbp"><span class="helpButton" id="hb_dbp"> </span>DB Password</label></td>
+              <td ><label for="dbp"><span class="helpButton" id="hb_dbp"> </span>DB Password</label></td>
               <td class="formw"><input name="dbp" id="dbp" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="time_zone_locale"><span class="helpButton" id="hb_timezone"> </span>DB Timezone</label></td>
+              <td ><label for="time_zone_locale"><span class="helpButton" id="hb_timezone"> </span>DB Timezone</label></td>
               <td class="formw">
                 <select name="time_zone_locale" id="time_zone_locale">
                 </select>
               </td>
             </tr>
             <tr>
-              <td class="label"><label for="adm_dbu"><span class="helpButton" id="hb_adm_dbu"> </span>Admin Area Username</label></td>
+              <td ><label for="adm_dbu"><span class="helpButton" id="hb_adm_dbu"> </span>Admin Area Username</label></td>
               <td class="formw"><input name="adm_dbu" id="adm_dbu" value="" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="adm_dbp"><span class="helpButton" id="hb_adm_dbp"> </span>Admin Area Password</label></td>
+              <td ><label for="adm_dbp"><span class="helpButton" id="hb_adm_dbp"> </span>Admin Area Password</label></td>
               <td class="formw"><input name="adm_dbp" id="adm_dbp" type="password" /></td>
             </tr>
             <tr>
-              <td class="label"><label for="adm_dbp_confirm"><span class="helpButton" id="hb_adm_dbp"> </span>Confirm Admin Area Password</label></td>
+              <td ><label for="adm_dbp_confirm"><span class="helpButton" id="hb_adm_dbp"> </span>Confirm Admin Area Password</label></td>
               <td class="formw"><input name="adm_dbp_confirm" id="adm_dbp_confirm" type="password" /></td>
             </tr>
             <!-- tr>
               <td class="bold center underline" colspan="2">Debugging Options:</td>
             </tr -->
             <tr>
-              <td class="label"><label for="debug_level"><span class="helpButton" id="hb_debug_level"> </span>Debug Level</label></td>
+              <td ><label for="debug_level"><span class="helpButton" id="hb_debug_level"> </span>Debug Level</label></td>
               <td class="formw">
                   <select name="debug_level" id="debug_level" size="1">
                     <option value="0">Show no debugging</option>
@@ -208,7 +208,7 @@
               </td>
             </tr>
             <tr>
-              <td class="label"><label for="debug_mode"><span class="helpButton" id="hb_debug_mode"> </span>Debug Mode</label></td>
+              <td ><label for="debug_mode"><span class="helpButton" id="hb_debug_mode"> </span>Debug Mode</label></td>
               <td class="formw">
                 <select name="debug_mode" id="debug_mode" size="1">
                   <option value="0">Show in Source</option>
@@ -219,7 +219,7 @@
               </td>
             </tr>
             <tr>
-              <td class="label"><label for="save_state"><span class="helpButton" id="hb_save_state"> </span>Save State</label></td>
+              <td ><label for="save_state"><span class="helpButton" id="hb_save_state"> </span>Save State</label></td>
               <td class="formw">
                 <select name="save_state" id="save_state" size="1">
                   <option value="session" selected="selected">Session</option>
@@ -238,19 +238,20 @@
            [notes]
 <!-- Section InstallComplete End -->
 <!-- Section InstallError Start -->
-           <div class="row bold fullSize center shadowBorderOutset">Installation Failed!</div>
-           [errorMessage]
+  <div class="alert alert-error">
+         <h3>Error <small>Installation Failed!</small></h3>
+           <p>[errorMessage]</p>
+  </div>
 <!-- Section InstallError End -->
 <!-- Section DBCreationError Start -->
-            <div class="row">
-              <span class="red bold">WARNING! </span>
-              <span>
+            <div class="alert alert-warning">
+              <h3>WARNING!</h3>
+              <p>
                 Could not create the database. Please check your database settings and make any
                 necessary corrections. Some database hosts do not allow users to directly create
                 new databases. You may need to contact your hosting provider to learn how to set
-                up a new database. If you have questions about this, or anytyhing else regarding
-                Program O, please visit the forums at <a href="http://www.program-o.com">www.program-o.com</a>
-              </span>
+                up a new database.
+              </p>
             </div>
 <!-- Section DBCreationError End -->
 <!-- Section Page 1 Notes Start -->

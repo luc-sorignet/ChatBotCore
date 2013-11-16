@@ -32,12 +32,12 @@
 
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
   <head>
     <link rel="stylesheet" href="../../admin/css/bootstrap.css" type="text/css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Program O AIML PHP Chatbot</title>
+    <title>Jarvis</title>
     <meta name="Description" content="A Free Open Source AIML PHP MySQL Chatbot" />
     <meta name="keywords" content="Open Source, AIML, PHP, MySQL, Chatbot" />
    
@@ -50,7 +50,7 @@
     <form class="form" method="get" action="index.php#end">
       <div id="input">
         <label for="say">Question:</label>
-        <input type="text" name="say" id="say" size="70" placeholder="Enter your question here" />
+        <input type="text" name="say" id="say" size="70" placeholder="Enter your question here" x-webkit-speech/>
         <input  class="btn btn-primary" type="submit" name="submit" id="say" value="Envoyer" />
         <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id;?>" />
         <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id;?>" />

@@ -486,33 +486,31 @@ between the start and end section tags are the only parts of the template that a
           </div>
 <!-- Section TeachMain End -->
 <!-- Section TeachBotForm Start -->
-[blank]            <form id="teach" action="index.php?page=teach" method="post">
-              <fieldset>
-                <div class="row">
-                  <label for="topic"><span class="twentyPercent">Topic: </span></label>
-                  <span class="eightyPercent"><input name="topic" id="topic" class="wide" /></span>
-                </div>
-                <div class="row fm-opt">
-                  <label for="thatpattern"><span class="twentyPercent">Previous Bot Response (THAT): </span></label>
-                  <span class="eightyPercent"><input id="thatpattern" name="thatpattern" class="wide" /></span>
-                </div>
-                <div class="row fm-opt">
-                  <label for="pattern"><span class="twentyPercent">User Input: </span></label>
-                  <span class="eightyPercent"><input id="pattern" name="pattern" class="wide" /></span>
-                </div>
-                <div class="row fm-opt">
-                  <label for="template"><span class="twentyPercent">Bot Response: </span></label>
-                  <span class="eightyPercent"><textarea id="template" name="template" class="wide"></textarea></span>
-                </div>
-                <div class="row">For help, click the icon in the title, above.</div>
-              <div id="row" class="fm-req">
-                <input type="submit" name="action" id="action" value="teach"/>
-              </div>
-            </fieldset>
+[blank]            <form class="form form-horizontal"  role="form" id="teach" action="index.php?page=teach" method="post">
+ <div class="form-group">
+    <label for="topic">Topic: </label>
+    <input name="topic" id="topic" class="wide" />
+  </div>
+   <div class="form-group">
+    <label for="thatpattern">Previous Bot Response (THAT):  </label>
+    <input id="thatpattern" name="thatpattern" class="wide" />
+  </div>
+  <div class="form-group">
+   <label for="pattern">User Input(PATTERN):   </label>
+   <input id="pattern" name="pattern" class="wide" />
+  </div>
+  <div class="form-group">
+    <label for="template">Bot Response: </label>
+    <textarea id="template" name="template" class="wide"></textarea>
+  </div>
+   <p class="help-block">For help, click the icon in the title, above.</p>
+   <input class='btn btn-primary' type="submit" name="action" id="action" value="Teach"/>
+
+     
           </form>
 <!-- Section TeachBotForm End -->
 <!-- Section TeachShowHelp Start -->
-[blank]            <div id="showHelp">
+[blank]            <div id="showHelp" class="alert alert-info">
               <h3>Help...</h3>
               <dd>Adding a 'Topic' means that the bot will only be able to access this response if a previous aiml category has set this topic as it's current topic.</dd>
               <dd>The 'Previous Bot Response' means that the bot must have answered with this text in it's last response.</dd>
@@ -541,13 +539,13 @@ between the start and end section tags are the only parts of the template that a
             </div>
 <!-- Section TeachShowHelp End -->
 <!-- Section ClearShowHelp Start -->
-[blank]            <div id="showHelp">
+[blank]            <div id="showHelp" class="alert alert-info">
               <h3>Help...</h3>
               <dd>This help panel is under construction.</dd>
             </div>
 <!-- Section ClearShowHelp End -->
 <!-- Section MembersShowHelp Start -->
-[blank]            <div id="showHelp">
+[blank]            <div id="showHelp" class="alert alert-info">
               <h3>Help...</h3>
               <dd> This part is still under construction.</dd>
               <dd></dd>
@@ -557,7 +555,7 @@ between the start and end section tags are the only parts of the template that a
             </div>
 <!-- Section MembersShowHelp End -->
 <!-- Section UploadShowHelp Start -->
-[blank]            <div id="showHelp">
+[blank]            <div id="showHelp" class="alert alert-info">
               <h3>Help...</h3>
               <dd> If your aiml file will not upload you may want to check the following.</dd>
               <dd>--Make sure the folder you are trying to upload to has read/write privs on it (CHMOD 755)</dd>
@@ -568,7 +566,7 @@ between the start and end section tags are the only parts of the template that a
             </div>
 <!-- Section UploadShowHelp End -->
 <!-- Section DownloadShowHelp Start -->
-[blank]            <div id="showHelp">
+[blank]            <div id="showHelp" class="alert alert-info">
               <h3>Help...</h3>
               <dd> This help panel is under construction.</dd>
             </div>
