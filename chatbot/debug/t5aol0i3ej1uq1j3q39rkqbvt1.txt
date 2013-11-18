@@ -1,0 +1,116 @@
+14-11-2013 09:17:39.461276[0][2] - Elapsed: 3 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+14-11-2013 09:17:39.486278[2][2] - Elapsed: 25.002 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+14-11-2013 09:17:39.487278[1][2] - Elapsed: 0.9999 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'jarvis.botpersonality' doesn't exist
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57 
+-----------------------
+14-11-2013 09:17:39.488278[1][2] - Elapsed: 0.9999 milliseconds
+[intialise_conversation.php][Called outside of function][106]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106 
+-----------------------
+14-11-2013 09:17:39.489278[1][2] - Elapsed: 1.0002 milliseconds
+[intialise_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110 
+-----------------------
+14-11-2013 09:17:39.490278[2][2] - Elapsed: 0.9999 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+14-11-2013 09:17:39.492278[2][2] - Elapsed: 2.0001 milliseconds
+[conversation_start.php][Called outside of function][168]
+Conversation intialised waiting user 
+-----------------------
+14-11-2013 09:17:39.492278[2][2] - Elapsed: 0 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+14-11-2013 09:17:39.492278[2][2] - Elapsed: 0 milliseconds 
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+14-11-2013 09:17:39.492278[1][2] - Elapsed: 0 milliseconds
+[display_conversation.php][Called outside of function][193]
+PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193 
+-----------------------
+14-11-2013 09:17:39.496278[1][2] - Elapsed: 3.9999 milliseconds
+[conversation_start.php][Called outside of function][173]
+PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173 
+-----------------------
+14-11-2013 09:17:39.497278[0][2] - Elapsed: 0.9999 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time:  milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => 
+            [lookingfor] => 
+            [pattern] => 
+            [thatpattern] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+        )
+
+)

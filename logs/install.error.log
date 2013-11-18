@@ -1,0 +1,247 @@
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_connect(): Access denied for user 'jarvis'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 110
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_connect() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:110
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 112
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_select_db() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:112
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 113
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:113
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 114
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_fetch_assoc() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:114
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 123
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:123
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 129
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 195
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. upgrade() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:129
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:195
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 130
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_free_result() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:130
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on line 57
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. db_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:155
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php:57
+[14-Nov-2013 09:05:39 UTC] PHP Notice:  There was a problem with the following SQL query. Error = 
+SQL = 
+INSERT IGNORE INTO `bots` (`bot_id`, `bot_name`, `bot_desc`, `bot_active`, `bot_parent_id`, `format`, `save_state`, `conversation_lines`, `remember_up_to`, `debugemail`, `debugshow`, `debugmode`, `error_response`, `default_aiml_pattern`)
+VALUES (1, 'JARVIS', 'Just a rather very inteligent system', '1', '1', 'html', 'session',
+'1', '10', 'luc.sorignet@gmail.com', '2', '1', 'No AIML category found. This is a Default Response.', 'RANDOM PICKUP LINE'); in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on line 57
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. db_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:155
+[14-Nov-2013 09:05:39 UTC] PHP   4. trigger_error() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php:57
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on line 57
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. db_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:160
+[14-Nov-2013 09:05:39 UTC] PHP   4. mysql_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php:57
+[14-Nov-2013 09:05:39 UTC] PHP Notice:  There was a problem with the following SQL query. Error = 
+SQL = insert ignore into `myprogramo` (`id`, `user_name`, `password`, `last_ip`) values(null, 'admin', 'ee10c315eba2c75b403ea99136f5b48d', '::1'); in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on line 57
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. db_query() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:160
+[14-Nov-2013 09:05:39 UTC] PHP   4. trigger_error() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php:57
+[14-Nov-2013 09:05:39 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php on line 161
+[14-Nov-2013 09:05:39 UTC] PHP Stack trace:
+[14-Nov-2013 09:05:39 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:0
+[14-Nov-2013 09:05:39 UTC] PHP   2. Save() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:36
+[14-Nov-2013 09:05:39 UTC] PHP   3. mysql_close() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\install\install_programo.php:161
