@@ -49,3 +49,1145 @@ SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/sti
 11/16/2013 17:58:21 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
 11/16/2013 17:58:21 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
 11/16/2013 17:58:21 - PHP ERROR [Warning] -file_put_contents(/Users/stitchsori/Developpement/www/ChatBotCore/chatbot/debug/5d1ff10a2a688992f86716cf0f5da713.txt): failed to open stream: No such file or directory in /Users/stitchsori/Developpement/www/ChatBotCore/library/error_functions.php on Line 260
+11/27/2013 16:25:03 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:25:03 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:25:03 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:25:03 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:25:03 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:25:03 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:25:03 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:25:03 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:25:03 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:25:03 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:25:03 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:25:49 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:25:49 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:25:49 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:25:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:25:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:25:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:25:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:25:49 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:25:49 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:25:49 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:25:49 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:28:57 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:28:57 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:28:57 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:28:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:28:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:28:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:28:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:28:57 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:28:57 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:28:57 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:28:57 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:29:18 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:18 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:18 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:29:18 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:18 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:18 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:29:18 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:29:18 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:18 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:18 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:29:18 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:29:26 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:26 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:26 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:29:26 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:26 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:29:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:29:26 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:26 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:26 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:29:26 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:29:29 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:29 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:29 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:29:29 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:29 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:29 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:29:29 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:29:29 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:29 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:29 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:29:29 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:29:32 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:32 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:32 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:29:32 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:32 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:32 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:29:32 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:29:32 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:32 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:32 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:29:32 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:29:58 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:58 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:29:59 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:29:59 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:59 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:29:59 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:29:59 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:29:59 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:59 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:29:59 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:29:59 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:30:01 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:01 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:01 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:30:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:30:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:30:01 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:01 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:01 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:30:01 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:30:03 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:03 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:03 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:30:03 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:03 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:03 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:30:03 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:30:03 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:03 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:03 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:30:03 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:30:10 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:10 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:30:10 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:30:10 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:10 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:30:10 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:30:10 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:30:10 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:10 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:30:10 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:30:10 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'TET' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'TET') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'tet',
+      'No AIML category found. This is a Default Response.',
+      '',
+      '659111mu0ogal1p6gf0q101gi7',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = '659111mu0ogal1p6gf0q101gi7'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:34:05 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:34:05 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'TET' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'TET') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'tet',
+      'No AIML category found. This is a Default Response.',
+      '',
+      '659111mu0ogal1p6gf0q101gi7',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = '659111mu0ogal1p6gf0q101gi7'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 160
+11/27/2013 16:34:36 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 169
+11/27/2013 16:34:36 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 170
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:34:36 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:34:36 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:36:14 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:36:14 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:36:14 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:36:14 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:36:14 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:36:14 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:36:14 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:36:14 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:36:14 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:36:14 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:36:14 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:50:56 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:50:56 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:50:56 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:50:56 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:50:56 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:50:56 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:50:56 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:50:56 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:50:56 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:50:56 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:50:56 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = '' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = '') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      ';)',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'aql8ho0hd6qpe1qhd33s606o24',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'aql8ho0hd6qpe1qhd33s606o24'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:51:00 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:51:00 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:52:43 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:52:43 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:52:43 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:52:43 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:52:43 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'SALUT' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'SALUT') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'salut ;)',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'aql8ho0hd6qpe1qhd33s606o24',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'aql8ho0hd6qpe1qhd33s606o24'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:52:44 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:52:44 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'BONJOUR' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'BONJOUR') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'bonjour',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'aql8ho0hd6qpe1qhd33s606o24',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'aql8ho0hd6qpe1qhd33s606o24'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:52:49 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:52:49 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'TEST' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'TEST') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'test',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'aql8ho0hd6qpe1qhd33s606o24',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'aql8ho0hd6qpe1qhd33s606o24'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:53:01 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:01 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:13 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:13 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:13 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:53:13 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:13 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:13 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:53:13 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:53:13 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:13 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:13 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:53:13 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'TEST' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'TEST') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'test',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'bi2bo90tuqum3b70sr4i67k4f3',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'bi2bo90tuqum3b70sr4i67k4f3'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:53:19 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:53:19 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 120
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\spell_checker\spell_checker.php on Line 129
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 490
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 542
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 543
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 99
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 100
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\user\handle_user.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 555
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 663
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 310
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 311
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 337
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'BONJOUR' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 668
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 871
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'BONJOUR') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 855
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 519
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\aiml\find_aiml.php on Line 520
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'bonjour',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'bi2bo90tuqum3b70sr4i67k4f3',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 31
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 42
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'bi2bo90tuqum3b70sr4i67k4f3'
+        ORDER BY id DESC  LIMIT 1  in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 51
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 63
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 64
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Undefined index: bot_name in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 106
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'input' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 109
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Illegal string offset 'response' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Uninitialized string offset: 0 in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 110
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 39
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 46
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\addons\word_censor\word_censor.php on Line 57
+11/27/2013 16:54:57 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:54:57 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
+11/27/2013 16:58:30 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
+11/27/2013 16:58:31 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173

@@ -1,0 +1,140 @@
+27-11-2013 16:25:03.517854[0][2] - Elapsed: 30.0019 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+27-11-2013 16:25:03.813871[1][2] - Elapsed: 296.0169 milliseconds
+[db_functions.php][Called outside of function][26]
+PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26 
+-----------------------
+27-11-2013 16:25:03.848873[1][2] - Elapsed: 35.002 milliseconds
+[db_functions.php][Called outside of function][26]
+PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: YES) in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 26 
+-----------------------
+27-11-2013 16:25:03.940878[1][2] - Elapsed: 92.005 milliseconds
+[db_functions.php][Called outside of function][29]
+PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 29 
+-----------------------
+27-11-2013 16:25:03.942878[2][2] - Elapsed: 2.0001 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+27-11-2013 16:25:03.960879[1][2] - Elapsed: 18.0011 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57 
+-----------------------
+27-11-2013 16:25:03.96188[1][2] - Elapsed: 1.0009 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 57 
+-----------------------
+27-11-2013 16:25:03.96288[1][2] - Elapsed: 0.9999 milliseconds
+[intialise_conversation.php][Called outside of function][106]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 106 
+-----------------------
+27-11-2013 16:25:03.96388[1][2] - Elapsed: 1.0002 milliseconds
+[intialise_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\intialise_conversation.php on Line 110 
+-----------------------
+27-11-2013 16:25:03.96488[2][2] - Elapsed: 0.9999 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+27-11-2013 16:25:03.988881[2][2] - Elapsed: 24.0011 milliseconds
+[conversation_start.php][Called outside of function][168]
+Conversation intialised waiting user 
+-----------------------
+27-11-2013 16:25:03.988881[2][2] - Elapsed: 0 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+27-11-2013 16:25:03.988881[2][2] - Elapsed: 0 milliseconds 
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+27-11-2013 16:25:03.989881[1][2] - Elapsed: 0.9999 milliseconds
+[db_functions.php][Called outside of function][42]
+PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42 
+-----------------------
+27-11-2013 16:25:03.990881[1][2] - Elapsed: 0.9999 milliseconds
+[db_functions.php][Called outside of function][42]
+PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42 
+-----------------------
+27-11-2013 16:25:03.991881[1][2] - Elapsed: 0.9999 milliseconds
+[display_conversation.php][Called outside of function][193]
+PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193 
+-----------------------
+27-11-2013 16:25:03.992881[1][2] - Elapsed: 1.0002 milliseconds
+[conversation_start.php][Called outside of function][173]
+PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173 
+-----------------------
+27-11-2013 16:25:03.993881[0][2] - Elapsed: 0.9999 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time:  milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => 
+            [lookingfor] => 
+            [pattern] => 
+            [thatpattern] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+        )
+
+)

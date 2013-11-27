@@ -46,7 +46,9 @@
   <div class="container">
     <div class="page-header">
       <h3>J.A.R.V.I.S.</h3>
+   
     </div>
+       <img src="http://lorempixel.com/750/250/technics">
     <form class="form" method="get" action="index.php#end">
       <div id="input">
         <label for="say">Question:</label>
@@ -58,7 +60,7 @@
       </div>
     </form>
     <div id="responses">
-<?php echo $display . '<a id="end"/>' ?>
+      <?php echo $display . '<a id="end"/>' ?>
     </div>
 
   </div>

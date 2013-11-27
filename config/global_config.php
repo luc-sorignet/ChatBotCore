@@ -94,7 +94,7 @@
     $dbPort = '3306';    # dev database name/prefix
     $dbn    = 'jarvis';    # dev database name/prefix
     $dbu    = 'root';       # dev database username
-    $dbp    = 'root';  # dev database password
+    $dbp    = '';  # dev database password
 
     //these are the admin DB settings in case you want make the admin a different db user with more privs
     $adm_dbu = 'admin';
