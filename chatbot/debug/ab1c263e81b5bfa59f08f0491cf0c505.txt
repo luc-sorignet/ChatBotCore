@@ -1,0 +1,317 @@
+28-11-2013 18:20:18.879617[0][2] - Elapsed: 0.2241 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+28-11-2013 18:20:18.88218[2][2] - Elapsed: 2.562 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.882403[2][2] - Elapsed: 0.227 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+28-11-2013 18:20:18.882727[2][2] - Elapsed: 0.324 milliseconds
+[spell_checker.php][run_spell_checker_say][35]
+Starting function and setting timestamp. 
+-----------------------
+28-11-2013 18:20:18.882777[2][2] - Elapsed: 0.051 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on Fuck. 
+-----------------------
+28-11-2013 18:20:18.882914[2][2] - Elapsed: 0.1369 milliseconds
+[spell_checker.php][load_spelling_list][115]
+Loading the spellcheck list from the DB. 
+-----------------------
+28-11-2013 18:20:18.882957[2][2] - Elapsed: 0.0432 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.899061[2][2] - Elapsed: 16.0999 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on the. 
+-----------------------
+28-11-2013 18:20:18.899377[2][2] - Elapsed: 0.319 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on system. 
+-----------------------
+28-11-2013 18:20:18.89964[2][2] - Elapsed: 0.263 milliseconds
+[conversation_start.php][Called outside of function][119]
+Details:
+User say: Fuck the system
+Convo id: ab1c263e81b5bfa59f08f0491cf0c505
+Bot id: 1
+Format: html 
+-----------------------
+28-11-2013 18:20:18.899726[2][2] - Elapsed: 0.087 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.899933[2][2] - Elapsed: 0.2069 milliseconds
+[intialise_conversation.php][check_set_bot][453]
+Checking and/or setting the current bot. 
+-----------------------
+28-11-2013 18:20:18.900052[2][2] - Elapsed: 0.119 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.900307[2][2] - Elapsed: 0.2542 milliseconds
+[intialise_conversation.php][check_set_bot][482]
+BOT ID: 1 
+-----------------------
+28-11-2013 18:20:18.900375[2][2] - Elapsed: 0.0689 milliseconds
+[intialise_conversation.php][check_set_user][534]
+Checking and setting the user info, as needed. 
+-----------------------
+28-11-2013 18:20:18.903956[2][2] - Elapsed: 3.5789 milliseconds
+[handle_user.php][intisaliseUser][76]
+Initializing user. 
+-----------------------
+28-11-2013 18:20:18.922036[2][2] - Elapsed: 18.0781 milliseconds
+[intialise_conversation.php][load_that][609]
+Loading the THAT array. 
+-----------------------
+28-11-2013 18:20:18.922107[2][2] - Elapsed: 0.0751 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.937739[1][2] - Elapsed: 15.6288 milliseconds
+[intialise_conversation.php][load_that][630]
+Inputs returned:Array
+(
+)
+ 
+-----------------------
+28-11-2013 18:20:18.950455[2][2] - Elapsed: 12.7151 milliseconds
+[intialise_conversation.php][load_bot_config][305]
+Loading config data for the current bot. 
+-----------------------
+28-11-2013 18:20:18.950808[0][2] - Elapsed: 0.3569 milliseconds
+[conversation_start.php][Called outside of function][134]
+Debug level = 2 
+-----------------------
+28-11-2013 18:20:18.950857[0][2] - Elapsed: 0.0491 milliseconds
+[conversation_start.php][Called outside of function][136]
+Debug level = 2 
+-----------------------
+28-11-2013 18:20:18.950913[2][2] - Elapsed: 0.056 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Fuck the system' to the front of the [user_say] array 
+-----------------------
+28-11-2013 18:20:18.959197[2][2] - Elapsed: 8.2819 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Fuck the system' to the front of the [input] array 
+-----------------------
+28-11-2013 18:20:18.959735[2][2] - Elapsed: 0.5369 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.960051[2][2] - Elapsed: 0.3181 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.970111[2][2] - Elapsed: 10.0579 milliseconds
+[find_aiml.php][find_userdefined_aiml][669]
+User defined rows found: '0' 
+-----------------------
+28-11-2013 18:20:18.970641[2][2] - Elapsed: 0.5312 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.970943[2][2] - Elapsed: 0.303 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:18.990871[1][2] - Elapsed: 19.9239 milliseconds
+[find_aiml.php][find_aiml_matches][848]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+28-11-2013 18:20:18.990969[1][2] - Elapsed: 0.103 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][111]
+Returning error as no results where found 
+-----------------------
+28-11-2013 18:20:19.5.704E-6[2][2] - Elapsed: 14.7219 milliseconds
+[find_aiml.php][get_winning_category][516]
+And the winner is... -1! 
+-----------------------
+28-11-2013 18:20:19.5.973E-6[2][2] - Elapsed: 0.2811 milliseconds
+[find_aiml.php][get_highest_scoring_row][503]
+Will use randomly picked best response chosen out of 1 responses with same score: -1 - no results 
+-----------------------
+28-11-2013 18:20:19.6.041E-6[2][2] - Elapsed: 0.0689 milliseconds
+[parse_aiml.php][set_wildcards][271]
+Setting Wildcards 
+-----------------------
+28-11-2013 18:20:19.6.117E-6[2][2] - Elapsed: 0.077 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+28-11-2013 18:20:19.6.155E-6[2][2] - Elapsed: 0.0372 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][47]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+28-11-2013 18:20:19.6.664E-6[2][2] - Elapsed: 0.5078 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 18:20:19.1.2201E-5[2][2] - Elapsed: 5.5361 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 18:20:19.1.4848E-5[2][2] - Elapsed: 2.646 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][155]
+Parsing a TEXT tag. 
+-----------------------
+28-11-2013 18:20:19.1.4946E-5[2][2] - Elapsed: 0.0999 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 18:20:19.1.526E-5[2][2] - Elapsed: 0.313 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 18:20:19.1.54E-5[2][2] - Elapsed: 0.1411 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that_raw] array 
+-----------------------
+28-11-2013 18:20:19.1.5633E-5[2][2] - Elapsed: 0.2329 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that] array 
+-----------------------
+28-11-2013 18:20:19.1.5921E-5[2][2] - Elapsed: 0.289 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [parsed_template] array 
+-----------------------
+28-11-2013 18:20:19.1.6027E-5[2][2] - Elapsed: 0.1061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [template] array 
+-----------------------
+28-11-2013 18:20:19.1.6611E-5[2][2] - Elapsed: 0.582 milliseconds
+[intialise_conversation.php][log_conversation][357]
+Saving the conversation to the DB. 
+-----------------------
+28-11-2013 18:20:19.1.6685E-5[2][2] - Elapsed: 0.0761 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:19.1.6954E-5[2][2] - Elapsed: 0.268 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:19.1.7175E-5[2][2] - Elapsed: 0.221 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:19.1.7405E-5[2][2] - Elapsed: 0.2308 milliseconds
+[display_conversation.php][get_conversation_to_display][63]
+Found '1' lines of conversation 
+-----------------------
+28-11-2013 18:20:19.1.7529E-5[2][2] - Elapsed: 0.1242 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:20:19.6.7584E-5[2][2] - Elapsed: 50.0548 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+28-11-2013 18:20:19.6.7663E-5[2][2] - Elapsed: 0.0782 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+28-11-2013 18:20:19.6.7796E-5[0][2] - Elapsed: 0.1328 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time: 188.1711 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => ab1c263e81b5bfa59f08f0491cf0c505
+            [bot_name] => JARVIS
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 4
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => luc.sorignet@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => THIS IS A DEFAULT RESPONSE
+                    [2] => NO AIML CATEGORY FOUND
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => Fuck the system
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => Fuck the system
+            [lookingfor] => FUCK THE SYSTEM
+            [pattern] => no results
+            [thatpattern] => 
+            [topic] => 
+            [score] => 510
+            [aiml_id] => -1
+            [parsed_template] => No AIML category found. This is a Default Response.
+        )
+
+    [user_say] => Array
+        (
+            [1] => Fuck the system
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => This is a Default Response.
+                    [3] => No AIML category found.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => No AIML category found. This is a Default Response.
+        )
+
+)

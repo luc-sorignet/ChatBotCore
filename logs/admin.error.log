@@ -75,3 +75,4 @@
 [27-Nov-2013 16:57:47 UTC] PHP Stack trace:
 [27-Nov-2013 16:57:47 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\admin\index.php:0
 [27-Nov-2013 16:57:47 UTC] PHP   2. mysql_close() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\admin\index.php:139
+[28-Nov-2013 18:18:46 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on line 29
