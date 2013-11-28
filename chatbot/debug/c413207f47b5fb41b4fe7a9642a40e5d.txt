@@ -1,0 +1,666 @@
+28-11-2013 10:21:19.406316[0][2] - Elapsed: 0.6049 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+28-11-2013 10:21:19.41471[1][2] - Elapsed: 8.425 milliseconds
+[db_functions.php][Called outside of function][26]
+PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26 
+-----------------------
+28-11-2013 10:21:19.415275[1][2] - Elapsed: 0.5732 milliseconds
+[db_functions.php][Called outside of function][26]
+PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26 
+-----------------------
+28-11-2013 10:21:19.416106[1][2] - Elapsed: 0.8318 milliseconds
+[db_functions.php][Called outside of function][29]
+PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29 
+-----------------------
+28-11-2013 10:21:19.416844[2][2] - Elapsed: 0.7381 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.416922[1][2] - Elapsed: 0.0789 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.417669[1][2] - Elapsed: 0.7441 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.418464[1][2] - Elapsed: 0.7968 milliseconds
+[intialise_conversation.php][Called outside of function][106]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106 
+-----------------------
+28-11-2013 10:21:19.420214[1][2] - Elapsed: 1.7371 milliseconds
+[intialise_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.420578[2][2] - Elapsed: 0.3769 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+28-11-2013 10:21:19.503816[2][2] - Elapsed: 83.231 milliseconds
+[spell_checker.php][run_spell_checker_say][35]
+Starting function and setting timestamp. 
+-----------------------
+28-11-2013 10:21:19.503976[2][2] - Elapsed: 0.1662 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on d. 
+-----------------------
+28-11-2013 10:21:19.504372[2][2] - Elapsed: 0.392 milliseconds
+[spell_checker.php][load_spelling_list][115]
+Loading the spellcheck list from the DB. 
+-----------------------
+28-11-2013 10:21:19.504516[2][2] - Elapsed: 0.1469 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.504665[1][2] - Elapsed: 0.149 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.505241[1][2] - Elapsed: 0.5751 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.505595[1][2] - Elapsed: 0.3569 milliseconds
+[spell_checker.php][Called outside of function][120]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 120 
+-----------------------
+28-11-2013 10:21:19.506398[1][2] - Elapsed: 0.8042 milliseconds
+[spell_checker.php][Called outside of function][129]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 129 
+-----------------------
+28-11-2013 10:21:19.513277[2][2] - Elapsed: 6.871 milliseconds
+[conversation_start.php][Called outside of function][119]
+Details:
+User say: d
+Convo id: c413207f47b5fb41b4fe7a9642a40e5d
+Bot id: 1
+Format: html 
+-----------------------
+28-11-2013 10:21:19.513435[2][2] - Elapsed: 0.165 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.513522[1][2] - Elapsed: 0.088 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.513828[1][2] - Elapsed: 0.3049 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.535101[1][2] - Elapsed: 21.2691 milliseconds
+[intialise_conversation.php][Called outside of function][106]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106 
+-----------------------
+28-11-2013 10:21:19.535742[1][2] - Elapsed: 0.6418 milliseconds
+[intialise_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.536605[2][2] - Elapsed: 0.8662 milliseconds
+[intialise_conversation.php][check_set_bot][453]
+Checking and/or setting the current bot. 
+-----------------------
+28-11-2013 10:21:19.536698[2][2] - Elapsed: 0.0939 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.536779[1][2] - Elapsed: 0.0811 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.537561[1][2] - Elapsed: 0.7799 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.538611[1][2] - Elapsed: 1.0481 milliseconds
+[intialise_conversation.php][check_set_bot][488]
+ERROR - Cannot find bot id: 1 
+-----------------------
+28-11-2013 10:21:19.538733[1][2] - Elapsed: 0.1259 milliseconds
+[intialise_conversation.php][Called outside of function][490]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 490 
+-----------------------
+28-11-2013 10:21:19.53947[2][2] - Elapsed: 0.735 milliseconds
+[intialise_conversation.php][check_set_user][534]
+Checking and setting the user info, as needed. 
+-----------------------
+28-11-2013 10:21:19.53958[1][2] - Elapsed: 0.1121 milliseconds
+[intialise_conversation.php][Called outside of function][542]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 542 
+-----------------------
+28-11-2013 10:21:19.540674[1][2] - Elapsed: 1.091 milliseconds
+[intialise_conversation.php][Called outside of function][543]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 543 
+-----------------------
+28-11-2013 10:21:19.541502[2][2] - Elapsed: 0.8271 milliseconds
+[handle_user.php][intisaliseUser][76]
+Initializing user. 
+-----------------------
+28-11-2013 10:21:19.541677[1][2] - Elapsed: 0.1788 milliseconds
+[handle_user.php][Called outside of function][99]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 99 
+-----------------------
+28-11-2013 10:21:19.541961[1][2] - Elapsed: 0.2842 milliseconds
+[handle_user.php][Called outside of function][99]
+PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 99 
+-----------------------
+28-11-2013 10:21:19.54299[1][2] - Elapsed: 1.029 milliseconds
+[handle_user.php][Called outside of function][100]
+PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 100 
+-----------------------
+28-11-2013 10:21:19.54409[1][2] - Elapsed: 1.096 milliseconds
+[handle_user.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.544975[1][2] - Elapsed: 0.8848 milliseconds
+[handle_user.php][Called outside of function][110]
+PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.546571[1][2] - Elapsed: 1.5962 milliseconds
+[intialise_conversation.php][Called outside of function][555]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 555 
+-----------------------
+28-11-2013 10:21:19.546974[2][2] - Elapsed: 0.4048 milliseconds
+[intialise_conversation.php][load_that][609]
+Loading the THAT array. 
+-----------------------
+28-11-2013 10:21:19.54707[2][2] - Elapsed: 0.098 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.547157[1][2] - Elapsed: 0.0861 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.547875[1][2] - Elapsed: 0.7169 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.548918[1][2] - Elapsed: 1.0421 milliseconds
+[intialise_conversation.php][Called outside of function][663]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 663 
+-----------------------
+28-11-2013 10:21:19.581959[2][2] - Elapsed: 33.0379 milliseconds
+[intialise_conversation.php][load_bot_config][305]
+Loading config data for the current bot. 
+-----------------------
+28-11-2013 10:21:19.582134[1][2] - Elapsed: 0.18 milliseconds
+[intialise_conversation.php][Called outside of function][310]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 310 
+-----------------------
+28-11-2013 10:21:19.582503[1][2] - Elapsed: 0.3691 milliseconds
+[intialise_conversation.php][Called outside of function][311]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 311 
+-----------------------
+28-11-2013 10:21:19.583046[1][2] - Elapsed: 0.5429 milliseconds
+[intialise_conversation.php][Called outside of function][337]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 337 
+-----------------------
+28-11-2013 10:21:19.583822[0][2] - Elapsed: 0.7732 milliseconds
+[conversation_start.php][Called outside of function][134]
+Debug level = 2 
+-----------------------
+28-11-2013 10:21:19.583933[0][2] - Elapsed: 0.1149 milliseconds
+[conversation_start.php][Called outside of function][136]
+Debug level = 2 
+-----------------------
+28-11-2013 10:21:19.584024[2][2] - Elapsed: 0.0911 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'd' to the front of the [user_say] array 
+-----------------------
+28-11-2013 10:21:19.584257[2][2] - Elapsed: 0.232 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'd' to the front of the [input] array 
+-----------------------
+28-11-2013 10:21:19.609652[2][2] - Elapsed: 25.3868 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.609863[1][2] - Elapsed: 0.216 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.610443[1][2] - Elapsed: 0.5782 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.610859[1][2] - Elapsed: 0.4199 milliseconds
+[find_aiml.php][Called outside of function][871]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 871 
+-----------------------
+28-11-2013 10:21:19.611267[2][2] - Elapsed: 0.4091 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.611388[1][2] - Elapsed: 0.1209 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.611704[1][2] - Elapsed: 0.3161 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'D' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.612102[1][2] - Elapsed: 0.3979 milliseconds
+[find_aiml.php][Called outside of function][668]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 668 
+-----------------------
+28-11-2013 10:21:19.612454[2][2] - Elapsed: 0.351 milliseconds
+[find_aiml.php][find_userdefined_aiml][669]
+User defined rows found: '0' 
+-----------------------
+28-11-2013 10:21:19.624795[2][2] - Elapsed: 12.337 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.624975[1][2] - Elapsed: 0.1831 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.62545[1][2] - Elapsed: 0.474 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.625871[1][2] - Elapsed: 0.423 milliseconds
+[find_aiml.php][Called outside of function][871]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 871 
+-----------------------
+28-11-2013 10:21:19.626459[2][2] - Elapsed: 0.5891 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.626558[1][2] - Elapsed: 0.0999 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.626809[1][2] - Elapsed: 0.2501 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'D') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.627123[1][2] - Elapsed: 0.314 milliseconds
+[find_aiml.php][find_aiml_matches][848]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+28-11-2013 10:21:19.627257[1][2] - Elapsed: 0.134 milliseconds
+[find_aiml.php][Called outside of function][855]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 855 
+-----------------------
+28-11-2013 10:21:19.627492[1][2] - Elapsed: 0.236 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][111]
+Returning error as no results where found 
+-----------------------
+28-11-2013 10:21:19.633022[2][2] - Elapsed: 5.5258 milliseconds
+[find_aiml.php][get_winning_category][516]
+And the winner is... -1! 
+-----------------------
+28-11-2013 10:21:19.633184[1][2] - Elapsed: 0.1662 milliseconds
+[find_aiml.php][Called outside of function][519]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 519 
+-----------------------
+28-11-2013 10:21:19.633511[1][2] - Elapsed: 0.3259 milliseconds
+[find_aiml.php][Called outside of function][519]
+PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 519 
+-----------------------
+28-11-2013 10:21:19.63396[1][2] - Elapsed: 0.4489 milliseconds
+[find_aiml.php][Called outside of function][520]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 520 
+-----------------------
+28-11-2013 10:21:19.634609[2][2] - Elapsed: 0.6499 milliseconds
+[find_aiml.php][get_highest_scoring_row][503]
+Will use randomly picked best response chosen out of 1 responses with same score: -1 - no results 
+-----------------------
+28-11-2013 10:21:19.634713[2][2] - Elapsed: 0.1051 milliseconds
+[parse_aiml.php][set_wildcards][271]
+Setting Wildcards 
+-----------------------
+28-11-2013 10:21:19.63484[2][2] - Elapsed: 0.1259 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+28-11-2013 10:21:19.634908[2][2] - Elapsed: 0.0691 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][47]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+28-11-2013 10:21:19.678704[2][2] - Elapsed: 43.788 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 10:21:19.704546[2][2] - Elapsed: 25.8441 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 10:21:19.704859[2][2] - Elapsed: 0.314 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][155]
+Parsing a TEXT tag. 
+-----------------------
+28-11-2013 10:21:19.705037[2][2] - Elapsed: 0.18 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 10:21:19.705273[2][2] - Elapsed: 0.237 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 10:21:19.705484[2][2] - Elapsed: 0.212 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that_raw] array 
+-----------------------
+28-11-2013 10:21:19.705804[2][2] - Elapsed: 0.32 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that] array 
+-----------------------
+28-11-2013 10:21:19.706226[2][2] - Elapsed: 0.422 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [parsed_template] array 
+-----------------------
+28-11-2013 10:21:19.70639[2][2] - Elapsed: 0.1631 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [template] array 
+-----------------------
+28-11-2013 10:21:19.706895[2][2] - Elapsed: 0.505 milliseconds
+[intialise_conversation.php][log_conversation][357]
+Saving the conversation to the DB. 
+-----------------------
+28-11-2013 10:21:19.707009[2][2] - Elapsed: 0.114 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.707113[1][2] - Elapsed: 0.1049 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.707442[1][2] - Elapsed: 0.3281 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'd',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'c413207f47b5fb41b4fe7a9642a40e5d',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.707765[2][2] - Elapsed: 0.3231 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.70787[1][2] - Elapsed: 0.1059 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.708097[1][2] - Elapsed: 0.226 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.708443[1][2] - Elapsed: 0.3471 milliseconds
+[display_conversation.php][Called outside of function][31]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 31 
+-----------------------
+28-11-2013 10:21:19.708825[1][2] - Elapsed: 0.381 milliseconds
+[display_conversation.php][Called outside of function][42]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 42 
+-----------------------
+28-11-2013 10:21:19.709166[2][2] - Elapsed: 0.3409 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.709274[1][2] - Elapsed: 0.109 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.709512[1][2] - Elapsed: 0.237 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'c413207f47b5fb41b4fe7a9642a40e5d'
+        ORDER BY id DESC  LIMIT 1  in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.709894[1][2] - Elapsed: 0.3831 milliseconds
+[display_conversation.php][Called outside of function][51]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 51 
+-----------------------
+28-11-2013 10:21:19.710265[1][2] - Elapsed: 0.37 milliseconds
+[display_conversation.php][Called outside of function][63]
+PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 63 
+-----------------------
+28-11-2013 10:21:19.71058[2][2] - Elapsed: 0.314 milliseconds
+[display_conversation.php][get_conversation_to_display][63]
+Found '' lines of conversation 
+-----------------------
+28-11-2013 10:21:19.710708[1][2] - Elapsed: 0.129 milliseconds
+[display_conversation.php][Called outside of function][64]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 64 
+-----------------------
+28-11-2013 10:21:19.710987[1][2] - Elapsed: 0.2789 milliseconds
+[display_conversation.php][Called outside of function][106]
+PHP ERROR [Notice] -Undefined index: bot_name in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 106 
+-----------------------
+28-11-2013 10:21:19.711394[1][2] - Elapsed: 0.407 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.711751[1][2] - Elapsed: 0.3569 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.712131[1][2] - Elapsed: 0.38 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.712524[1][2] - Elapsed: 0.392 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.713224[1][2] - Elapsed: 0.699 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.713551[1][2] - Elapsed: 0.329 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.713925[1][2] - Elapsed: 0.3731 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.714446[1][2] - Elapsed: 0.5219 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.714841[1][2] - Elapsed: 0.3939 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.715162[1][2] - Elapsed: 0.3211 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.715499[1][2] - Elapsed: 0.3369 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.715757[1][2] - Elapsed: 0.2592 milliseconds
+[display_conversation.php][Called outside of function][109]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109 
+-----------------------
+28-11-2013 10:21:19.716162[1][2] - Elapsed: 0.3989 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.716527[1][2] - Elapsed: 0.37 milliseconds
+[display_conversation.php][Called outside of function][110]
+PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110 
+-----------------------
+28-11-2013 10:21:19.716934[2][2] - Elapsed: 0.407 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 10:21:19.717043[1][2] - Elapsed: 0.1111 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.717243[1][2] - Elapsed: 0.2 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.717708[1][2] - Elapsed: 0.4649 milliseconds
+[word_censor.php][Called outside of function][39]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 39 
+-----------------------
+28-11-2013 10:21:19.718075[1][2] - Elapsed: 0.365 milliseconds
+[word_censor.php][Called outside of function][46]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 46 
+-----------------------
+28-11-2013 10:21:19.718427[1][2] - Elapsed: 0.3529 milliseconds
+[word_censor.php][Called outside of function][57]
+PHP ERROR [Notice] -Undefined index: pgo_word_censor in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.718788[1][2] - Elapsed: 0.36 milliseconds
+[word_censor.php][Called outside of function][57]
+PHP ERROR [Warning] -Invalid argument supplied for foreach() in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 57 
+-----------------------
+28-11-2013 10:21:19.75764[2][2] - Elapsed: 38.8541 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+28-11-2013 10:21:19.757792[2][2] - Elapsed: 0.1519 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+28-11-2013 10:21:19.757911[1][2] - Elapsed: 0.1192 milliseconds
+[db_functions.php][Called outside of function][42]
+PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42 
+-----------------------
+28-11-2013 10:21:19.758252[1][2] - Elapsed: 0.3409 milliseconds
+[db_functions.php][Called outside of function][42]
+PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42 
+-----------------------
+28-11-2013 10:21:19.758631[0][2] - Elapsed: 0.3788 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time: 351.9368 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => c413207f47b5fb41b4fe7a9642a40e5d
+            [format] => html
+            [bot_id] => 1
+            [user_id] => 
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => luc.sorignet@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 0
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => THIS IS A DEFAULT RESPONSE
+                    [2] => NO AIML CATEGORY FOUND
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => d
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => d
+            [lookingfor] => D
+            [pattern] => no results
+            [thatpattern] => 
+            [topic] => 
+            [score] => 10
+            [aiml_id] => -1
+            [parsed_template] => No AIML category found. This is a Default Response.
+        )
+
+    [user_say] => Array
+        (
+            [1] => d
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => This is a Default Response.
+                    [3] => No AIML category found.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => No AIML category found. This is a Default Response.
+        )
+
+)

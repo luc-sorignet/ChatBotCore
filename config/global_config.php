@@ -92,9 +92,9 @@
     $time_zone_locale = 'Europe/Berlin'; // a full list can be found at http://uk.php.net/manual/en/timezones.php
     $dbh    = 'localhost';  # dev remote server location
     $dbPort = '3306';    # dev database name/prefix
-    $dbn    = 'jarvis';    # dev database name/prefix
+    $dbn    = 'ChatBot';    # dev database name/prefix
     $dbu    = 'root';       # dev database username
-    $dbp    = '';  # dev database password
+    $dbp    = 'root';  # dev database password
 
     //these are the admin DB settings in case you want make the admin a different db user with more privs
     $adm_dbu = 'admin';
@@ -116,7 +116,7 @@
     $error_response = 'No AIML category found. This is a Default Response.';
     $conversation_lines = '1';
     $remember_up_to = 10;
-    $debugemail = 'luc.sorignet@gmail.com';
+    $debugemail = '';
     /*
      * $debug_level - The level of messages to show the user
      * 0=none,
@@ -166,7 +166,7 @@
     // Set Misc Data
     //------------------------------------------------------------------------
 
-    $botmaster_name = 'TERUpssitech';
+    $botmaster_name = 'rosn';
     $charset = 'ISO-8859-1';
     $charset = 'UTF-8';
 

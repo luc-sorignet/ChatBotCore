@@ -1191,3 +1191,284 @@ SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' i
 11/27/2013 16:54:57 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\library\db_functions.php on Line 42
 11/27/2013 16:58:30 - PHP ERROR [Notice] -Undefined index: send_to_user in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\core\conversation\display_conversation.php on Line 193
 11/27/2013 16:58:31 - PHP ERROR [Notice] -Undefined variable: time in D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\chatbot\conversation_start.php on Line 173
+11/28/2013 10:20:33 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:33 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:33 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:33 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:33 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:33 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:33 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:33 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:33 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:33 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:33 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:44 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:44 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:44 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:44 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:44 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:44 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:44 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:44 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:44 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:44 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:44 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:47 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:47 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:47 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:47 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:47 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:47 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:47 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:47 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:47 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:47 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:47 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:49 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:49 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:49 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:49 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:49 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:49 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:49 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:49 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:49 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:49 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:49 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:54 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:54 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:54 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:54 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:54 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:54 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:54 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:54 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:54 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:54 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:54 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:56 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:56 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:56 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:56 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:56 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:56 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:56 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:56 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:56 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:56 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:56 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:20:58 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:58 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:20:58 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:20:58 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:58 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:20:58 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:20:58 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:20:58 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:58 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:20:58 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:20:58 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:01 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:01 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:01 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:01 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:01 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:01 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:01 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:01 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:05 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:05 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:05 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:05 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:05 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:05 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:05 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:05 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:05 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:05 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:05 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:08 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:08 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:08 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:08 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:08 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:08 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:08 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:08 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:08 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:08 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:08 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:09 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:09 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:09 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:09 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:09 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:09 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:09 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:09 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:09 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:09 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:09 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:10 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:10 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:10 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:10 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:10 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:10 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:10 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:10 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:10 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:10 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:10 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:11 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:11 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:11 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:11 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:11 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:11 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:11 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:11 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:11 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:11 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:21:11 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Couldn't connect to the DB. Error = Access denied for user 'root'@'localhost' (using password: NO) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 26
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Couldn't select the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `missspelling`, `correction` FROM `jarvis`.`spellcheck`; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 120
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 129
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`botpersonality` WHERE `bot_id` = '1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`bots` WHERE bot_id = '1' and `bot_active`='1' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 490
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 542
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 543
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 99
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Error trying to add user. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 99
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_insert_id() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 100
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/user/handle_user.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 555
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `input`, `response` from `jarvis`.`conversation_log` where `user_id` =  and `bot_id` = 1 order by `id` desc limit 10; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 663
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 310
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 311
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 337
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 871
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`aiml_userdefined` WHERE
+		`bot_id` = '1' AND
+		(`user_id` = '' OR `user_id` = '-1') AND
+		`pattern` = 'D' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 668
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `value` FROM `client_properties` WHERE `user_id` =  AND `bot_id` = 1 and `name` = 'topic'; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 871
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `jarvis`.`aiml` WHERE
+		 bot_id = '1'  AND (
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = 'D') OR (`pattern` = 'RANDOM PICKUP LINE' ) )
+		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '')  )
+		AND ( (`topic`='') OR (`topic`=''))) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 855
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 519
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Houston, we have a problem! Error: Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 519
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 520
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = INSERT INTO `jarvis`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'd',
+      'No AIML category found. This is a Default Response.',
+      '',
+      'c413207f47b5fb41b4fe7a9642a40e5d',
+      '1',
+      CURRENT_TIMESTAMP
+    ) in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = select `bot_name` from `bots` where `bot_id` = 1 limit 1; in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 31
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 42
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`conversation_log`
+        WHERE
+        `user_id` = ''
+        AND `bot_id` = '1'
+        AND `convo_id` = 'c413207f47b5fb41b4fe7a9642a40e5d'
+        ORDER BY id DESC  LIMIT 1  in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 51
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 63
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 64
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Undefined index: bot_name in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 106
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'input' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 109
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Illegal string offset 'response' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Uninitialized string offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 110
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_query() expects parameter 2 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Access denied for user ''@'localhost' to database 'jarvis'
+SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 39
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, null given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 46
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Undefined index: pgo_word_censor in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/addons/word_censor/word_censor.php on Line 57
+11/28/2013 10:21:19 - PHP ERROR [Warning] -mysql_close() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:21:19 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
+11/28/2013 10:33:30 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 10:33:30 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
