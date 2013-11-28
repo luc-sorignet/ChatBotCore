@@ -1588,3 +1588,26 @@ Stack trace:
   thrown in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on line 310
 11/28/2013 18:20:13 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
 11/28/2013 18:20:13 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:34:43 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:01 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:24 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:49 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:55 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:41:42 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:41:42 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:46:39 - PHP ERROR [Notice] -Undefined index: bot_name in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:46:42 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:46:42 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:47:03 - PHP ERROR [Notice] -Undefined index: name in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 21:41:48 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:41:48 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:42:45 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:42:45 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:42:53 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:42:53 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:43:05 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:43:05 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:44:23 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:44:23 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173

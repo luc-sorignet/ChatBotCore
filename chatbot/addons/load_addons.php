@@ -13,6 +13,7 @@
 include("custom_tags/custom_tags.php");
 include("word_censor/word_censor.php");
 include('spell_checker/spell_checker.php');
+include('actionCommand/actionCommand.php');
 include("parseBBCode/parseBBCode.php"); // A new addon to allow parsing of output that's consistent with BBCode tags
 //include("checkForBan/checkForBan.php"); // A new addon for verifying that a user has not been banned by IP address
 
@@ -38,7 +39,10 @@ function run_post_response_useraddons($convoArr) {
   $response = str_replace('[serverTime]',$curTime, $response);
   if ($convoArr['send_to_user'] != $response) $convoArr['send_to_user'] = $response;
   $convoArr =  run_censor($convoArr);
-  if ($format == 'html') $convoArr =  checkForParsing($convoArr);
+  if ($format == 'html'){
+    $convoArr =  checkForParsing($convoArr);
+    $convoArr =  checkCommand($convoArr);
+  } 
   $ip = $convoArr['client_properties']['ip_address'];
   //if ($convoArr['client_properties']['banned'] === true) add_to_ban($ip);
   return $convoArr;

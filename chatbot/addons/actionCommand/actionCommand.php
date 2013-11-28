@@ -7,7 +7,12 @@
 * @return $convoArr with command
 **/
 function checkCommand($convoArr){
+	 //debug($convoArr['response']);
+	$botname=$convoArr['conversation']['bot_name'];
+	$conv=$convoArr['response'];
 
+	//die();
+	return $convoArr;
 }
 
 
@@ -22,5 +27,7 @@ function search($item){
 
 }
 
-
+function debug($var){
+	echo "<pre>".print_r($var)."</pre>";
+}
 ?>

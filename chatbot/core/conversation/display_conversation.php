@@ -108,6 +108,7 @@
     {
       $show .= "<div class=\"usersay\"><strong>$user_name</strong>: " . stripslashes($conversation_subarray['input']) . "</div>";
       $show .= "<div class=\"botsay\"><strong>$bot_name</strong>: " . stripslashes($conversation_subarray['response']) . "</div>";
+      $convoArr['response']=stripslashes($conversation_subarray['response']);
     }
     $convoArr['send_to_user'] = $show;
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Returning HTML", 4);

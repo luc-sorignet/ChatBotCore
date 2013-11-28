@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2013 TERUpssitech                                       -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 11-15-2013                                          -->
+<!--  file: jurons.aiml                                                 -->
+<aiml version="1.0">
+  <category>
+    <pattern>SALOPE *</pattern>
+    <template>Vous êtes grossier...</template>
+  </category>
+  <category>
+    <pattern>FUCK *</pattern>
+    <template>
+      <random>
+        <li>Vous êtes grossier...</li>
+        <li>A oué tu es comme ça toi... tu parles du <star/> quand même... </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>JE M EN BRANLE *</pattern>
+    <template>Vous êtes grossier...</template>
+  </category>
+  <category>
+    <pattern>CONNARD *</pattern>
+    <template>Vous êtes grossier...</template>
+  </category>
+</aiml>
