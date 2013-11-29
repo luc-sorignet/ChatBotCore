@@ -1611,3 +1611,17 @@ Stack trace:
 11/28/2013 21:44:23 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
 11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
 11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 09:29:50 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/29/2013 09:29:50 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 09:34:22 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:41 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:44 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:45 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:38:37 - PHP ERROR [Unknown] -Object of class stdClass could not be converted to string in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 14
+11/29/2013 10:05:07 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/29/2013 10:05:07 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 10:19:40 - PHP ERROR [Notice] -Array to string conversion in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 17
+[29-Nov-2013 10:28:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 15
+11/29/2013 10:28:58 - PHP ERROR [Notice] -Trying to get property of non-object in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 40
+11/29/2013 10:28:58 - PHP ERROR [Notice] -Trying to get property of non-object in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 40
+11/29/2013 10:28:58 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 44
