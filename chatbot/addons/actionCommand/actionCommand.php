@@ -11,8 +11,9 @@ function checkCommand($convoArr){
 	$botname=$convoArr['conversation']['bot_name'];
 	$username=$convoArr['conversation']['user_name'];
 	$conv=$convoArr['response'];
-	$s = explode("[search] ",$convoArr['userquery']);
-	if(!empty($s)){
+	
+	if(commandFound($convoArr['userquery'])){
+		$s = explode("[search] ",$convoArr['userquery']);
 		$param = $s[1];
 		$res=search($param);
 		$show="";
@@ -51,6 +52,11 @@ $result.='</div>';
 $result.='</div>';
 return $result;
 
+}
+
+function commandFound($str){
+	$pattern='/^\[search\]/';
+	return preg_match($pattern, $str);
 }
 
 function debug($var){

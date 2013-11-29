@@ -1,0 +1,367 @@
+29-11-2013 10:44:33.109687[0][2] - Elapsed: 0.205 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+29-11-2013 10:44:33.112288[2][2] - Elapsed: 2.6009 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.112512[2][2] - Elapsed: 0.226 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+29-11-2013 10:44:33.112863[2][2] - Elapsed: 0.351 milliseconds
+[spell_checker.php][run_spell_checker_say][35]
+Starting function and setting timestamp. 
+-----------------------
+29-11-2013 10:44:33.112914[2][2] - Elapsed: 0.052 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on qu. 
+-----------------------
+29-11-2013 10:44:33.113052[2][2] - Elapsed: 0.138 milliseconds
+[spell_checker.php][load_spelling_list][115]
+Loading the spellcheck list from the DB. 
+-----------------------
+29-11-2013 10:44:33.113095[2][2] - Elapsed: 0.0429 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.114954[2][2] - Elapsed: 1.858 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on est. 
+-----------------------
+29-11-2013 10:44:33.115242[2][2] - Elapsed: 0.2892 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on ce. 
+-----------------------
+29-11-2013 10:44:33.115527[2][2] - Elapsed: 0.2849 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on que. 
+-----------------------
+29-11-2013 10:44:33.115809[2][2] - Elapsed: 0.282 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on le. 
+-----------------------
+29-11-2013 10:44:33.116092[2][2] - Elapsed: 0.283 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on pge?. 
+-----------------------
+29-11-2013 10:44:33.116448[2][2] - Elapsed: 0.355 milliseconds
+[conversation_start.php][Called outside of function][119]
+Details:
+User say: qu est ce que le pge?
+Convo id: e9f84bd59db9eeebe28fa6a030dd4a92
+Bot id: 1
+Format: html 
+-----------------------
+29-11-2013 10:44:33.116502[2][2] - Elapsed: 0.0548 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.116691[2][2] - Elapsed: 0.1881 milliseconds
+[intialise_conversation.php][check_set_bot][453]
+Checking and/or setting the current bot. 
+-----------------------
+29-11-2013 10:44:33.116745[2][2] - Elapsed: 0.0551 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.11698[2][2] - Elapsed: 0.2339 milliseconds
+[intialise_conversation.php][check_set_bot][482]
+BOT ID: 1 
+-----------------------
+29-11-2013 10:44:33.11704[2][2] - Elapsed: 0.061 milliseconds
+[intialise_conversation.php][check_set_user][534]
+Checking and setting the user info, as needed. 
+-----------------------
+29-11-2013 10:44:33.117209[2][2] - Elapsed: 0.169 milliseconds
+[handle_user.php][intisaliseUser][76]
+Initializing user. 
+-----------------------
+29-11-2013 10:44:33.117563[2][2] - Elapsed: 0.3541 milliseconds
+[intialise_conversation.php][load_that][609]
+Loading the THAT array. 
+-----------------------
+29-11-2013 10:44:33.117624[2][2] - Elapsed: 0.0608 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.117863[1][2] - Elapsed: 0.237 milliseconds
+[intialise_conversation.php][load_that][630]
+Inputs returned:Array
+(
+)
+ 
+-----------------------
+29-11-2013 10:44:33.120312[2][2] - Elapsed: 2.4502 milliseconds
+[intialise_conversation.php][load_bot_config][305]
+Loading config data for the current bot. 
+-----------------------
+29-11-2013 10:44:33.120545[0][2] - Elapsed: 0.2329 milliseconds
+[conversation_start.php][Called outside of function][134]
+Debug level = 2 
+-----------------------
+29-11-2013 10:44:33.120593[0][2] - Elapsed: 0.0479 milliseconds
+[conversation_start.php][Called outside of function][136]
+Debug level = 2 
+-----------------------
+29-11-2013 10:44:33.120648[2][2] - Elapsed: 0.056 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'qu est ce que le pge?' to the front of the [user_say] array 
+-----------------------
+29-11-2013 10:44:33.120769[2][2] - Elapsed: 0.1211 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'qu est ce que le pge?' to the front of the [input] array 
+-----------------------
+29-11-2013 10:44:33.120944[2][2] - Elapsed: 0.1738 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.12113[2][2] - Elapsed: 0.186 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.121298[2][2] - Elapsed: 0.1681 milliseconds
+[find_aiml.php][find_userdefined_aiml][669]
+User defined rows found: '0' 
+-----------------------
+29-11-2013 10:44:33.121407[2][2] - Elapsed: 0.109 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.12167[2][2] - Elapsed: 0.263 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.122057[2][2] - Elapsed: 0.3881 milliseconds
+[find_aiml.php][find_aiml_matches][828]
+FOUND: '2' potential AIML matches 
+-----------------------
+29-11-2013 10:44:33.122213[2][2] - Elapsed: 0.1559 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][186]
+Found '1' relevant rows 
+-----------------------
+29-11-2013 10:44:33.123542[2][2] - Elapsed: 1.3289 milliseconds
+[find_aiml.php][get_winning_category][516]
+And the winner is... 15! 
+-----------------------
+29-11-2013 10:44:33.123718[2][2] - Elapsed: 0.175 milliseconds
+[find_aiml.php][get_highest_scoring_row][503]
+Will use randomly picked best response chosen out of 1 responses with same score: 15 - QU EST CE QUE LE PGE* 
+-----------------------
+29-11-2013 10:44:33.123787[2][2] - Elapsed: 0.0641 milliseconds
+[parse_aiml.php][set_wildcards][271]
+Setting Wildcards 
+-----------------------
+29-11-2013 10:44:33.123863[2][2] - Elapsed: 0.0808 milliseconds
+[parse_aiml.php][set_wildcards][289]
+We have pattern stars to process! 
+-----------------------
+29-11-2013 10:44:33.123908[2][2] - Elapsed: 0.046 milliseconds
+[parse_aiml.php][set_wildcards][298]
+Checking 'QU EST CE QUE LE PGE(.*)' against 'qu est ce que le pge?'. 
+-----------------------
+29-11-2013 10:44:33.123978[2][2] - Elapsed: 0.0691 milliseconds
+[parse_aiml.php][set_wildcards][301]
+Array
+(
+    [0] => Array
+        (
+            [0] => qu est ce que le pge?
+        )
+
+    [1] => Array
+        (
+            [0] => ?
+        )
+
+)
+ 
+-----------------------
+29-11-2013 10:44:33.124033[2][2] - Elapsed: 0.056 milliseconds
+[parse_aiml.php][set_wildcards][307]
+Adding   to the star stack. 
+-----------------------
+29-11-2013 10:44:33.124106[2][2] - Elapsed: 0.073 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+29-11-2013 10:44:33.124164[2][2] - Elapsed: 0.057 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][47]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+29-11-2013 10:44:33.124316[2][2] - Elapsed: 0.1521 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+29-11-2013 10:44:33.124474[2][2] - Elapsed: 0.1578 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+29-11-2013 10:44:33.124588[2][2] - Elapsed: 0.1152 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][155]
+Parsing a TEXT tag. 
+-----------------------
+29-11-2013 10:44:33.124654[2][2] - Elapsed: 0.0658 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2013 10:44:33.124739[2][2] - Elapsed: 0.0851 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2013 10:44:33.124844[2][2] - Elapsed: 0.104 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?' to the front of the [that_raw] array 
+-----------------------
+29-11-2013 10:44:33.125011[2][2] - Elapsed: 0.1671 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?' to the front of the [that] array 
+-----------------------
+29-11-2013 10:44:33.125385[2][2] - Elapsed: 0.3748 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?' to the front of the [parsed_template] array 
+-----------------------
+29-11-2013 10:44:33.1255[2][2] - Elapsed: 0.1152 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?' to the front of the [template] array 
+-----------------------
+29-11-2013 10:44:33.125623[2][2] - Elapsed: 0.1218 milliseconds
+[intialise_conversation.php][log_conversation][357]
+Saving the conversation to the DB. 
+-----------------------
+29-11-2013 10:44:33.125686[2][2] - Elapsed: 0.0641 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.12594[2][2] - Elapsed: 0.253 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.126193[2][2] - Elapsed: 0.252 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.126449[2][2] - Elapsed: 0.2561 milliseconds
+[display_conversation.php][get_conversation_to_display][63]
+Found '1' lines of conversation 
+-----------------------
+29-11-2013 10:44:33.126568[2][2] - Elapsed: 0.1199 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+29-11-2013 10:44:33.129005[1][2] - Elapsed: 2.4359 milliseconds
+[actionCommand.php][Called outside of function][16]
+PHP ERROR [Notice] -Undefined offset: 1 in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 16 
+-----------------------
+29-11-2013 10:44:33.258263[2][2] - Elapsed: 129.2601 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+29-11-2013 10:44:33.258348[2][2] - Elapsed: 0.0851 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+29-11-2013 10:44:33.258496[0][2] - Elapsed: 0.1469 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time: 148.7589 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => e9f84bd59db9eeebe28fa6a030dd4a92
+            [bot_name] => JARVIS
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 14
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => luc.sorignet@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => AVEZ VOUS D AUTRES QUESTIONS
+                    [2] => LE PGE OU PROJET DE GRANDE ENVERGURE PERMET DE RÉUNIR LES ÉTUDIANTS DE DEUXIÈME ANNÉE DE MASTER AFIN DE RÉALISER UN PROJET DÉFINIT PAR UNE ENTREPRISE
+                )
+
+        )
+
+    [star] => Array
+        (
+            [1] =>  
+        )
+
+    [input] => Array
+        (
+            [1] => qu est ce que le pge?
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => qu est ce que le pge?
+            [lookingfor] => QU EST CE QUE LE PGE
+            [pattern] => QU EST CE QUE LE PGE*
+            [thatpattern] => 
+            [topic] => 
+            [score] => 53
+            [aiml_id] => 15
+            [parsed_template] => Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?
+        )
+
+    [user_say] => Array
+        (
+            [1] => qu est ce que le pge?
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Avez vous d'autres questions?
+                    [3] => Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?
+        )
+
+)
