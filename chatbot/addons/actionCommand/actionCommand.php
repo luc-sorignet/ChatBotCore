@@ -20,6 +20,14 @@ function checkCommand($convoArr){
  	  	$show .= "<div class=\"usersay\"><strong>$username</strong>: " .$convoArr['userquery']. "</div>";
      	$show .= "<div class=\"botsay\"><strong>$botname</strong>: " .$res. "</div>";
 		$convoArr['send_to_user']=$show;
+	}else if(commandFound($convoArr['response'])){
+		$s = explode("[search] ",$convoArr['response']);
+		$param = $s[1];
+		$res=search($param);
+		$show="";
+ 	  	$show .= "<div class=\"usersay\"><strong>$username</strong>: " .$convoArr['userquery']. "</div>";
+     	$show .= "<div class=\"botsay\"><strong>$botname</strong>: " .$res. "</div>";
+		$convoArr['send_to_user']=$show;
 	}
 	
 	//die();

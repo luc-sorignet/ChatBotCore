@@ -10,35 +10,35 @@
     <template>Le PGE ou projet de grande envergure permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet définit par une entreprise.Avez vous d'autres questions?</template>
   </category>
    <category>
-    <pattern>combien a-t-on d heures de cours par semaine *</pattern>
+    <pattern>combien a t on d heures de cours par semaine*</pattern>
     <template>En moyenne 30 heures par semaine en L3 SMI et 40h par semaine en M1/M2</template>
   </category>
    <category>
-    <pattern>est-ce qu il y a beaucoup de math chez vous*</pattern>
+    <pattern>est ce qu il y a beaucoup de math chez vous*</pattern>
     <template>Les outils mathématiques sont utilisés dans quasiment toutes les matières de la formation Essentiellement en Robotique,Vision,Automatique,Traitement du signal</template>
   </category>
    <category>
-    <pattern>peut-on fabriquer des robots*</pattern>
+    <pattern>peut on fabriquer des robots*</pattern>
     <template>les étapes de la fabrication d'un robot ne sont pas développées dans la formation cependant la mise en application de celui-ci oui. (Ex: Programmation d'un robot afin de réaliser une tâche précise)</template>
   </category>
   <category>
-    <pattern>a quel niveau peut-on rentrer dans la formation SMI*</pattern>
+    <pattern>a quel niveau peut on rentrer dans la formation SMI*</pattern>
     <template>On peut rentrer dans la formation SMI aprés un BAC+2 orienté Informatique Automatique ou Electronique</template>
   </category>
   <category>
-    <pattern>est-ce que l anglais est obligatoire*</pattern>
+    <pattern>est ce que l anglais est obligatoire*</pattern>
     <template>L'anglais devient une partie importante de la formation ingénieur, un ingénieur risque de devoir travailler avec des personnes étrangère et donc communiquer en anglais. C'est pour cela que les formation de L'UPSSITECH mettent en application des cours d'anglais orientés pour entreprise ou recherche scientifique (Redaction de CV, Entretien, Projet Scientifique...) </template>
   </category>
   <category>
-    <pattern>y a-t-il des cours de chinois*</pattern>
+    <pattern>y a t il des cours de chinois*</pattern>
     <template>Cela peut être possible en LV2 si l'étudiant est intérressé.</template>
   </category>
    <category>
-    <pattern>est-ce qu il y a beaucoup de fille dans chaque promotion*</pattern>
+    <pattern>est ce qu il y a beaucoup de fille dans chaque promotion*</pattern>
     <template>Cela doit dépendre des années... Actuellement non...</template>
   </category>
   <category>
-    <pattern>a quel type de robot touche-t-on*</pattern>
+    <pattern>a quel type de robot touche t on*</pattern>
     <template>Tout dépend du projet et ou tu en es dans ton cursus Essentiellement des robots Industriels (Bras manipulateur), Robot Mobile, Robot Humanoide (NAO)</template>
   </category>
 </aiml>
