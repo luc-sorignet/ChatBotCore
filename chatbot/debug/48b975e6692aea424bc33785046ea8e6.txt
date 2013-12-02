@@ -1,0 +1,322 @@
+02-12-2013 17:07:59.541762[0][2] - Elapsed: 0.212 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+02-12-2013 17:07:59.544775[2][2] - Elapsed: 3.0091 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.54512[2][2] - Elapsed: 0.351 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+02-12-2013 17:07:59.558049[2][2] - Elapsed: 12.9251 milliseconds
+[spell_checker.php][run_spell_checker_say][35]
+Starting function and setting timestamp. 
+-----------------------
+02-12-2013 17:07:59.558141[2][2] - Elapsed: 0.0968 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on merci. 
+-----------------------
+02-12-2013 17:07:59.558309[2][2] - Elapsed: 0.169 milliseconds
+[spell_checker.php][load_spelling_list][115]
+Loading the spellcheck list from the DB. 
+-----------------------
+02-12-2013 17:07:59.558357[2][2] - Elapsed: 0.047 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.561691[2][2] - Elapsed: 3.3312 milliseconds
+[conversation_start.php][Called outside of function][119]
+Details:
+User say: merci
+Convo id: 48b975e6692aea424bc33785046ea8e6
+Bot id: 1
+Format: html 
+-----------------------
+02-12-2013 17:07:59.561799[2][2] - Elapsed: 0.1118 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.56218[2][2] - Elapsed: 0.3791 milliseconds
+[intialise_conversation.php][check_set_bot][453]
+Checking and/or setting the current bot. 
+-----------------------
+02-12-2013 17:07:59.56225[2][2] - Elapsed: 0.071 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.562527[2][2] - Elapsed: 0.2749 milliseconds
+[intialise_conversation.php][check_set_bot][482]
+BOT ID: 1 
+-----------------------
+02-12-2013 17:07:59.5626[2][2] - Elapsed: 0.0751 milliseconds
+[intialise_conversation.php][check_set_user][534]
+Checking and setting the user info, as needed. 
+-----------------------
+02-12-2013 17:07:59.563039[2][2] - Elapsed: 0.4361 milliseconds
+[intialise_conversation.php][load_that][609]
+Loading the THAT array. 
+-----------------------
+02-12-2013 17:07:59.563113[2][2] - Elapsed: 0.078 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.563415[1][2] - Elapsed: 0.3009 milliseconds
+[intialise_conversation.php][load_that][630]
+Inputs returned:Array
+(
+    [0] => qu est ce que le pge?
+)
+ 
+-----------------------
+02-12-2013 17:07:59.563496[2][2] - Elapsed: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+02-12-2013 17:07:59.563778[2][2] - Elapsed: 0.282 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'LE PGE OU PROJET DE GRANDE ENVERGURE PERMET DE RÉUNIR LES ÉTUDIANTS DE DEUXIÈME ANNÉE DE MASTER AFIN DE RÉALISER UN PROJET DÉFINIT PAR UNE ENTREPRISE AVEZ VOUS D AUTRES QUESTIONS' to the front of the [that] array 
+-----------------------
+02-12-2013 17:07:59.564063[2][2] - Elapsed: 0.2849 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+02-12-2013 17:07:59.564194[2][2] - Elapsed: 0.1311 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'QU EST CE QUE LE PGE' to the front of the [input] array 
+-----------------------
+02-12-2013 17:07:59.566679[2][2] - Elapsed: 2.4838 milliseconds
+[intialise_conversation.php][load_bot_config][305]
+Loading config data for the current bot. 
+-----------------------
+02-12-2013 17:07:59.566952[0][2] - Elapsed: 0.273 milliseconds
+[conversation_start.php][Called outside of function][134]
+Debug level = 2 
+-----------------------
+02-12-2013 17:07:59.566998[0][2] - Elapsed: 0.0472 milliseconds
+[conversation_start.php][Called outside of function][136]
+Debug level = 2 
+-----------------------
+02-12-2013 17:07:59.567051[2][2] - Elapsed: 0.0529 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'merci' to the front of the [user_say] array 
+-----------------------
+02-12-2013 17:07:59.567156[2][2] - Elapsed: 0.1049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'merci' to the front of the [input] array 
+-----------------------
+02-12-2013 17:07:59.567311[2][2] - Elapsed: 0.154 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.56757[2][2] - Elapsed: 0.258 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.567789[2][2] - Elapsed: 0.2191 milliseconds
+[find_aiml.php][find_userdefined_aiml][669]
+User defined rows found: '0' 
+-----------------------
+02-12-2013 17:07:59.567911[2][2] - Elapsed: 0.124 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.568322[2][2] - Elapsed: 0.4089 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.578144[1][2] - Elapsed: 9.8202 milliseconds
+[find_aiml.php][find_aiml_matches][848]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+02-12-2013 17:07:59.578256[1][2] - Elapsed: 0.1159 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][111]
+Returning error as no results where found 
+-----------------------
+02-12-2013 17:07:59.578999[2][2] - Elapsed: 0.742 milliseconds
+[find_aiml.php][get_winning_category][516]
+And the winner is... -1! 
+-----------------------
+02-12-2013 17:07:59.579207[2][2] - Elapsed: 0.2081 milliseconds
+[find_aiml.php][get_highest_scoring_row][503]
+Will use randomly picked best response chosen out of 1 responses with same score: -1 - no results 
+-----------------------
+02-12-2013 17:07:59.579271[2][2] - Elapsed: 0.0648 milliseconds
+[parse_aiml.php][set_wildcards][271]
+Setting Wildcards 
+-----------------------
+02-12-2013 17:07:59.579341[2][2] - Elapsed: 0.071 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+02-12-2013 17:07:59.579378[2][2] - Elapsed: 0.037 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][47]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+02-12-2013 17:07:59.579518[2][2] - Elapsed: 0.139 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+02-12-2013 17:07:59.579653[2][2] - Elapsed: 0.1352 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+02-12-2013 17:07:59.579772[2][2] - Elapsed: 0.119 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][155]
+Parsing a TEXT tag. 
+-----------------------
+02-12-2013 17:07:59.579837[2][2] - Elapsed: 0.0648 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+02-12-2013 17:07:59.57992[2][2] - Elapsed: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+02-12-2013 17:07:59.580022[2][2] - Elapsed: 0.1011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that_raw] array 
+-----------------------
+02-12-2013 17:07:59.580205[2][2] - Elapsed: 0.1841 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that] array 
+-----------------------
+02-12-2013 17:07:59.580463[2][2] - Elapsed: 0.258 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [parsed_template] array 
+-----------------------
+02-12-2013 17:07:59.580565[2][2] - Elapsed: 0.1011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [template] array 
+-----------------------
+02-12-2013 17:07:59.580696[2][2] - Elapsed: 0.1309 milliseconds
+[intialise_conversation.php][log_conversation][357]
+Saving the conversation to the DB. 
+-----------------------
+02-12-2013 17:07:59.580766[2][2] - Elapsed: 0.071 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.58101[2][2] - Elapsed: 0.2429 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.581235[2][2] - Elapsed: 0.2251 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.581495[2][2] - Elapsed: 0.2599 milliseconds
+[display_conversation.php][get_conversation_to_display][63]
+Found '1' lines of conversation 
+-----------------------
+02-12-2013 17:07:59.581615[2][2] - Elapsed: 0.1202 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+02-12-2013 17:07:59.583669[2][2] - Elapsed: 2.0549 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+02-12-2013 17:07:59.583724[2][2] - Elapsed: 0.0539 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+02-12-2013 17:07:59.583872[0][2] - Elapsed: 0.1481 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time: 42.109 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => 48b975e6692aea424bc33785046ea8e6
+            [bot_name] => JARVIS
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 16
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => luc.sorignet@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => THIS IS A DEFAULT RESPONSE
+                    [2] => NO AIML CATEGORY FOUND
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => merci
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => merci
+            [lookingfor] => MERCI
+            [pattern] => no results
+            [thatpattern] => 
+            [topic] => 
+            [score] => 510
+            [aiml_id] => -1
+            [parsed_template] => No AIML category found. This is a Default Response.
+        )
+
+    [user_say] => Array
+        (
+            [1] => merci
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => This is a Default Response.
+                    [3] => No AIML category found.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => No AIML category found. This is a Default Response.
+        )
+
+)
