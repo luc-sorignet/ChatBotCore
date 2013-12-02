@@ -6,18 +6,18 @@
 </category>
 <category>
     <pattern>RECHERCHER *</pattern>
-    <template><srai>RECHERCHE <star/><srai/></template>
+    <template>[search] <star/></template>
 </category>
 <category>
     <pattern>QU EST CE QUE *</pattern>
-    <template><srai>RECHERCHE <star/><srai/></template>
+    <template>[search] <star/></template>
 </category>
 <category>
     <pattern>QUELS SONT LES *</pattern>
-    <template><srai>RECHERCHE <star/><srai/></template>
+    <template>[search] <star/></template>
 </category>
 <category>
     <pattern>RECHERCHE LES *</pattern>
-    <template><srai>RECHERCHE <star/><srai/></template>
+    <template>[search] <star/></template>
 </category>
 </aiml>
