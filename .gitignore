@@ -1,2 +1,2 @@
 config/global_config.php
-logs/*.log
+logs/*.*
