@@ -38,7 +38,7 @@ function checkCommand($convoArr){
 
 function search($item){
 
-$url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=".$item;
+$url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=".urlencode($item);
 $ch = curl_init();   
 curl_setopt($ch, CURLOPT_URL, $url);   
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
@@ -48,7 +48,7 @@ curl_close($ch);
 $res=json_decode($body);
 $res=$res->responseData->results;
 //var_dump($res);
-$result="Voici quelque lien qui pourrait être utile sur : <strong>".$item."</strong>";
+$result="Voici quelques liens qui pourront vous être utiles sur : <strong>".$item."</strong>";
 $result.='<br><div class="media">';
 foreach($res as $r){
 //$result.= '<a class="pull-left" href="#"><img class="media-object" src="http://lorempixel.com/50/50/technics" alt="result"></a>';
