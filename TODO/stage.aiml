@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+    <pattern>EST CE QU ON PEUT FAIRE UN STAGE A L ETRANGER*</pattern>
+    <template> Oui il est possible de réaliser son stage à l'étranger dans n'importe quels pays.</template>
+</category>
+<category>
+    <pattern>EST CE QU ON PEUT FAIRE UN STAGE EN LABORATOIRE*</pattern>
+    <template>Oui il est possible de faire son stage en laboratoire.</template>
+</category>
+<category>
+    <pattern>A QUELLE PERIODE DOIT TON FAIRE UN STAGE*</pattern>
+    <template>Pour la première année de master à partir de début Avril jusqu'à fin Aout, La deuxième année de Fevrier à fin Aout et pour la licence de début Juin à Aout </template>
+</category>
+<category>
+	 <pattern>QUELLE EST LA DUREE D UN STAGE*</pattern>
+    <template>Concernant les stages , ils sont obligatoire en première et deuxième année de master pour une periode de 4-5 mois en 1ere Année et 6 mois en 2e année, ils font l'objet d'une
+    évaluation lors du cursus, cependant le stage de licence est facultatif mais un créneau lui est réservé d'une durée de un mois (sans compter les grandes vacances).</template>
+</category>
+<category>
+    	<pattern>EST CE QUE LES STAGES SONT OBLIGATOIRES*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+    <pattern>EST CE QU IL Y A UN STAGE EN LICENCE*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+    	<pattern>EST CE QU IL Y A UN STAGE EN L3*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+      <pattern>EST CE QU IL Y A UN STAGE EN MASTER*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+	<pattern>EST CE QU IL Y A UN STAGE EN M1*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+      <pattern>EST CE QU IL Y A UN STAGE EN MASTER*</pattern>
+    <template><srai>QUELLE EST LA DUREE D UN STAGE*</srai></template>
+</category>
+<category>
+   	<pattern>EST CE QU IL Y A UN STAGE EN M2*</pattern>
+    <template>Le tuteur va vous encadrer durant toute la durée de votre stage.</template>
+</category>
+<category>
+    <pattern>OU PEUT T ON FAIRE UN STAGE*</pattern>
+    <template>On peut réaliser son stage en laboratoire ou en entreprise.</template>
+</category>
+<category>
+    <pattern>EST CE QUE AIRBUS PREND DES STAGIAIRES*</pattern>
+    <template>Sans doute. Il faut voir si il y a des offres de stage correspondant à vos compétances.</template>
+</category>
+</aiml>

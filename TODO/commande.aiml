@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <category>
-    <pattern>QU EST CE QUE LE *</pattern>
+    <pattern>RECHERCHE *</pattern>
     <template>[search] <star/></template>
 </category>
 <category>
-    <pattern>QU EST CE QUE LA *</pattern>
-    <template>[search] <star/></template>
+    <pattern>RECHERCHER *</pattern>
+    <template><srai>RECHERCHE <star/><srai/></template>
+</category>
+<category>
+    <pattern>QU EST CE QUE *</pattern>
+    <template><srai>RECHERCHE <star/><srai/></template>
 </category>
 <category>
     <pattern>QUELS SONT LES *</pattern>
-    <template>[search] <star/></template>
+    <template><srai>RECHERCHE <star/><srai/></template>
 </category>
 <category>
     <pattern>RECHERCHE LES *</pattern>
-    <template>[search] <star/></template>
-</category>
-<category>
-    <pattern>RECHERCHE LA *</pattern>
-    <template>[search] <star/></template>
-</category>
-<category>
-    <pattern>RECHERCHE LE *</pattern>
-    <template>[search] <star/></template>
+    <template><srai>RECHERCHE <star/><srai/></template>
 </category>
 </aiml>

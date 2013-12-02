@@ -1636,3 +1636,5 @@ Stack trace:
 [29-Nov-2013 10:50:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
 11/29/2013 10:51:09 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
 11/29/2013 10:51:09 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 16:59:29 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 16:59:29 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
