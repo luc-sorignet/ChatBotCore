@@ -48,73 +48,8 @@
     <template>to complete</template>
   </category>
   <category>
-    <pattern>est ce qu il y a une apres midi reservee au sport*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on a beaucoup de vacances*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on a beaucoup de cours par semaine*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on peut faire un stage a l étranger*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on peut faire un stage en laboratoire*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>a quelle periode commence t on les cours*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>quelle est duree d un stage*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on commence tot le matin*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>est ce qu on finit tard le soir*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>qu est ce que le PGE*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>a quelle periode doit-on faire un stage*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
     <pattern>*</pattern>
     <template>to complete</template>
   </category>
-  <category>
-    <pattern>*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <template>to complete</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <template>to complete</template>
-  </category>
-  
   
 </aiml>

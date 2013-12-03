@@ -204,6 +204,7 @@
     $item = "(" . str_replace(" ", "\s", $item) . ")";
     $item = str_replace("()", '', $item);
     $matchme = "/^" . $item . "$/ui";
+    //die($matchme);
     return $matchme;
   }
 
