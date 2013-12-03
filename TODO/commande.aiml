@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+    <pattern>RECHERCHE *</pattern>
+    <template>[search] <star/></template>
+</category>
+<category>
+    <pattern>RECHERCHER *</pattern>
+    <template>[search] <star/></template>
+</category>
+<category>
+    <pattern>QU EST CE QUE *</pattern>
+    <template>[search] <star/></template>
+</category>
+<category>
+    <pattern>QUELS SONT LES *</pattern>
+    <template>[search] <star/></template>
+</category>
+<category>
+    <pattern>RECHERCHE LES *</pattern>
+    <template>[search] <star/></template>
+</category>
+</aiml>

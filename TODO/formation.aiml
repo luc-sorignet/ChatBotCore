@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2013 rosn                                        -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 12-02-2013                                          -->
+<!--  file: formation.aiml                                              -->
+<aiml version="1.0">
+  <category>
+    <pattern>QU EST CE QUE SMI*</pattern>
+    <template>
+      <srai>QUEL EST LA FORMATION*</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QU EST CE QUE LE PGE*</pattern>
+    <template>Le PGE (Projet de Grande Envergure) permet de réunir les étudiants de deuxième année de master, afin de réaliser un projet défini par une entreprise.</template>
+  </category>
+  <category>
+    <pattern>QU EST CE QUE LE TER*</pattern>
+    <template>Le TER (Travail d'Etude et de Recherche) est un projet de première année de master. En groupe de trois à quatre personnes, le projet regroupe les connaissances acquises dans toutes les matières.  		Je suis moi-même issue d'un projet de TER.</template>
+  </category>
+  <category>
+    <pattern>QUEL EST LA FORMATION*</pattern>
+    <template>SMI (pour Systèmes et microsystèmes intelligents) est une formation de 3 ans (Licence3, Master1 et Master2) en informatique, électronique, informatique industrielle et automatique.    	La formation possède 2 spécialités: SIR (Systèmes Interactifs et Robotiques) et SME (Systèmes et Microsystèmes Embarqués).    	Pour plus d'informations sur la formation, [url=http%3A%2F%2Fmastersi.ups-tlse.fr%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D37%26Itemid%3D31]cliquez ici[/url].</template>
+  </category>
+  <category>
+    <pattern>C EST QUOI LA FORMATION*</pattern>
+    <template>
+      <srai>QUEL EST LA FORMATION*</srai>
+    </template>
+  </category>
+</aiml>

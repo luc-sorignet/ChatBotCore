@@ -1,0 +1,339 @@
+28-11-2013 21:46:08.834807[0][2] - Elapsed: 0.2229 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+28-11-2013 21:46:08.839101[2][2] - Elapsed: 4.2951 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.839353[2][2] - Elapsed: 0.2539 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+28-11-2013 21:46:08.839694[2][2] - Elapsed: 0.3421 milliseconds
+[spell_checker.php][run_spell_checker_say][35]
+Starting function and setting timestamp. 
+-----------------------
+28-11-2013 21:46:08.839743[2][2] - Elapsed: 0.0489 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on test. 
+-----------------------
+28-11-2013 21:46:08.83988[2][2] - Elapsed: 0.1359 milliseconds
+[spell_checker.php][load_spelling_list][115]
+Loading the spellcheck list from the DB. 
+-----------------------
+28-11-2013 21:46:08.839922[2][2] - Elapsed: 0.0432 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.841721[2][2] - Elapsed: 1.7979 milliseconds
+[conversation_start.php][Called outside of function][119]
+Details:
+User say: test
+Convo id: 365f7b302f8138d3573d622c0321acfa
+Bot id: 1
+Format: html 
+-----------------------
+28-11-2013 21:46:08.841784[2][2] - Elapsed: 0.0641 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.841972[2][2] - Elapsed: 0.186 milliseconds
+[intialise_conversation.php][check_set_bot][453]
+Checking and/or setting the current bot. 
+-----------------------
+28-11-2013 21:46:08.842042[2][2] - Elapsed: 0.072 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.842237[2][2] - Elapsed: 0.1938 milliseconds
+[intialise_conversation.php][check_set_bot][482]
+BOT ID: 1 
+-----------------------
+28-11-2013 21:46:08.84229[2][2] - Elapsed: 0.0541 milliseconds
+[intialise_conversation.php][check_set_user][534]
+Checking and setting the user info, as needed. 
+-----------------------
+28-11-2013 21:46:08.842488[2][2] - Elapsed: 0.1979 milliseconds
+[intialise_conversation.php][load_that][609]
+Loading the THAT array. 
+-----------------------
+28-11-2013 21:46:08.842539[2][2] - Elapsed: 0.051 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.842756[1][2] - Elapsed: 0.216 milliseconds
+[intialise_conversation.php][load_that][630]
+Inputs returned:Array
+(
+    [0] => test
+    [1] => quelles sont les matières enseignées?
+)
+ 
+-----------------------
+28-11-2013 21:46:08.842837[2][2] - Elapsed: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.842999[2][2] - Elapsed: 0.1609 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' to the front of the [that] array 
+-----------------------
+28-11-2013 21:46:08.843198[2][2] - Elapsed: 0.1991 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.843331[2][2] - Elapsed: 0.134 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' to the front of the [that] array 
+-----------------------
+28-11-2013 21:46:08.843516[2][2] - Elapsed: 0.185 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.843643[2][2] - Elapsed: 0.1271 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'QUELLES SONT LES MATIÈRES ENSEIGNÉES' to the front of the [input] array 
+-----------------------
+28-11-2013 21:46:08.843753[2][2] - Elapsed: 0.109 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.843861[2][2] - Elapsed: 0.109 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'TEST' to the front of the [input] array 
+-----------------------
+28-11-2013 21:46:08.846492[2][2] - Elapsed: 2.6281 milliseconds
+[intialise_conversation.php][load_bot_config][305]
+Loading config data for the current bot. 
+-----------------------
+28-11-2013 21:46:08.846831[0][2] - Elapsed: 0.3409 milliseconds
+[conversation_start.php][Called outside of function][134]
+Debug level = 2 
+-----------------------
+28-11-2013 21:46:08.846884[0][2] - Elapsed: 0.0541 milliseconds
+[conversation_start.php][Called outside of function][136]
+Debug level = 2 
+-----------------------
+28-11-2013 21:46:08.84694[2][2] - Elapsed: 0.0558 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'test' to the front of the [user_say] array 
+-----------------------
+28-11-2013 21:46:08.847068[2][2] - Elapsed: 0.128 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'test' to the front of the [input] array 
+-----------------------
+28-11-2013 21:46:08.847248[2][2] - Elapsed: 0.1791 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.84749[2][2] - Elapsed: 0.242 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.84769[2][2] - Elapsed: 0.1991 milliseconds
+[find_aiml.php][find_userdefined_aiml][669]
+User defined rows found: '0' 
+-----------------------
+28-11-2013 21:46:08.847805[2][2] - Elapsed: 0.1159 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.848117[2][2] - Elapsed: 0.3121 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.848502[1][2] - Elapsed: 0.385 milliseconds
+[find_aiml.php][find_aiml_matches][848]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+28-11-2013 21:46:08.848604[1][2] - Elapsed: 0.102 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][111]
+Returning error as no results where found 
+-----------------------
+28-11-2013 21:46:08.849353[2][2] - Elapsed: 0.7489 milliseconds
+[find_aiml.php][get_winning_category][516]
+And the winner is... -1! 
+-----------------------
+28-11-2013 21:46:08.849586[2][2] - Elapsed: 0.2329 milliseconds
+[find_aiml.php][get_highest_scoring_row][503]
+Will use randomly picked best response chosen out of 1 responses with same score: -1 - no results 
+-----------------------
+28-11-2013 21:46:08.849672[2][2] - Elapsed: 0.087 milliseconds
+[parse_aiml.php][set_wildcards][271]
+Setting Wildcards 
+-----------------------
+28-11-2013 21:46:08.849761[2][2] - Elapsed: 0.088 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+28-11-2013 21:46:08.849807[2][2] - Elapsed: 0.0472 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][47]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+28-11-2013 21:46:08.849947[2][2] - Elapsed: 0.139 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 21:46:08.850094[2][2] - Elapsed: 0.1469 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][104]
+Recursively parsing the AIML template. 
+-----------------------
+28-11-2013 21:46:08.850214[2][2] - Elapsed: 0.1199 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][155]
+Parsing a TEXT tag. 
+-----------------------
+28-11-2013 21:46:08.850285[2][2] - Elapsed: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.850376[2][2] - Elapsed: 0.0911 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-11-2013 21:46:08.850487[2][2] - Elapsed: 0.1099 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that_raw] array 
+-----------------------
+28-11-2013 21:46:08.850635[2][2] - Elapsed: 0.1471 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [that] array 
+-----------------------
+28-11-2013 21:46:08.850911[2][2] - Elapsed: 0.2761 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [parsed_template] array 
+-----------------------
+28-11-2013 21:46:08.851027[2][2] - Elapsed: 0.1168 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'No AIML category found. This is a Default Response.' to the front of the [template] array 
+-----------------------
+28-11-2013 21:46:08.851153[2][2] - Elapsed: 0.1252 milliseconds
+[intialise_conversation.php][log_conversation][357]
+Saving the conversation to the DB. 
+-----------------------
+28-11-2013 21:46:08.851222[2][2] - Elapsed: 0.0699 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.851481[2][2] - Elapsed: 0.258 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.851696[2][2] - Elapsed: 0.2151 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.851948[2][2] - Elapsed: 0.252 milliseconds
+[display_conversation.php][get_conversation_to_display][63]
+Found '1' lines of conversation 
+-----------------------
+28-11-2013 21:46:08.852065[2][2] - Elapsed: 0.118 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 21:46:08.854013[2][2] - Elapsed: 1.9481 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+28-11-2013 21:46:08.854062[2][2] - Elapsed: 0.0489 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+28-11-2013 21:46:08.854188[0][2] - Elapsed: 0.1249 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time: 19.4199 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => 365f7b302f8138d3573d622c0321acfa
+            [bot_name] => JARVIS
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 11
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => luc.sorignet@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => THIS IS A DEFAULT RESPONSE
+                    [2] => NO AIML CATEGORY FOUND
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => test
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => test
+            [lookingfor] => TEST
+            [pattern] => no results
+            [thatpattern] => 
+            [topic] => 
+            [score] => 510
+            [aiml_id] => -1
+            [parsed_template] => No AIML category found. This is a Default Response.
+        )
+
+    [user_say] => Array
+        (
+            [1] => test
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => This is a Default Response.
+                    [3] => No AIML category found.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => No AIML category found. This is a Default Response.
+        )
+
+)

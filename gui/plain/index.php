@@ -44,11 +44,9 @@
   </head>
   <body onload="document.getElementById('say').focus()">
   <div class="container">
-    <div class="page-header">
-      <h3>J.A.R.V.I.S.</h3>
-   
-    </div>
-       <img src="http://lorempixel.com/750/250/technics">
+ 
+    <embed src="jarvis.swf" width="750 " height="250">
+       
     <form class="form" method="get" action="index.php#end">
       <div id="input">
         <label for="say">Question:</label>

@@ -1,0 +1,120 @@
+28-11-2013 18:07:14.278546[0][2] - Elapsed: 22.0461 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+28-11-2013 18:07:14.400395[1][2] - Elapsed: 121.8669 milliseconds
+[db_functions.php][Called outside of function][29]
+PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29 
+-----------------------
+28-11-2013 18:07:14.405062[2][2] - Elapsed: 4.6701 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+28-11-2013 18:07:14.43013[1][2] - Elapsed: 25.0659 milliseconds
+[db_functions.php][Called outside of function][57]
+PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57 
+-----------------------
+28-11-2013 18:07:14.430311[1][2] - Elapsed: 0.1831 milliseconds
+[intialise_conversation.php][Called outside of function][106]
+PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106 
+-----------------------
+28-11-2013 18:07:14.430616[1][2] - Elapsed: 0.3049 milliseconds
+[intialise_conversation.php][Called outside of function][110]
+PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110 
+-----------------------
+28-11-2013 18:07:14.430933[2][2] - Elapsed: 0.3169 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+28-11-2013 18:07:14.445243[2][2] - Elapsed: 14.3092 milliseconds
+[conversation_start.php][Called outside of function][168]
+Conversation intialised waiting user 
+-----------------------
+28-11-2013 18:07:14.445295[2][2] - Elapsed: 0.0539 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+28-11-2013 18:07:14.445329[2][2] - Elapsed: 0.0341 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+28-11-2013 18:07:14.44545[1][2] - Elapsed: 0.1209 milliseconds
+[display_conversation.php][Called outside of function][193]
+PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193 
+-----------------------
+28-11-2013 18:07:14.445605[1][2] - Elapsed: 0.154 milliseconds
+[conversation_start.php][Called outside of function][173]
+PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173 
+-----------------------
+28-11-2013 18:07:14.44592[0][2] - Elapsed: 0.315 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time:  milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => 
+            [lookingfor] => 
+            [pattern] => 
+            [thatpattern] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+        )
+
+)

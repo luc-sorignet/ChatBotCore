@@ -26,7 +26,7 @@
     <template>On peut rentrer dans la formation SMI aprés un BAC+2 orienté Informatique Automatique ou Electronique</template>
   </category>
   <category>
-    <pattern>est-ce que l anglais est obligatoire*</pattern>
+    <pattern>est ce que l anglais est obligatoire*</pattern>
     <template>L'anglais devient une partie importante de la formation ingénieur, un ingénieur risque de devoir travailler avec des personnes étrangère et donc communiquer en anglais. C'est pour cela que les formation de L'UPSSITECH mettent en application des cours d'anglais orientés pour entreprise ou recherche scientifique (Redaction de CV, Entretien, Projet Scientifique...) </template>
   </category>
   <category>

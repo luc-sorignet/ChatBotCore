@@ -11,11 +11,11 @@
   $get_vars = filter_input_array(INPUT_GET);
 
 
-  if((isset($post_vars['action']))&&($post_vars['action']=="search")) {
+  if((isset($post_vars['action']))&&($post_vars['action']=="Search")) {
     $mainContent = $template->getSection('SearchAIMLForm');
     $mainContent .= runSearch();
   }
-  elseif((isset($post_vars['action']))&&($post_vars['action']=="update")) {
+  elseif((isset($post_vars['action']))&&($post_vars['action']=="Update")) {
     $mainContent = $template->getSection('SearchAIMLForm');
     $mainContent .= updateAIML();
   }
@@ -91,7 +91,7 @@
       $sql = str_replace('[searchTerms]', $searchTerms, $sql);
       if (($result = mysql_query($sql, $dbConn)) === false) throw new Exception('You have a SQL error on line '. __LINE__ . ' of ' . __FILE__ . '. Error message is: ' . mysql_error() . ".<br />\nSQL = $sql<br />\n");
       $htmltbl = <<<endtHead
-          <table width="99%" border="1" cellpadding="1" cellspacing="1">
+          <table class="table" width="99%" border="1" cellpadding="1" cellspacing="1">
             <thead>
               <tr>
                 <th class="sortable">Topic</th>
