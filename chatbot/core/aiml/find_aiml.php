@@ -198,13 +198,17 @@
   function match_wildcard_rows($item)
   {
     $item = trim($item);
+    $item = str_replace(" *", "*", $item);
+	$item = str_replace("* ", "*", $item);
     $item = str_replace("*", ")(.*)(", $item);
+    $item = str_replace(" _", "_", $item);
+    $item = str_replace("_ ", "_", $item);
     $item = str_replace("_", ")(.*)(", $item);
     $item = str_replace("+", "\+", $item);
     $item = "(" . str_replace(" ", "\s", $item) . ")";
     $item = str_replace("()", '', $item);
     $matchme = "/^" . $item . "$/ui";
-    //die($matchme);
+    print_r($matchme);echo"\n";
     return $matchme;
   }
 

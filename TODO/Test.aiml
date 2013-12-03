@@ -6,71 +6,18 @@
 <!--  file: jurons.aiml                                                 -->
 <aiml version="1.0">
 	
-<<<<<<< HEAD
 	
-	<category>
-		<pattern>tu</pattern>
-		<template><srai>XMOI</srai></template>
-	</category>
-	<category>
-		<pattern>tu _</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ tu</pattern>
-		<template><srai><star/>XMOI</srai></template>
-	</category>
 	<category>
 		<pattern>_ tu _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
-	
-	<category>
-		<pattern>ton</pattern>
-		<template><srai>XMOI</srai></template>
-	</category>
-	<category>
-		<pattern>ton _</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ ton</pattern>
-		<template><srai><star/>XMOI</srai></template>
-	</category>
 	<category>
 		<pattern>_ ton _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>jarvis</pattern>
-		<template><srai>XMOI</srai></template>
-	</category>
-	<category>
-		<pattern>jarvis _</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ jarvis</pattern>
-		<template><srai><star/>XMOI</srai></template>
-	</category>
+	</category>	
 	<category>
 		<pattern>_ jarvis _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
-	</category>
-	
-	
-	<category>
-		<pattern>votre</pattern>
-		<template><srai>XMOI</srai></template>
-	</category>
-	<category>
-		<pattern>votre _</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ votre</pattern>
-		<template><srai><star/>XMOI</srai></template>
 	</category>
 	<category>
 		<pattern>_ votre _</pattern>
@@ -78,40 +25,16 @@
 	</category>
 	
 	
-	
-	
-	<category>
-		<pattern>nom</pattern>
-		<template><srai>XNOM</srai></template>
-	</category>
-	<category>
-		<pattern>nom _</pattern>
-		<template><srai>XNOM<star/></srai></template>
-	</category>
+
 	<category>
 		<pattern>_ nom</pattern>
 		<template><srai><star/>XNOM</srai></template>
 	</category>
-	<category>
-		<pattern>_ nom _</pattern>
-		<template><srai><star/>XNOM<star index="2"/></srai></template>
-	</category>
 	
 	
+
 	<category>
-		<pattern>Appelle</pattern>
-		<template><srai>XNOM</srai></template>
-	</category>
-	<category>
-		<pattern> Appelle _</pattern>
-		<template><srai>XNOM<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ Appelle</pattern>
-		<template><srai><star/>XNOM</srai></template>
-	</category>
-	<category>
-		<pattern>_ Appelle _</pattern>
+		<pattern>_ appelle _</pattern>
 		<template><srai><star/>XNOM<star index="2"/></srai></template>
 	</category>
 	
@@ -141,11 +64,11 @@
 	-->
 	
 	<category>
-		<pattern>est ce que _</pattern>
+		<pattern>_ est ce que _</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
-		<pattern>comment _</pattern>
+		<pattern>_ comment _</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
@@ -153,7 +76,7 @@
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
-		<pattern>combien _</pattern>
+		<pattern>_ combien _</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	
@@ -162,7 +85,7 @@
 	
 	
 	<category>
-		<pattern>XWHICH _ XNOM _</pattern>
+		<pattern>_ XWHICH _ XNOM _</pattern>
 		<template><srai><star/>XWHO<star index="2"/></srai></template>
 	</category>
 	<category>
@@ -177,7 +100,7 @@
 	
 	
 	<category>
-		<pattern>XHOW _ XNOM _</pattern>
+		<pattern>_ XHOW _ XNOM _</pattern>
 		<template><srai>XWHO<star/><star index="2"/></srai></template>
 	</category>
 	<category>
@@ -238,7 +161,7 @@
 	</category>
 	
 	-->
-	<!--
+	
 	<category>
 		<pattern>XQUESTION XMOI * XNOM</pattern>
 		<template>JARVIS</template>
@@ -251,7 +174,7 @@
 		<pattern>XQUESTION * XNOM XMOI</pattern>
 		<template>JARVIS</template>
 	</category>
-	-->
+	
 	
 	<!--
 	<category>
@@ -272,171 +195,6 @@
 		<template>JARVIS</template>
 	</category>
 	-->
-=======
-	<!--
-	<category>
-		<pattern> tu </pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>* tu *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>tu *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>* tu</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>tu</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>* jarvis *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>jarvis *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>* jarvis</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>jarvis</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>* votre *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>votre *</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>* votre</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>votre</pattern>
-		<template><srai>MOI<star/></srai></template>
-	</category>
-	-->
-	<!--
-	
-	<category>
-		<pattern>_nom*</pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern> nom *</pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern>_ nom </pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern> nom </pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	
-	<category>
-		<pattern>_ Appelle *</pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern> Appelle *</pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern>_ Appelle</pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	<category>
-		<pattern> Appelle </pattern>
-		<template><srai>NOM</srai></template>
-	</category>
-	
-	-->
-	<!-- Definition d'une question -->
-	
-	<category>
-		<pattern>est ce que *</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>comment *</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>quel est *</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>combien *</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
-	</category>
-	
-	<category>
-		<pattern>_ ton *</pattern>
-		<template><srai><star/>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>ton *</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>_ ton</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	<category>
-		<pattern>ton</pattern>
-		<template><srai>XMOI<star/></srai></template>
-	</category>
-	
-	<!--Reponses-->
-	<!--
-	<category>
-		<pattern>XQUESTION *</pattern>
-		<template>Desole je ne connais pas encore la reponse je vais aller demander revenez plus tard, je l'aurais surement.</template>
-	</category>
-	<category>
-		<pattern>XQUESTION * MOI * NOM</pattern>
-		<template>JARVIS</template>
-	</category>
-	-->
-	<category>
-		<pattern>nom XMOI</pattern>
-		<template>JARVIS</template>
-	</category>
-	
-	
-	<category>
-		<pattern>XMOI nom</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>bla XMOI nom</pattern>
-		<template>JARVIS</template>
-	</category>
-	
-	<category>
-		<pattern>XQUESTION XMOI nom</pattern>
-		<template>JARVIS</template>
-	</category>
-	
->>>>>>> be95dba253d09d25df31a79c2e3e4090ce77512e
 	
 	
 </aiml>
