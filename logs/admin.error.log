@@ -75,6 +75,7 @@
 [27-Nov-2013 16:57:47 UTC] PHP Stack trace:
 [27-Nov-2013 16:57:47 UTC] PHP   1. {main}() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\admin\index.php:0
 [27-Nov-2013 16:57:47 UTC] PHP   2. mysql_close() D:\Users\Luc Sorignet\Documents\WORK\www\ChatBotCore\admin\index.php:139
+<<<<<<< HEAD
 [28-Nov-2013 15:22:00 Europe/Berlin] PHP Notice:  Not sure what it is, but there's a problem with checking the current version on GitHub. Maybe this will help: "Couldn't resolve host 'api.github.com'" in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php on line 547
 [28-Nov-2013 15:22:03 Europe/Berlin] PHP Notice:  Not sure what it is, but there's a problem with checking the current version on GitHub. Maybe this will help: "Couldn't resolve host 'api.github.com'" in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php on line 547
 [28-Nov-2013 15:22:06 Europe/Berlin] PHP Notice:  Not sure what it is, but there's a problem with checking the current version on GitHub. Maybe this will help: "Couldn't resolve host 'api.github.com'" in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php on line 547
@@ -89,3 +90,67 @@
 [02-Dec-2013 18:09:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/spellcheck.php on line 106
 [02-Dec-2013 18:09:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/wordcensor.php on line 105
 [02-Dec-2013 18:09:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/spellcheck.php on line 106
+=======
+[28-Nov-2013 18:18:46 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on line 29
+[02-Dec-2013 17:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 17:07:12 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 21:45:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 21:57:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:12:03 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:16:49 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:17:53 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:18:32 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:18:50 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:18:54 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:19:03 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:20:30 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:21:08 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:21:16 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:21:21 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:25:23 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:26:21 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:30:38 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:37 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:41 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:45 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:54 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:58 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:31:58 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:32:38 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:32:43 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:32:44 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:32:47 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:32:49 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:32:49 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:35:28 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:35:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:35:34 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:35:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:36:57 Europe/Berlin] PHP Notice:  Undefined index: content in /Users/stitchsori/Developpement/www/ChatBotCore/admin/index.php on line 551
+[02-Dec-2013 22:36:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:39:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:39:50 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:40:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:40:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:41:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:41:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:41:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:41:32 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:41:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:42:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:43:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:47:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:47:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+[02-Dec-2013 22:47:11 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:48:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:48:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:48:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:48:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:48:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:49:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:51:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:51:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:51:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/spellcheck.php on line 106
+[02-Dec-2013 22:52:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stitchsori/Developpement/www/ChatBotCore/admin/wordcensor.php on line 105
+>>>>>>> be95dba253d09d25df31a79c2e3e4090ce77512e

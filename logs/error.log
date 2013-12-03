@@ -1472,6 +1472,7 @@ SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' i
 11/28/2013 10:21:19 - PHP ERROR [Notice] -Couldn't close the DB. Error = Access denied for user ''@'localhost' to database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on Line 42
 11/28/2013 10:33:30 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
 11/28/2013 10:33:30 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
+<<<<<<< HEAD
 11/29/2013 22:15:13 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
 11/29/2013 22:15:13 - PHP ERROR [Notice] -Undefined variable: time in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/conversation_start.php on Line 173
 11/29/2013 22:15:30 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
@@ -1552,3 +1553,201 @@ SQL = SELECT * FROM `jarvis`.`wordcensor` WHERE `bot_exclude` NOT LIKE '%[1]%' i
 12/03/2013 10:48:05 - PHP ERROR [Warning] -preg_match(): Compilation failed: nothing to repeat at offset 6 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 161
 12/03/2013 10:48:05 - PHP ERROR [Warning] -preg_match(): Compilation failed: nothing to repeat at offset 6 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 161
 12/03/2013 10:48:05 - PHP ERROR [Warning] -preg_match(): Compilation failed: nothing to repeat at offset 6 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on Line 161
+=======
+11/28/2013 18:07:14 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:07:14 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:07:14 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:07:14 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:07:14 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:07:14 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:13:01 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:13:01 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:13:01 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:13:01 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:13:01 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:13:01 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:17:11 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:17:11 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:17:11 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:17:11 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:17:11 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:17:11 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:18:16 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:18:16 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:16 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.spellcheck' doesn't exist
+SQL = SELECT `missspelling`, `correction` FROM `ChatBot`.`spellcheck`; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 120
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 129
+11/28/2013 18:18:16 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:16 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.bots' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1' and `bot_active`='1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 490
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 543
+11/28/2013 18:18:16 - PHP ERROR [Notice] -Error trying to add user. Error = Table 'ChatBot.users' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 99
+11/28/2013 18:18:16 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Table 'ChatBot.client_properties' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 110
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 555
+11/28/2013 18:18:16 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.conversation_log' doesn't exist
+SQL = select `input`, `response` from `ChatBot`.`conversation_log` where `user_id` = 0 and `bot_id` = 1 order by `id` desc limit 10; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:16 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 663
+[28-Nov-2013 18:18:16 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have a SQL error on line 310 of /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php. Error message is: Table 'ChatBot.bots' doesn't exist.<br />
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1'<br />
+' in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php:310
+Stack trace:
+#0 /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php(132): load_bot_config(Array)
+#1 /Users/stitchsori/Developpement/www/ChatBotCore/gui/plain/index.php(16): require_once('/Users/stitchso...')
+#2 {main}
+  thrown in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on line 310
+11/28/2013 18:18:23 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:18:23 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:23 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.spellcheck' doesn't exist
+SQL = SELECT `missspelling`, `correction` FROM `ChatBot`.`spellcheck`; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 120
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 129
+11/28/2013 18:18:23 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:23 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.bots' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1' and `bot_active`='1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 490
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 543
+11/28/2013 18:18:23 - PHP ERROR [Notice] -Error trying to add user. Error = Table 'ChatBot.users' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 99
+11/28/2013 18:18:23 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Table 'ChatBot.client_properties' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 110
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 555
+11/28/2013 18:18:23 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.conversation_log' doesn't exist
+SQL = select `input`, `response` from `ChatBot`.`conversation_log` where `user_id` = 0 and `bot_id` = 1 order by `id` desc limit 10; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:23 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 663
+[28-Nov-2013 18:18:23 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have a SQL error on line 310 of /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php. Error message is: Table 'ChatBot.bots' doesn't exist.<br />
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1'<br />
+' in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php:310
+Stack trace:
+#0 /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php(132): load_bot_config(Array)
+#1 /Users/stitchsori/Developpement/www/ChatBotCore/gui/plain/index.php(16): require_once('/Users/stitchso...')
+#2 {main}
+  thrown in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on line 310
+11/28/2013 18:18:26 - PHP ERROR [Notice] -Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 29
+11/28/2013 18:18:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.spellcheck' doesn't exist
+SQL = SELECT `missspelling`, `correction` FROM `ChatBot`.`spellcheck`; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 120
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/spell_checker/spell_checker.php on Line 129
+11/28/2013 18:18:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.botpersonality' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`botpersonality` WHERE `bot_id` = '1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 106
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 110
+11/28/2013 18:18:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.bots' doesn't exist
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1' and `bot_active`='1' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 490
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_num_rows() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 543
+11/28/2013 18:18:26 - PHP ERROR [Notice] -Error trying to add user. Error = Table 'ChatBot.users' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 99
+11/28/2013 18:18:26 - PHP ERROR [Notice] -Error trying to add username to client properties. Error = Table 'ChatBot.client_properties' doesn't exist in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/user/handle_user.php on Line 110
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 555
+11/28/2013 18:18:26 - PHP ERROR [Notice] -There was a problem with the following SQL query. Error = Table 'ChatBot.conversation_log' doesn't exist
+SQL = select `input`, `response` from `ChatBot`.`conversation_log` where `user_id` = 0 and `bot_id` = 1 order by `id` desc limit 10; in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on Line 57
+11/28/2013 18:18:26 - PHP ERROR [Warning] -mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on Line 663
+[28-Nov-2013 18:18:26 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have a SQL error on line 310 of /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php. Error message is: Table 'ChatBot.bots' doesn't exist.<br />
+SQL = SELECT * FROM `ChatBot`.`bots` WHERE bot_id = '1'<br />
+' in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php:310
+Stack trace:
+#0 /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php(132): load_bot_config(Array)
+#1 /Users/stitchsori/Developpement/www/ChatBotCore/gui/plain/index.php(16): require_once('/Users/stitchso...')
+#2 {main}
+  thrown in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/intialise_conversation.php on line 310
+11/28/2013 18:20:13 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:20:13 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:34:43 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:01 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:24 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:49 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:35:55 - PHP ERROR [Notice] -Undefined index: conv in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:41:42 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:41:42 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:46:39 - PHP ERROR [Notice] -Undefined index: bot_name in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 18:46:42 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 193
+11/28/2013 18:46:42 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 18:47:03 - PHP ERROR [Notice] -Undefined index: name in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 10
+11/28/2013 21:41:48 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:41:48 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:42:45 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:42:45 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:42:53 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:42:53 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:43:05 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:43:05 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:44:23 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:44:23 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/28/2013 21:44:52 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 09:29:50 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/29/2013 09:29:50 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 09:34:22 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:41 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:44 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:34:45 - PHP ERROR [Notice] -Undefined variable: mon_url in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 24
+11/29/2013 09:38:37 - PHP ERROR [Unknown] -Object of class stdClass could not be converted to string in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 14
+11/29/2013 10:05:07 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 194
+11/29/2013 10:05:07 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 10:19:40 - PHP ERROR [Notice] -Array to string conversion in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 17
+[29-Nov-2013 10:28:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 15
+11/29/2013 10:28:58 - PHP ERROR [Notice] -Trying to get property of non-object in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 40
+11/29/2013 10:28:58 - PHP ERROR [Notice] -Trying to get property of non-object in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 40
+11/29/2013 10:28:58 - PHP ERROR [Warning] -Invalid argument supplied for foreach() in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 44
+11/29/2013 10:44:28 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+11/29/2013 10:44:28 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+11/29/2013 10:44:33 - PHP ERROR [Notice] -Undefined offset: 1 in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on Line 16
+[29-Nov-2013 10:50:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+[29-Nov-2013 10:50:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+[29-Nov-2013 10:50:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+[29-Nov-2013 10:50:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+[29-Nov-2013 10:50:56 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+[29-Nov-2013 10:50:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/addons/actionCommand/actionCommand.php on line 61
+11/29/2013 10:51:09 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+11/29/2013 10:51:09 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 16:59:29 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 16:59:29 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 17:07:19 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 17:07:19 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 17:07:32 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 17:07:32 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:37:27 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:37:27 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:37:59 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:37:59 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:38:06 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:38:06 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:39:57 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:39:57 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:40:59 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:40:59 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:42:46 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:42:46 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:43:20 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:43:20 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:44:36 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:44:36 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 21:45:08 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 21:45:08 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 22:11:41 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 22:11:41 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 22:11:58 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 22:11:58 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 22:32:45 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 22:32:45 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+12/02/2013 22:42:05 - PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195
+12/02/2013 22:42:05 - PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173
+>>>>>>> be95dba253d09d25df31a79c2e3e4090ce77512e

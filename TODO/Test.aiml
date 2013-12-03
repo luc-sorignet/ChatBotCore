@@ -6,6 +6,7 @@
 <!--  file: jurons.aiml                                                 -->
 <aiml version="1.0">
 	
+<<<<<<< HEAD
 	
 	<category>
 		<pattern>tu</pattern>
@@ -271,6 +272,171 @@
 		<template>JARVIS</template>
 	</category>
 	-->
+=======
+	<!--
+	<category>
+		<pattern> tu </pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>* tu *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>tu *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>* tu</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>tu</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>* jarvis *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>jarvis *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>* jarvis</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>jarvis</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>* votre *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>votre *</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>* votre</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>votre</pattern>
+		<template><srai>MOI<star/></srai></template>
+	</category>
+	-->
+	<!--
+	
+	<category>
+		<pattern>_nom*</pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern> nom *</pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern>_ nom </pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern> nom </pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	
+	<category>
+		<pattern>_ Appelle *</pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern> Appelle *</pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern>_ Appelle</pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	<category>
+		<pattern> Appelle </pattern>
+		<template><srai>NOM</srai></template>
+	</category>
+	
+	-->
+	<!-- Definition d'une question -->
+	
+	<category>
+		<pattern>est ce que *</pattern>
+		<template><srai>XQUESTION<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>comment *</pattern>
+		<template><srai>XQUESTION<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>quel est *</pattern>
+		<template><srai>XQUESTION<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>combien *</pattern>
+		<template><srai>XQUESTION<star/></srai></template>
+	</category>
+	
+	<category>
+		<pattern>_ ton *</pattern>
+		<template><srai><star/>XMOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>ton *</pattern>
+		<template><srai>XMOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>_ ton</pattern>
+		<template><srai>XMOI<star/></srai></template>
+	</category>
+	<category>
+		<pattern>ton</pattern>
+		<template><srai>XMOI<star/></srai></template>
+	</category>
+	
+	<!--Reponses-->
+	<!--
+	<category>
+		<pattern>XQUESTION *</pattern>
+		<template>Desole je ne connais pas encore la reponse je vais aller demander revenez plus tard, je l'aurais surement.</template>
+	</category>
+	<category>
+		<pattern>XQUESTION * MOI * NOM</pattern>
+		<template>JARVIS</template>
+	</category>
+	-->
+	<category>
+		<pattern>nom XMOI</pattern>
+		<template>JARVIS</template>
+	</category>
+	
+	
+	<category>
+		<pattern>XMOI nom</pattern>
+		<template>JARVIS</template>
+	</category>
+	<category>
+		<pattern>bla XMOI nom</pattern>
+		<template>JARVIS</template>
+	</category>
+	
+	<category>
+		<pattern>XQUESTION XMOI nom</pattern>
+		<template>JARVIS</template>
+	</category>
+	
+>>>>>>> be95dba253d09d25df31a79c2e3e4090ce77512e
 	
 	
 </aiml>
