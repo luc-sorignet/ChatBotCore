@@ -40,7 +40,7 @@
     <title>Jarvis</title>
     <meta name="Description" content="A Free Open Source AIML PHP MySQL Chatbot" />
     <meta name="keywords" content="Open Source, AIML, PHP, MySQL, Chatbot" />
-   
+    <link rel="icon" href="favicon.ico" />
   </head>
   <body onload="document.getElementById('say').focus()">
   <div class="container">
