@@ -696,6 +696,7 @@
     //if there is no match in the user defined aiml tbl
     if ((!isset ($allrows)) || (count($allrows) <= 0))
     {
+    echo "1<br/>";
     //look for a match in the normal aiml tbl
       $allrows = find_aiml_matches($convoArr);
       //unset all irrelvant matches

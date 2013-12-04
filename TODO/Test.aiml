@@ -8,33 +8,33 @@
 	
 	
 	<category>
-		<pattern>_tu_</pattern>
+		<pattern>_ tu _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	<category>
-		<pattern>_ton_</pattern>
+		<pattern>_ ton _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>	
 	<category>
-		<pattern>_jarvis_</pattern>
+		<pattern>_ jarvis _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	<category>
-		<pattern>_votre_</pattern>
+		<pattern>_ votre _</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	
 	
 
 	<category>
-		<pattern>_nom_</pattern>
-		<template><srai><star/>XNOM</srai></template>
+		<pattern>_ nom _</pattern>
+		<template><srai><star/>XNOM<star index='2'/></srai></template>
 	</category>
 	
 	
 
 	<category>
-		<pattern>_appelle_</pattern>
+		<pattern>_ appelle _</pattern>
 		<template><srai><star/>XNOM<star index="2"/></srai></template>
 	</category>
 	
@@ -65,19 +65,19 @@
 	
 	<category>
 		<pattern>_est ce que_</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
+		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
 	</category>
 	<category>
 		<pattern>_comment_</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
+		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
 	</category>
 	<category>
 		<pattern>_quel est_</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
+		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
 	</category>
 	<category>
 		<pattern>_combien_</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
+		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
 	</category>
 	
 	
@@ -159,9 +159,12 @@
 		<pattern>XMOI XWHO</pattern>
 		<template>JARVIS</template>
 	</category>
-	
 	-->
 	
+	<category>
+		<pattern>* XQUESTION *</pattern>
+		<template>JARVIS</template>
+	</category>
 	<category>
 		<pattern>* XQUESTION * XMOI * XNOM *</pattern>
 		<template>JARVIS</template>
