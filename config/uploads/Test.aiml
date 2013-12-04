@@ -9,33 +9,46 @@
 	
 	<category>
 		<pattern>_ tu _</pattern>
-		<template><srai><star/>XMOI<star index="2"/></srai></template>
+		<template><srai><star/>XMOIX<star index="2"/></srai></template>
 	</category>
 	<category>
 		<pattern>_ ton _</pattern>
-		<template><srai><star/>XMOI<star index="2"/></srai></template>
+		<template><srai><star/>XMOIX<star index="2"/></srai></template>
 	</category>	
 	<category>
 		<pattern>_ jarvis _</pattern>
-		<template><srai><star/>XMOI<star index="2"/></srai></template>
+		<template><srai><star/>XMOIX<star index="2"/></srai></template>
 	</category>
 	<category>
 		<pattern>_ votre _</pattern>
-		<template><srai><star/>XMOI<star index="2"/></srai></template>
+		<template><srai><star/>XMOIX<star index="2"/></srai></template>
 	</category>
 	
+
+	<category>
+		<pattern>_ je _</pattern>
+		<template><srai><star/>XTOIX<star index="2"/></srai></template>
+	</category>
+	<category>
+		<pattern>_ mon _</pattern>
+		<template><srai><star/>XTOIX<star index="2"/></srai></template>
+	</category>
 	
 
 	<category>
 		<pattern>_ nom _</pattern>
-		<template><srai><star/>XNOM<star index='2'/></srai></template>
+		<template><srai><star/>XNOMX<star index='2'/></srai></template>
 	</category>
 	
 	
 
 	<category>
 		<pattern>_ appelle _</pattern>
-		<template><srai><star/>XNOM<star index="2"/></srai></template>
+		<template><srai><star/>XNOMX<star index="2"/></srai></template>
+	</category>
+	<category>
+		<pattern>_ appelles _</pattern>
+		<template><srai><star/>XNOMX<star index="2"/></srai></template>
 	</category>
 	
 	
@@ -44,161 +57,44 @@
 	
 	
 <!-- Definition d'une question -->
-	<!--
-	<category>
-		<pattern>est ce que _</pattern>
-		<template><srai>XQUESTION<star/></srai></template>
-	</category>
-	<category>
-		<pattern>comment _</pattern>
-		<template><srai>XHOW<star/></srai></template>
-	</category>
-	<category>
-		<pattern>quel est _</pattern>
-		<template><srai>XWHICH<star/></srai></template>
-	</category>
-	<category>
-		<pattern>combien _</pattern>
-		<template><srai>XHOWMANY<star/></srai></template>
-	</category>
-	-->
 	
 	<category>
-		<pattern>_est ce que_</pattern>
-		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
+		<pattern>_ est ce que _</pattern>
+		<template><srai><star/>XWHATX<star index='2'/></srai></template>
 	</category>
 	<category>
-		<pattern>_comment_</pattern>
-		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
+		<pattern>_ comment _</pattern>
+		<template><srai><star/>XHOWX<star index='2'/></srai></template>
 	</category>
 	<category>
-		<pattern>_quel est_</pattern>
-		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
+		<pattern>_ quel est _</pattern>
+		<template><srai><star/>XWHICHX<star index='2'/></srai></template>
 	</category>
 	<category>
-		<pattern>_combien_</pattern>
-		<template><srai><star/>XQUESTION<star index ='2'/></srai></template>
+		<pattern>_ combien _</pattern>
+		<template><srai><star/>XHOWMANYX<star index='2'/></srai></template>
 	</category>
-	
-	
-	
-	
-	<!--
-	<category>
-		<pattern>_ XWHICH _ XNOM _</pattern>
-		<template><srai><star/>XWHO<star index="2"/></srai></template>
-	</category>
-	<category>
-		<pattern>XWHICH XNOM _</pattern>
-		<template><srai>XWHO<star/></srai></template>
-	</category>
-	<category>
-		<pattern>XWHICH _ XNOM</pattern>
-		<template><srai>XWHO<star/></srai></template>
-	</category>
-	
-	
+
 	
 	<category>
-		<pattern>_ XHOW _ XNOM _</pattern>
-		<template><srai>XWHO<star/><star index="2"/></srai></template>
+		<pattern>connais XMOIX _ XNOMX</pattern>
+		<template><srai>XWHOX<star/></srai></template>
 	</category>
 	<category>
-		<pattern>XHOW XNOM _</pattern>
-		<template><srai>XWHO<star/></srai></template>
+		<pattern>_ qui _</pattern>
+		<template><srai><star/>XWHOX<star index='2'/></srai></template>
 	</category>
 	<category>
-		<pattern>XHOW _ XNOM</pattern>
-		<template><srai>XWHO<star/></srai></template>
-	</category>
-	
-	-->
-	
-	
-<!--Reponses-->
-	
-	<!--
-	<category>
-		<pattern>XQUESTION *</pattern>
-		<template>Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.</template>
+		<pattern>_ XWHICHX _ XNOMX _</pattern>
+		<template><srai>XWHOX<star/><star index="2"/><star index="3"/></srai></template>
 	</category>
 	<category>
-		<pattern>XWHO XMOI</pattern>
-		<template>JARVIS</template>
+		<pattern>_ XHOWX _ XNOMX _</pattern>
+		<template><srai>XWHOX<star/><star index="2"/><star index="3"/></srai></template>
 	</category>
 	<category>
-		<pattern>XWHO * XMOI</pattern>
-		<template>JARVIS</template>
+		<pattern>_ XNOMX _ XHOWX _</pattern>
+		<template><srai>XWHOX<star/><star index="2"/><star index="3"/></srai></template>
 	</category>
-	<category>
-		<pattern>* XWHO * XMOI</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XWHO * XMOI *</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>* XWHO * XMOI *</pattern>
-		<template>JARVIS</template>
-	</category>
-	
-	<category>
-		<pattern>XMOI * XWHO</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XMOI XWHO</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XMOI * XWHO</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XMOI XWHO</pattern>
-		<template>JARVIS</template>
-	</category>
-	-->
-	
-	<category>
-		<pattern>* XQUESTION *</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>* XQUESTION * XMOI * XNOM *</pattern>
-		<template>JARVIS</template>
-	</category>
-	<!--
-	<category>
-		<pattern>XQUESTION * XNOM * XMOI</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XQUESTION * XNOM XMOI</pattern>
-		<template>JARVIS</template>
-	</category>
-	-->
-	
-	<!--
-	<category>
-		<pattern>XNOM XMOI</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>XMOI XNOM</pattern>
-		<template>JARVIS</template>
-	</category>
-	<category>
-		<pattern>bla XMOI XNOM</pattern>
-		<template>JARVIS</template>
-	</category>
-	
-	<category>
-		<pattern>XQUESTION XMOI XNOM</pattern>
-		<template>JARVIS</template>
-	</category>
-	-->
-	
 	
 </aiml>
