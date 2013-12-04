@@ -1,5 +1,5 @@
 <?php
-
+include'../debug.php';
   /***************************************
   * www.program-o.com
   * PROGRAM O
@@ -271,29 +271,24 @@
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Setting Wildcards", 2);
     $aiml_pattern = $convoArr['aiml']['pattern'];
     $ap = trim($aiml_pattern);
-
+/*
     $ap = str_replace("+", "\+", $ap);
-/*    $ap = str_replace(" * ", " (\S*) ", $ap);
+    $ap = str_replace(" * ", " (\S*) ", $ap);
     $ap = str_replace(" _ ", " (\S*) ", $ap);
     $ap = str_replace("* ", "(\S*) ", $ap);
     $ap = str_replace("_ ", "(\S*) ", $ap);
     $ap = str_replace(" *", " (.*)", $ap);
     $ap = str_replace(" _", " (.*)", $ap);
 */
-	$ap = str_replace(" * ", "(.*)", $ap);
-    $ap = str_replace(" _ ", "(.*)", $ap);
-	$ap = str_replace("* ", "(.*)", $ap);
-    $ap = str_replace("_ ", "(.*)", $ap);
-    $ap = str_replace(" *", "(.*)", $ap);
-    $ap = str_replace(" _", "(.*)", $ap);
-    
-    
+  
+
+	  $ap = str_replace("* ", "*", $ap);
+    $ap = str_replace("_ ", "_", $ap);
+    $ap = str_replace(" *", "*", $ap);
+    $ap = str_replace(" _", "_", $ap);    
     $ap = str_replace("*", "(.*)", $ap);
     $ap = str_replace("_", "(.*)", $ap);
-    $ap = str_replace("(\S(.*))", "(.*)", $ap);
-    $ap = str_replace("(.(.*))", "(.*)", $ap);
-    
-    echo "".$ap."<br/>";
+
     // Set pattern wildcards
     $pattern_wildcards = str_replace("_", "(.*)?", str_replace("*", "(.*)?", $aiml_pattern));
     if ($pattern_wildcards != $aiml_pattern)
@@ -331,13 +326,13 @@
     $tp = str_replace("*", "(.*)", $tp);
     $tp = str_replace("_", "(.*)", $tp);
 */
-/*    $tp = str_replace(" * ", " (\S*) ", $tp);
+   $tp = str_replace(" * ", " (\S*) ", $tp);
     $tp = str_replace(" _ ", " (\S*) ", $tp);
     $tp = str_replace("* ", "(\S*) ", $tp);
     $tp = str_replace("_ ", "(\S*) ", $tp);
     $tp = str_replace(" *", " (.*)", $tp);
     $tp = str_replace(" _", " (.*)", $tp);
-*/
+/*
 	$tp = str_replace(" * ", "(.*)", $tp);
     $tp = str_replace(" _ ", "(.*)", $tp);
 	$tp = str_replace("* ", "(.*)", $tp);
@@ -348,7 +343,7 @@
 
 	$tp = str_replace("*", "(.*)", $tp);
     $tp = str_replace("_", "(.*)", $tp);
-
+*/
     $thatpattern_wildcards = str_replace("_", "(.*)?", str_replace("*", "(.*)?", $aiml_thatpattern));
     if ($thatpattern_wildcards != $aiml_thatpattern)
     {

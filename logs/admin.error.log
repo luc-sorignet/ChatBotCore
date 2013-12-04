@@ -167,3 +167,4 @@ Stack trace:
 #4 {main}
   thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 246
 [03-Dec-2013 10:55:18 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/wordcensor.php on line 105
+[04-Dec-2013 16:40:03 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on line 29

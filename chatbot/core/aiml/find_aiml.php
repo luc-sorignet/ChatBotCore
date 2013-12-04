@@ -1,5 +1,5 @@
 <?php
-
+include'../debug.php';
   /***************************************
   * http://www.program-o.com
   * PROGRAM O
@@ -62,7 +62,7 @@
     $first_word = $words[0];
     $last_word = $words[$count_words];
     $tmpLike = '';
-    $sql_like_pattern .= " `$field` like '$first_word %' OR";
+    $sql_like_pattern .= " `$field` like '% $first_word %' OR";
     foreach ($words as $word)
     {
       if ($word == $first_word or $word == $last_word) continue;
@@ -208,6 +208,7 @@
     $item = "(" . str_replace(" ", "\s", $item) . ")";
     $item = str_replace("()", '', $item);
     $matchme = "/^" . $item . "$/ui";
+   // debug($matchme);
     return $matchme;
   }
 
@@ -757,6 +758,7 @@
   **/
   function find_aiml_matches($convoArr)
   {
+    //debug($convoArr['aiml']);
     global $con, $dbn, $error_response, $use_parent_bot;
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Finding the aiml matches from the DB", 4);
     $i = 0;
@@ -803,15 +805,17 @@
     else $topic_select = "`topic`=''";
     if ($word_count == 1)
     {
+     
     //if there is one word do this
       $sql = "SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `$dbn`.`aiml` WHERE
 		$sql_bot_select AND (
-		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = '$lookingfor') OR (`pattern` = '$aiml_pattern' ) )
+		((`pattern` = '_') OR (`pattern` = '*') OR (`pattern` = '$lookingfor') OR (`pattern` = '* $lookingfor *') OR (`pattern` = '_ $lookingfor _') OR (`pattern` = '* $lookingfor _') OR (`pattern` = '_ $lookingfor *') OR (`pattern` = '$aiml_pattern' ) )
 		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` = '$lastthat') $thatPatternSQL )
 		AND ( (`topic`='') OR (`topic`='$storedtopic')))";
     }
     else
     {
+     
     //otherwise do this
       $sql_add = make_like_pattern($lookingfor, 'pattern');
       $sql = "SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `$dbn`.`aiml` WHERE
@@ -823,9 +827,12 @@
 		 (`pattern` = '$aiml_pattern' ))
 		AND	((`thatpattern` = '_') OR (`thatpattern` = '*') OR (`thatpattern` = '') OR (`thatpattern` like '%') OR (`thatpattern` = '$lastthat') $thatPatternSQL )
 		AND ($topic_select));";
+  //debug($sql);
     }
+    //debug($sql);
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Match AIML sql: $sql", 3);
     $result = db_query($sql, $con);
+    //debug($result);
     if (($result) && (mysql_num_rows($result) > 0))
     {
       $tmp_rows = number_format(mysql_num_rows($result));
