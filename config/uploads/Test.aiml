@@ -8,33 +8,33 @@
 	
 	
 	<category>
-		<pattern>_ tu _</pattern>
+		<pattern>_tu_</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	<category>
-		<pattern>_ ton _</pattern>
+		<pattern>_ton_</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>	
 	<category>
-		<pattern>_ jarvis _</pattern>
+		<pattern>_jarvis_</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	<category>
-		<pattern>_ votre _</pattern>
+		<pattern>_votre_</pattern>
 		<template><srai><star/>XMOI<star index="2"/></srai></template>
 	</category>
 	
 	
 
 	<category>
-		<pattern>_ nom</pattern>
+		<pattern>_nom_</pattern>
 		<template><srai><star/>XNOM</srai></template>
 	</category>
 	
 	
 
 	<category>
-		<pattern>_ appelle _</pattern>
+		<pattern>_appelle_</pattern>
 		<template><srai><star/>XNOM<star index="2"/></srai></template>
 	</category>
 	
@@ -64,26 +64,26 @@
 	-->
 	
 	<category>
-		<pattern>_ est ce que _</pattern>
+		<pattern>_est ce que_</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
-		<pattern>_ comment _</pattern>
+		<pattern>_comment_</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
-		<pattern>quel est _</pattern>
+		<pattern>_quel est_</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	<category>
-		<pattern>_ combien _</pattern>
+		<pattern>_combien_</pattern>
 		<template><srai>XQUESTION<star/></srai></template>
 	</category>
 	
 	
 	
 	
-	
+	<!--
 	<category>
 		<pattern>_ XWHICH _ XNOM _</pattern>
 		<template><srai><star/>XWHO<star index="2"/></srai></template>
@@ -112,7 +112,7 @@
 		<template><srai>XWHO<star/></srai></template>
 	</category>
 	
-	
+	-->
 	
 	
 <!--Reponses-->
@@ -163,9 +163,10 @@
 	-->
 	
 	<category>
-		<pattern>XQUESTION XMOI * XNOM</pattern>
+		<pattern>* XQUESTION * XMOI * XNOM *</pattern>
 		<template>JARVIS</template>
 	</category>
+	<!--
 	<category>
 		<pattern>XQUESTION * XNOM * XMOI</pattern>
 		<template>JARVIS</template>
@@ -174,7 +175,7 @@
 		<pattern>XQUESTION * XNOM XMOI</pattern>
 		<template>JARVIS</template>
 	</category>
-	
+	-->
 	
 	<!--
 	<category>

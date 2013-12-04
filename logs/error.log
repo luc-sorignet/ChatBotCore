@@ -1807,3 +1807,8 @@ Stack trace:
 12/03/2013 11:45:01 - PHP ERROR [Notice] -Undefined index: star in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml_as_XML.php on Line 171
 [03-Dec-2013 11:55:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on line 279
 [03-Dec-2013 11:55:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/find_aiml.php on line 279
+[04-Dec-2013 09:29:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pattern_wildcards' (T_VARIABLE), expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml.php on line 295
+[04-Dec-2013 09:29:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pattern_wildcards' (T_VARIABLE), expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml.php on line 295
+[04-Dec-2013 09:29:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pattern_wildcards' (T_VARIABLE), expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml.php on line 295
+[04-Dec-2013 09:39:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pattern_wildcards' (T_VARIABLE), expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml.php on line 297
+[04-Dec-2013 09:40:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pattern_wildcards' (T_VARIABLE), expecting ',' or ';' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/chatbot/core/aiml/parse_aiml.php on line 297

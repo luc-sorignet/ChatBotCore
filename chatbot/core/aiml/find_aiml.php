@@ -208,7 +208,6 @@
     $item = "(" . str_replace(" ", "\s", $item) . ")";
     $item = str_replace("()", '', $item);
     $matchme = "/^" . $item . "$/ui";
-    print_r($matchme);echo"<br/>";
     return $matchme;
   }
 
