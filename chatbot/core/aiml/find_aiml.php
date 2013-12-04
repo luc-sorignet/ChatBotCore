@@ -199,7 +199,7 @@
   {
     $item = trim($item);
     $item = str_replace(" *", "*", $item);
-	$item = str_replace("* ", "*", $item);
+	  $item = str_replace("* ", "*", $item);
     $item = str_replace("*", ")(.*)(", $item);
     $item = str_replace(" _", "_", $item);
     $item = str_replace("_ ", "_", $item);
