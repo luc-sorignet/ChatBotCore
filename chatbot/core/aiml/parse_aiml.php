@@ -280,7 +280,7 @@ include'../debug.php';
     $ap = str_replace(" *", " (.*)", $ap);
     $ap = str_replace(" _", " (.*)", $ap);
 */
-  
+
 
 	  $ap = str_replace("* ", "*", $ap);
     $ap = str_replace("_ ", "_", $ap);
@@ -326,24 +326,14 @@ include'../debug.php';
     $tp = str_replace("*", "(.*)", $tp);
     $tp = str_replace("_", "(.*)", $tp);
 */
-   $tp = str_replace(" * ", " (\S*) ", $tp);
-    $tp = str_replace(" _ ", " (\S*) ", $tp);
-    $tp = str_replace("* ", "(\S*) ", $tp);
-    $tp = str_replace("_ ", "(\S*) ", $tp);
-    $tp = str_replace(" *", " (.*)", $tp);
-    $tp = str_replace(" _", " (.*)", $tp);
-/*
-	$tp = str_replace(" * ", "(.*)", $tp);
-    $tp = str_replace(" _ ", "(.*)", $tp);
-	$tp = str_replace("* ", "(.*)", $tp);
-    $tp = str_replace("_ ", "(.*)", $tp);
-    $tp = str_replace(" *", "(.*)", $tp);
-    $tp = str_replace(" _", "(.*)", $tp);
 
-
+	$tp = str_replace("* ", "*", $tp);
+    $tp = str_replace("_ ", "*", $tp);
+    $tp = str_replace(" *", "*", $tp);
+    $tp = str_replace(" _", "*", $tp);
 	$tp = str_replace("*", "(.*)", $tp);
     $tp = str_replace("_", "(.*)", $tp);
-*/
+
     $thatpattern_wildcards = str_replace("_", "(.*)?", str_replace("*", "(.*)?", $aiml_thatpattern));
     if ($thatpattern_wildcards != $aiml_thatpattern)
     {
