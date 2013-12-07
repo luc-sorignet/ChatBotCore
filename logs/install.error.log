@@ -254,3 +254,12 @@ VALUES (1, 'Jarvis', '', '1', '1', 'html', 'session',
 '1', '10', '', '2', '1', 'No AIML category found. This is a Default Response.', 'RANDOM PICKUP LINE'); in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 57
 [28-Nov-2013 10:26:41 Europe/Berlin] PHP Notice:  There was a problem with the following SQL query. Error = No database selected
 SQL = insert ignore into `myprogramo` (`id`, `user_name`, `password`, `last_ip`) values(null, '', 'd41d8cd98f00b204e9800998ecf8427e', '::1'); in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 57
+[05-Dec-2013 13:48:36 Europe/Berlin] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/install/install_programo.php on line 114
+[05-Dec-2013 13:48:36 Europe/Berlin] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, boolean given in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/install/install_programo.php on line 130
+[05-Dec-2013 13:48:36 Europe/Berlin] PHP Notice:  There was a problem with the following SQL query. Error = No database selected
+SQL = 
+INSERT IGNORE INTO `bots` (`bot_id`, `bot_name`, `bot_desc`, `bot_active`, `bot_parent_id`, `format`, `save_state`, `conversation_lines`, `remember_up_to`, `debugemail`, `debugshow`, `debugmode`, `error_response`, `default_aiml_pattern`)
+VALUES (1, 'jarvis', '', '1', '1', 'html', 'session',
+'1', '10', '', '2', '1', 'No AIML category found. This is a Default Response.', 'RANDOM PICKUP LINE'); in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 57
+[05-Dec-2013 13:48:36 Europe/Berlin] PHP Notice:  There was a problem with the following SQL query. Error = No database selected
+SQL = insert ignore into `myprogramo` (`id`, `user_name`, `password`, `last_ip`) values(null, 'admin', 'ee10c315eba2c75b403ea99136f5b48d', '::1'); in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 57

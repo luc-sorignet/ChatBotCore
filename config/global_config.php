@@ -92,7 +92,7 @@
     $time_zone_locale = 'Europe/Berlin'; // a full list can be found at http://uk.php.net/manual/en/timezones.php
     $dbh    = 'localhost';  # dev remote server location
     $dbPort = '3306';    # dev database name/prefix
-    $dbn    = 'ChatBot';    # dev database name/prefix
+    $dbn    = 'jarvis';    # dev database name/prefix
     $dbu    = 'root';       # dev database username
     $dbp    = 'root';  # dev database password
 
@@ -166,7 +166,7 @@
     // Set Misc Data
     //------------------------------------------------------------------------
 
-    $botmaster_name = 'rosn';
+    $botmaster_name = '';
     $charset = 'ISO-8859-1';
     $charset = 'UTF-8';
 

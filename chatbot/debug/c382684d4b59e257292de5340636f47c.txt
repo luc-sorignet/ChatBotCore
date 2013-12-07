@@ -1,418 +1,422 @@
-05-12-2013 00:23:17.805758[0][2] - Elapsed: 0.669 milliseconds
+05-12-2013 09:01:45.59332[0][2] - Elapsed: 0.4199 milliseconds
 [conversation_start.php][Called outside of function][24]
 Conversation Starting. Program O version 2.3.1 
 -----------------------
-05-12-2013 00:23:17.810639[2][2] - Elapsed: 4.879 milliseconds
+05-12-2013 09:01:45.613849[2][2] - Elapsed: 20.5312 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.810979[2][2] - Elapsed: 0.3471 milliseconds
+05-12-2013 09:01:45.614136[2][2] - Elapsed: 0.2918 milliseconds
 [handle_user.php][load_new_client_defaults][24]
 Loading client defaults 
 -----------------------
-05-12-2013 00:23:17.837548[2][2] - Elapsed: 26.561 milliseconds
+05-12-2013 09:01:45.635879[2][2] - Elapsed: 21.74 milliseconds
 [spell_checker.php][run_spell_checker_say][35]
 Starting function and setting timestamp. 
 -----------------------
-05-12-2013 00:23:17.837672[2][2] - Elapsed: 0.1318 milliseconds
+05-12-2013 09:01:45.635985[2][2] - Elapsed: 0.1101 milliseconds
 [spell_checker.php][spell_check][53]
-Preforming a spel chek on bien. 
+Preforming a spel chek on moi. 
 -----------------------
-05-12-2013 00:23:17.83792[2][2] - Elapsed: 0.2482 milliseconds
+05-12-2013 09:01:45.636247[2][2] - Elapsed: 0.262 milliseconds
 [spell_checker.php][load_spelling_list][115]
 Loading the spellcheck list from the DB. 
 -----------------------
-05-12-2013 00:23:17.837975[2][2] - Elapsed: 0.0548 milliseconds
+05-12-2013 09:01:45.636308[2][2] - Elapsed: 0.061 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.840627[2][2] - Elapsed: 2.651 milliseconds
+05-12-2013 09:01:45.639347[2][2] - Elapsed: 3.037 milliseconds
 [spell_checker.php][spell_check][53]
-Preforming a spel chek on joué. 
+Preforming a spel chek on c'est. 
 -----------------------
-05-12-2013 00:23:17.84104[2][2] - Elapsed: 0.4141 milliseconds
+05-12-2013 09:01:45.639818[2][2] - Elapsed: 0.473 milliseconds
+[spell_checker.php][spell_check][53]
+Preforming a spel chek on luc. 
+-----------------------
+05-12-2013 09:01:45.640272[2][2] - Elapsed: 0.453 milliseconds
 [conversation_start.php][Called outside of function][119]
 Details:
-User say: bien joué
+User say: moi c est luc
 Convo id: c382684d4b59e257292de5340636f47c
 Bot id: 1
 Format: html 
 -----------------------
-05-12-2013 00:23:17.841121[2][2] - Elapsed: 0.0811 milliseconds
+05-12-2013 09:01:45.640361[2][2] - Elapsed: 0.0899 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.841339[2][2] - Elapsed: 0.2179 milliseconds
+05-12-2013 09:01:45.640636[2][2] - Elapsed: 0.2739 milliseconds
 [intialise_conversation.php][check_set_bot][453]
 Checking and/or setting the current bot. 
 -----------------------
-05-12-2013 00:23:17.841407[2][2] - Elapsed: 0.0679 milliseconds
+05-12-2013 09:01:45.640717[2][2] - Elapsed: 0.082 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.841631[2][2] - Elapsed: 0.2241 milliseconds
+05-12-2013 09:01:45.641004[2][2] - Elapsed: 0.2861 milliseconds
 [intialise_conversation.php][check_set_bot][482]
 BOT ID: 1 
 -----------------------
-05-12-2013 00:23:17.841695[2][2] - Elapsed: 0.0648 milliseconds
+05-12-2013 09:01:45.641084[2][2] - Elapsed: 0.0811 milliseconds
 [intialise_conversation.php][check_set_user][534]
 Checking and setting the user info, as needed. 
 -----------------------
-05-12-2013 00:23:17.841968[2][2] - Elapsed: 0.2711 milliseconds
+05-12-2013 09:01:45.641363[2][2] - Elapsed: 0.2789 milliseconds
 [intialise_conversation.php][load_that][609]
 Loading the THAT array. 
 -----------------------
-05-12-2013 00:23:17.842037[2][2] - Elapsed: 0.0701 milliseconds
+05-12-2013 09:01:45.641438[2][2] - Elapsed: 0.0749 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.842364[1][2] - Elapsed: 0.3259 milliseconds
+05-12-2013 09:01:45.641792[1][2] - Elapsed: 0.3531 milliseconds
 [intialise_conversation.php][load_that][630]
 Inputs returned:Array
 (
     [0] => comment je m appelle
-    [1] => connais tu jarvis ?
-    [2] => connais tu son nom ?
-    [3] => con
-    [4] => connais tu ton nom ?
-    [5] => connais tu mon nom ?
-    [6] => je m appelle luc
-    [7] => connais tu mon nom ?
-    [8] => qui es tu
-    [9] => connais tu mon nom ?
+    [1] => je m appelle bla
+    [2] => comment tu t appelles
+    [3] => quel est ton nom
+    [4] => ton nom ?
+    [5] => connais tu ton nom
+    [6] => connais tu mon nom
+    [7] => tu es mignon
+    [8] => comment je m appelle?
+    [9] => je m appelle luc
 )
  
 -----------------------
-05-12-2013 00:23:17.842523[2][2] - Elapsed: 0.16 milliseconds
+05-12-2013 09:01:45.641966[2][2] - Elapsed: 0.174 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.842694[2][2] - Elapsed: 0.1709 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'ENCHANTÉ' to the front of the [that] array 
------------------------
-05-12-2013 00:23:17.842925[2][2] - Elapsed: 0.231 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.843055[2][2] - Elapsed: 0.1299 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'JARVIS' to the front of the [that] array 
------------------------
-05-12-2013 00:23:17.843235[2][2] - Elapsed: 0.18 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.843378[2][2] - Elapsed: 0.1431 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'TU T APPELLES' to the front of the [that] array 
------------------------
-05-12-2013 00:23:17.843563[2][2] - Elapsed: 0.185 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.843704[2][2] - Elapsed: 0.1409 milliseconds
+05-12-2013 09:01:45.642164[2][2] - Elapsed: 0.1979 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'ENCHANTÉ LUC' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.843891[2][2] - Elapsed: 0.1872 milliseconds
+05-12-2013 09:01:45.642415[2][2] - Elapsed: 0.252 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.844037[2][2] - Elapsed: 0.1459 milliseconds
+05-12-2013 09:01:45.642562[2][2] - Elapsed: 0.1471 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'TU T APPELLES LUC' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.844226[2][2] - Elapsed: 0.19 milliseconds
+05-12-2013 09:01:45.642753[2][2] - Elapsed: 0.191 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.844357[2][2] - Elapsed: 0.1299 milliseconds
+05-12-2013 09:01:45.642986[2][2] - Elapsed: 0.2339 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'DESOLE JE NE CONNAIS PAS ENCORE LA REPONSE JE VAIS ALLER DEMANDER REVENEZ PLUS TARD JE L AURAI SUREMENT' to the front of the [that] array 
+-----------------------
+05-12-2013 09:01:45.643235[2][2] - Elapsed: 0.2482 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.64338[2][2] - Elapsed: 0.145 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'TU T APPELLES LUC' to the front of the [that] array 
+-----------------------
+05-12-2013 09:01:45.643571[2][2] - Elapsed: 0.191 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.643701[2][2] - Elapsed: 0.1299 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'JARVIS' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.844538[2][2] - Elapsed: 0.1812 milliseconds
+05-12-2013 09:01:45.643882[2][2] - Elapsed: 0.181 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.844772[2][2] - Elapsed: 0.2339 milliseconds
+05-12-2013 09:01:45.644114[2][2] - Elapsed: 0.232 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'DESOLE JE NE CONNAIS PAS ENCORE LA REPONSE JE VAIS ALLER DEMANDER REVENEZ PLUS TARD JE L AURAI SUREMENT' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.845021[2][2] - Elapsed: 0.2489 milliseconds
+05-12-2013 09:01:45.644362[2][2] - Elapsed: 0.2482 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.845254[2][2] - Elapsed: 0.2332 milliseconds
+05-12-2013 09:01:45.644498[2][2] - Elapsed: 0.1369 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'DESOLE JE NE CONNAIS PAS ENCORE LA REPONSE JE VAIS ALLER DEMANDER REVENEZ PLUS TARD JE L AURAI SUREMENT' to the front of the [that] array 
+Pushing 'JARVIS' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.845504[2][2] - Elapsed: 0.2499 milliseconds
+05-12-2013 09:01:45.644691[2][2] - Elapsed: 0.1919 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.845737[2][2] - Elapsed: 0.2329 milliseconds
+05-12-2013 09:01:45.644828[2][2] - Elapsed: 0.1371 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'DESOLE JE NE CONNAIS PAS ENCORE LA REPONSE JE VAIS ALLER DEMANDER REVENEZ PLUS TARD JE L AURAI SUREMENT' to the front of the [that] array 
+Pushing 'JARVIS' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.845985[2][2] - Elapsed: 0.2482 milliseconds
+05-12-2013 09:01:45.645038[2][2] - Elapsed: 0.21 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.846143[2][2] - Elapsed: 0.1578 milliseconds
+05-12-2013 09:01:45.645185[2][2] - Elapsed: 0.1469 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'TU T APPELLES LUC' to the front of the [that] array 
+Pushing 'ENCHANTÉ BLA' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.846434[2][2] - Elapsed: 0.2911 milliseconds
+05-12-2013 09:01:45.645382[2][2] - Elapsed: 0.1972 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.846595[2][2] - Elapsed: 0.1609 milliseconds
+05-12-2013 09:01:45.645534[2][2] - Elapsed: 0.1519 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU MON NOM' to the front of the [input] array 
+Pushing 'TU T APPELLES BLA' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.846726[2][2] - Elapsed: 0.1311 milliseconds
+05-12-2013 09:01:45.645842[2][2] - Elapsed: 0.308 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.846868[2][2] - Elapsed: 0.1419 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'QUI ES TU' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.846966[2][2] - Elapsed: 0.098 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.847119[2][2] - Elapsed: 0.1531 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU MON NOM' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.847217[2][2] - Elapsed: 0.098 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.847366[2][2] - Elapsed: 0.15 milliseconds
+05-12-2013 09:01:45.646297[2][2] - Elapsed: 0.4029 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'JE M APPELLE LUC' to the front of the [input] array 
 -----------------------
-05-12-2013 00:23:17.847465[2][2] - Elapsed: 0.098 milliseconds
+05-12-2013 09:01:45.646438[2][2] - Elapsed: 0.1922 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.848415[2][2] - Elapsed: 0.948 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU MON NOM' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.848549[2][2] - Elapsed: 0.1361 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.848706[2][2] - Elapsed: 0.1569 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU TON NOM' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.848807[2][2] - Elapsed: 0.1011 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.848947[2][2] - Elapsed: 0.14 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CON' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.849046[2][2] - Elapsed: 0.0989 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.84938[2][2] - Elapsed: 0.334 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU SON NOM' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.849518[2][2] - Elapsed: 0.138 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.849682[2][2] - Elapsed: 0.164 milliseconds
-[intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'CONNAIS TU JARVIS' to the front of the [input] array 
------------------------
-05-12-2013 00:23:17.849787[2][2] - Elapsed: 0.1049 milliseconds
-[parse_aiml_as_XML.php][implode_recursive][79]
-Imploding an array into a string. (recursively, if necessary) 
------------------------
-05-12-2013 00:23:17.849944[2][2] - Elapsed: 0.1581 milliseconds
+05-12-2013 09:01:45.646594[2][2] - Elapsed: 0.1569 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'COMMENT JE M APPELLE' to the front of the [input] array 
 -----------------------
-05-12-2013 00:23:17.853651[2][2] - Elapsed: 3.701 milliseconds
+05-12-2013 09:01:45.646692[2][2] - Elapsed: 0.098 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.646838[2][2] - Elapsed: 0.1462 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'TU ES MIGNON' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.646937[2][2] - Elapsed: 0.0989 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.647087[2][2] - Elapsed: 0.15 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'CONNAIS TU MON NOM' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.647184[2][2] - Elapsed: 0.097 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.647333[2][2] - Elapsed: 0.149 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'CONNAIS TU TON NOM' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.64743[2][2] - Elapsed: 0.097 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.647573[2][2] - Elapsed: 0.144 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'TON NOM' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.64767[2][2] - Elapsed: 0.0958 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.647819[2][2] - Elapsed: 0.15 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'QUEL EST TON NOM' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.647925[2][2] - Elapsed: 0.1051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.64808[2][2] - Elapsed: 0.155 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'COMMENT TU T APPELLES' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.648178[2][2] - Elapsed: 0.098 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.648327[2][2] - Elapsed: 0.149 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'JE M APPELLE BLA' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.648426[2][2] - Elapsed: 0.0989 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][79]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+05-12-2013 09:01:45.64858[2][2] - Elapsed: 0.155 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][195]
+Pushing 'COMMENT JE M APPELLE' to the front of the [input] array 
+-----------------------
+05-12-2013 09:01:45.653003[2][2] - Elapsed: 4.416 milliseconds
 [intialise_conversation.php][load_bot_config][305]
 Loading config data for the current bot. 
 -----------------------
-05-12-2013 00:23:17.854144[0][2] - Elapsed: 0.4971 milliseconds
+05-12-2013 09:01:45.654015[0][2] - Elapsed: 1.014 milliseconds
 [conversation_start.php][Called outside of function][134]
 Debug level = 2 
 -----------------------
-05-12-2013 00:23:17.854215[0][2] - Elapsed: 0.072 milliseconds
+05-12-2013 09:01:45.654117[0][2] - Elapsed: 0.1061 milliseconds
 [conversation_start.php][Called outside of function][136]
 Debug level = 2 
 -----------------------
-05-12-2013 00:23:17.854299[2][2] - Elapsed: 0.0839 milliseconds
+05-12-2013 09:01:45.6542[2][2] - Elapsed: 0.083 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'bien joué' to the front of the [user_say] array 
+Pushing 'moi c est luc' to the front of the [user_say] array 
 -----------------------
-05-12-2013 00:23:17.854468[2][2] - Elapsed: 0.169 milliseconds
+05-12-2013 09:01:45.654366[2][2] - Elapsed: 0.1659 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
-Pushing 'bien joué' to the front of the [input] array 
+Pushing 'moi c est luc' to the front of the [input] array 
 -----------------------
-05-12-2013 00:23:17.854761[2][2] - Elapsed: 0.293 milliseconds
+05-12-2013 09:01:45.654654[2][2] - Elapsed: 0.2871 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.855032[2][2] - Elapsed: 0.2699 milliseconds
+05-12-2013 09:01:45.654985[2][2] - Elapsed: 0.3309 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.855242[2][2] - Elapsed: 0.211 milliseconds
+05-12-2013 09:01:45.65519[2][2] - Elapsed: 0.205 milliseconds
 [find_aiml.php][find_userdefined_aiml][674]
 User defined rows found: '0' 
 -----------------------
-05-12-2013 00:23:17.855382[2][2] - Elapsed: 0.1402 milliseconds
+05-12-2013 09:01:45.655323[2][2] - Elapsed: 0.134 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.855745[2][2] - Elapsed: 0.3629 milliseconds
+05-12-2013 09:01:45.655673[2][2] - Elapsed: 0.35 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.856265[2][2] - Elapsed: 0.52 milliseconds
+05-12-2013 09:01:45.656272[2][2] - Elapsed: 0.598 milliseconds
 [find_aiml.php][find_aiml_matches][840]
-FOUND: '1' potential AIML matches 
+FOUND: '3' potential AIML matches 
 -----------------------
-05-12-2013 00:23:17.856452[2][2] - Elapsed: 0.1869 milliseconds
+05-12-2013 09:01:45.65658[2][2] - Elapsed: 0.3092 milliseconds
 [find_aiml.php][unset_all_bad_pattern_matches][186]
 Found '1' relevant rows 
 -----------------------
-05-12-2013 00:23:17.856801[2][2] - Elapsed: 0.349 milliseconds
+05-12-2013 09:01:45.656956[2][2] - Elapsed: 0.3748 milliseconds
 [find_aiml.php][get_winning_category][521]
-And the winner is... 1576! 
+And the winner is... 1619! 
 -----------------------
-05-12-2013 00:23:17.857081[2][2] - Elapsed: 0.2789 milliseconds
+05-12-2013 09:01:45.657804[2][2] - Elapsed: 0.8461 milliseconds
 [find_aiml.php][get_highest_scoring_row][508]
-Will use randomly picked best response chosen out of 1 responses with same score: 1576 - * 
+Will use randomly picked best response chosen out of 1 responses with same score: 1619 - * 
 -----------------------
-05-12-2013 00:23:17.85719[2][2] - Elapsed: 0.1111 milliseconds
+05-12-2013 09:01:45.658136[2][2] - Elapsed: 0.334 milliseconds
 [parse_aiml.php][set_wildcards][271]
 Setting Wildcards 
 -----------------------
-05-12-2013 00:23:17.857272[2][2] - Elapsed: 0.082 milliseconds
+05-12-2013 09:01:45.658231[2][2] - Elapsed: 0.0958 milliseconds
 [parse_aiml.php][set_wildcards][296]
 We have pattern stars to process! 
 -----------------------
-05-12-2013 00:23:17.857338[2][2] - Elapsed: 0.066 milliseconds
+05-12-2013 09:01:45.658298[2][2] - Elapsed: 0.067 milliseconds
 [parse_aiml.php][set_wildcards][305]
-Checking '(.*)' against 'bien joué'. 
+Checking '(.*)' against 'moi c est luc'. 
 -----------------------
-05-12-2013 00:23:17.857454[2][2] - Elapsed: 0.1149 milliseconds
+05-12-2013 09:01:45.658511[2][2] - Elapsed: 0.2131 milliseconds
 [parse_aiml.php][set_wildcards][308]
 Array
 (
     [0] => Array
         (
-            [0] => bien joué
+            [0] => moi c est luc
             [1] => 
         )
 
     [1] => Array
         (
-            [0] => bien joué
+            [0] => moi c est luc
             [1] => 
         )
 
 )
  
 -----------------------
-05-12-2013 00:23:17.857535[2][2] - Elapsed: 0.0811 milliseconds
+05-12-2013 09:01:45.658596[2][2] - Elapsed: 0.0849 milliseconds
 [parse_aiml.php][set_wildcards][314]
-Adding bien joué to the star stack. 
+Adding moi c est luc to the star stack. 
 -----------------------
-05-12-2013 00:23:17.857635[2][2] - Elapsed: 0.0999 milliseconds
+05-12-2013 09:01:45.658693[2][2] - Elapsed: 0.098 milliseconds
 [parse_aiml_as_XML.php][parse_aiml_as_XML][22]
 Parsing the AIML template as XML 
 -----------------------
-05-12-2013 00:23:17.857704[2][2] - Elapsed: 0.0691 milliseconds
+05-12-2013 09:01:45.658761[2][2] - Elapsed: 0.067 milliseconds
 [parse_aiml_as_XML.php][add_text_tags][47]
 Adding some TEXT tags into the template, just because I can... 
 -----------------------
-05-12-2013 00:23:17.857894[2][2] - Elapsed: 0.19 milliseconds
+05-12-2013 09:01:45.658965[2][2] - Elapsed: 0.2041 milliseconds
 [parse_aiml_as_XML.php][parseTemplateRecursive][104]
 Recursively parsing the AIML template. 
 -----------------------
-05-12-2013 00:23:17.858092[2][2] - Elapsed: 0.1979 milliseconds
+05-12-2013 09:01:45.659161[2][2] - Elapsed: 0.196 milliseconds
 [parse_aiml_as_XML.php][parseTemplateRecursive][104]
 Recursively parsing the AIML template. 
 -----------------------
-05-12-2013 00:23:17.858262[2][2] - Elapsed: 0.169 milliseconds
+05-12-2013 09:01:45.659325[2][2] - Elapsed: 0.164 milliseconds
 [parse_aiml_as_XML.php][parse_text_tag][155]
 Parsing a TEXT tag. 
 -----------------------
-05-12-2013 00:23:17.858361[2][2] - Elapsed: 0.0999 milliseconds
+05-12-2013 09:01:45.65942[2][2] - Elapsed: 0.0961 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.858483[2][2] - Elapsed: 0.123 milliseconds
+05-12-2013 09:01:45.659539[2][2] - Elapsed: 0.1178 milliseconds
 [parse_aiml_as_XML.php][implode_recursive][79]
 Imploding an array into a string. (recursively, if necessary) 
 -----------------------
-05-12-2013 00:23:17.858633[2][2] - Elapsed: 0.15 milliseconds
+05-12-2013 09:01:45.659684[2][2] - Elapsed: 0.1452 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.' to the front of the [that_raw] array 
 -----------------------
-05-12-2013 00:23:17.858875[2][2] - Elapsed: 0.241 milliseconds
+05-12-2013 09:01:45.659912[2][2] - Elapsed: 0.2289 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.' to the front of the [that] array 
 -----------------------
-05-12-2013 00:23:17.859288[2][2] - Elapsed: 0.4132 milliseconds
+05-12-2013 09:01:45.661112[2][2] - Elapsed: 1.195 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.' to the front of the [parsed_template] array 
 -----------------------
-05-12-2013 00:23:17.859445[2][2] - Elapsed: 0.1578 milliseconds
+05-12-2013 09:01:45.661331[2][2] - Elapsed: 0.2232 milliseconds
 [intialise_conversation.php][push_on_front_convoArr][195]
 Pushing 'Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.' to the front of the [template] array 
 -----------------------
-05-12-2013 00:23:17.859617[2][2] - Elapsed: 0.1721 milliseconds
+05-12-2013 09:01:45.66151[2][2] - Elapsed: 0.1788 milliseconds
 [intialise_conversation.php][log_conversation][357]
 Saving the conversation to the DB. 
 -----------------------
-05-12-2013 00:23:17.859712[2][2] - Elapsed: 0.0939 milliseconds
+05-12-2013 09:01:45.661607[2][2] - Elapsed: 0.097 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.860079[2][2] - Elapsed: 0.3669 milliseconds
+05-12-2013 09:01:45.662067[2][2] - Elapsed: 0.4601 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.86033[2][2] - Elapsed: 0.2511 milliseconds
+05-12-2013 09:01:45.662344[2][2] - Elapsed: 0.2759 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.860587[2][2] - Elapsed: 0.257 milliseconds
+05-12-2013 09:01:45.662607[2][2] - Elapsed: 0.2642 milliseconds
 [display_conversation.php][get_conversation_to_display][63]
 Found '1' lines of conversation 
 -----------------------
-05-12-2013 00:23:17.860741[2][2] - Elapsed: 0.154 milliseconds
+05-12-2013 09:01:45.66276[2][2] - Elapsed: 0.1528 milliseconds
 [db_functions.php][db_query][55]
 Querying the DB, for some reason. 
 -----------------------
-05-12-2013 00:23:17.863561[2][2] - Elapsed: 2.821 milliseconds
+05-12-2013 09:01:45.665625[2][2] - Elapsed: 2.866 milliseconds
 [conversation_start.php][Called outside of function][170]
 Closing Database 
 -----------------------
-05-12-2013 00:23:17.863657[2][2] - Elapsed: 0.0949 milliseconds
+05-12-2013 09:01:45.665709[2][2] - Elapsed: 0.083 milliseconds
 [db_functions.php][db_close][41]
 This DB is now closed. You don't have to go home, but you can't stay here. 
 -----------------------
-05-12-2013 00:23:17.863963[0][2] - Elapsed: 0.303 milliseconds
+05-12-2013 09:01:45.666023[0][2] - Elapsed: 0.314 milliseconds
 [conversation_start.php][Called outside of function][173]
-Conversation Ending. Elapsed time: 58.455 milliseconds. 
+Conversation Ending. Elapsed time: 72.715 milliseconds. 
 -----------------------
 Debug Level: 2
 -----------------------
@@ -459,12 +463,12 @@ Array
 
     [star] => Array
         (
-            [1] => bien joué
+            [1] => moi c est luc
         )
 
     [input] => Array
         (
-            [1] => bien joué
+            [1] => moi c est luc
         )
 
     [stack] => Array
@@ -481,19 +485,19 @@ Array
 
     [aiml] => Array
         (
-            [user_raw] => bien joué
-            [lookingfor] => BIEN JOUÉ
+            [user_raw] => moi c est luc
+            [lookingfor] => MOI C EST LUC
             [pattern] => *
             [thatpattern] => 
             [topic] => 
             [score] => 1
-            [aiml_id] => 1576
+            [aiml_id] => 1619
             [parsed_template] => Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.
         )
 
     [user_say] => Array
         (
-            [1] => bien joué
+            [1] => moi c est luc
         )
 
     [that_raw] => Array

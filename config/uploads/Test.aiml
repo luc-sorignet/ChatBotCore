@@ -3,7 +3,7 @@
 <!--  Complies with the AIML 1.0 Standard                               -->
 <!--  as adopted by the ALICE A.I. Foundation.                          -->
 <!--  Last modified 11-15-2013                                          -->
-<!--  file: jurons.aiml                                                 -->
+<!--  file: question.aiml                                                 -->
 <aiml version="1.0">
 	
 	
@@ -97,4 +97,11 @@
 		<template><srai>XWHOX<star/><star index="2"/><star index="3"/></srai></template>
 	</category>
 	
+
+
+
+	<category>
+		<pattern>* XTOIX * XNOMX *</pattern>
+		<template>Enchanté <set name="nom"><star index="3"/></set></template>
+	</category>
 </aiml>

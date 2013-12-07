@@ -180,3 +180,9 @@ Stack trace:
 #3 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php(157): include('/Users/AdrienBo...')
 #4 {main}
   thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 246
+[05-Dec-2013 13:51:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'Table 'jarvis.aiml' doesn't exist' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php:297
+Stack trace:
+#0 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php(85): getAIML_List()
+#1 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php(157): include('/Users/AdrienBo...')
+#2 {main}
+  thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 297

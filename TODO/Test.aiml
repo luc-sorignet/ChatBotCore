@@ -33,6 +33,10 @@
 		<pattern>_ mon _</pattern>
 		<template><srai><star/>XTOIX<star index="2"/></srai></template>
 	</category>
+	<category>
+		<pattern>_ moi _</pattern>
+		<template><srai><star/>XTOIX<star index="2"/></srai></template>
+	</category>
 	
 
 	<category>
@@ -54,6 +58,10 @@
 	
 	
 	
+	<category>
+		<pattern>_ combien _</pattern>
+		<template><srai><star/>XHOWMANYX<star index='2'/></srai></template>
+	</category>
 	
 	
 <!-- Definition d'une question -->
