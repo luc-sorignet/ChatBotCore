@@ -6,7 +6,7 @@
 <!--  file: bonjour.aiml                                                -->
 <aiml version="1.0">
   <category>
-    <pattern>SALUT</pattern>
+    <pattern>* SALUT *</pattern>
     <template>
       <random>
         <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
@@ -17,69 +17,19 @@
     </template>
   </category>
   <category>
-    <pattern>BONJOUR</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
+    <pattern>* BONJOUR *</pattern>
+    <template><srai>* SALUT *</srai></template>
   </category>
   <category>
-    <pattern>YO</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
+    <pattern>* YO *</pattern>
+    <template><srai>* SALUT *</srai></template>
   </category>
   <category>
     <pattern>HEY</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
+    <template><srai>* SALUT *</srai></template>
   </category>
   <category>
-    <pattern>BONJOUR *</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>SALUT *</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>HEY *</pattern>
-    <template>
-      <random>
-        <li>Bonjour padawan! puis je te renseigner sur quelque chose?</li>
-        <li>Hey ! Besoin d'info ?</li>
-        <li>Salut, recherches tu des informations?</li>
-        <li>Plop ! as tu besoin de quelque chose ?</li>
-      </random>
-    </template>
+    <pattern>* HEY *</pattern>
+    <template><srai>* SALUT *</srai></template>
   </category>
 </aiml>

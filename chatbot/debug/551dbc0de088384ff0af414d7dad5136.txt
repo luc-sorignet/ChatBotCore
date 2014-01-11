@@ -1,0 +1,103 @@
+03-01-2014 19:17:58.437955[0][2] - Elapsed: 17.5319 milliseconds
+[conversation_start.php][Called outside of function][24]
+Conversation Starting. Program O version 2.3.1 
+-----------------------
+03-01-2014 19:17:58.653938[2][2] - Elapsed: 215.9841 milliseconds
+[db_functions.php][db_query][55]
+Querying the DB, for some reason. 
+-----------------------
+03-01-2014 19:17:58.738464[2][2] - Elapsed: 84.527 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+03-01-2014 19:17:58.780597[2][2] - Elapsed: 42.1238 milliseconds
+[conversation_start.php][Called outside of function][168]
+Conversation intialised waiting user 
+-----------------------
+03-01-2014 19:17:58.780671[2][2] - Elapsed: 0.0861 milliseconds
+[conversation_start.php][Called outside of function][170]
+Closing Database 
+-----------------------
+03-01-2014 19:17:58.780709[2][2] - Elapsed: 0.0379 milliseconds
+[db_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+03-01-2014 19:17:58.780854[1][2] - Elapsed: 0.144 milliseconds
+[display_conversation.php][Called outside of function][195]
+PHP ERROR [Notice] -Undefined index: send_to_user in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/core/conversation/display_conversation.php on Line 195 
+-----------------------
+03-01-2014 19:17:58.781029[1][2] - Elapsed: 0.1762 milliseconds
+[conversation_start.php][Called outside of function][173]
+PHP ERROR [Notice] -Undefined variable: time in /Users/stitchsori/Developpement/www/ChatBotCore/chatbot/conversation_start.php on Line 173 
+-----------------------
+03-01-2014 19:17:58.781288[0][2] - Elapsed: 0.257 milliseconds
+[conversation_start.php][Called outside of function][173]
+Conversation Ending. Elapsed time:  milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => 
+            [lookingfor] => 
+            [pattern] => 
+            [thatpattern] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+        )
+
+)

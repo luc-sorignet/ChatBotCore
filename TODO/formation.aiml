@@ -39,7 +39,7 @@
   </category>
   <category>
     <pattern>QUEL EST LA FORMATION*</pattern>
-    <template>SMI (pour Systèmes et microsystèmes intelligents) est une formation de 3 ans (Licence3, Master1 et Master2) en informatique, électronique, informatique industrielle et automatique.    	La formation possède 2 spécialités: SIR (Systèmes Interactifs et Robotiques) et SME (Systèmes et Microsystèmes Embarqués).    	Pour plus d'informations sur la formation, [url=http%3A%2F%2Fmastersi.ups-tlse.fr%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D37%26Itemid%3D31]cliquez ici[/url].</template>
+    <template>SMI (pour Systèmes et microsystèmes intelligents) est une formation de 3 ans (Licence3, Master1 et Master2) en électronique, informatique, informatique industrielle et automatique.    	La formation possède 2 spécialités: SIR (Systèmes Interactifs et Robotiques) et SME (Systèmes et Microsystèmes Embarqués).    	Pour plus d'informations sur la formation, [url=http%3A%2F%2Fmastersi.ups-tlse.fr%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D37%26Itemid%3D31]cliquez ici[/url].</template>
   </category>
   <category>
     <pattern>C EST QUOI LA FORMATION*</pattern>
