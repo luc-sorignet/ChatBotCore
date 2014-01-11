@@ -29,9 +29,7 @@
   $bot_id = (!empty($form_vars['bot_id'])) ? $form_vars['bot_id'] : 1;
   $convo_id = session_id();
   $format = (!empty($form_vars['format'])) ? $form_vars['format'] : 'html';
-  if($display==""){
-    $display="Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte à coté.";
-  }
+  
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +46,7 @@
   <div class="container">
  
     <embed src="jarvis.swf" width="750 " height="250">
-       
+       <p><strong>Jarvis </strong>: Bonjours posez ici vos questions concernant la formation SMI de l'UPPSITECH. </p>
     <form class="form" method="get" action="index.php#end">
       <div id="input">
         <label for="say">Question:</label>
