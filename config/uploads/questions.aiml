@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright ©2013 TERUpssitech                                       -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 11-15-2013                                          -->
+<!--  file: question.aiml                                                 -->
+<aiml version="1.0">		
+	<category>
+		<pattern>*</pattern>
+		<template>Desole je ne connais pas encore la reponse je vais aller demander. Revenez plus tard, je l'aurai surement.</template>
+	</category>
+	<category>
+		<pattern>* XWHOX * XMOIX *</pattern>
+		<template>JARVIS</template>
+	</category>
+	<category>
+		<pattern>* XMOIX * XWHOX *</pattern>
+		<template>JARVIS</template>
+	</category>
+	
+	<category>
+		<pattern>* XWHOX * XTOIX *</pattern>
+		<template>Tu t'appelles <get name="nom"/></template>
+	</category>
+	<category>
+		<pattern>* XTOIX * XWHOX *</pattern>
+		<template>Tu t'appelles <get name="nom"/></template>
+	</category>
+</aiml>

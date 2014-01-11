@@ -168,3 +168,21 @@ Stack trace:
   thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 246
 [03-Dec-2013 10:55:18 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/wordcensor.php on line 105
 [04-Dec-2013 16:40:03 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'ChatBot' in /Users/stitchsori/Developpement/www/ChatBotCore/library/db_functions.php on line 29
+[04-Dec-2013 18:08:39 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 29
+[04-Dec-2013 18:08:39 Europe/Berlin] PHP Notice:  Couldn't select the DB. Error = Unknown database 'jarvis' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/library/db_functions.php on line 29
+[04-Dec-2013 18:08:39 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have a SQL error on line 246 of /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php. Error message is: No database selected.<br />
+SQL = <pre>DELETE FROM `aiml`  WHERE `filename` = 'Test.aiml' AND bot_id = '1'</pre><br />
+' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php:246
+Stack trace:
+#0 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php(127): updateDB('DELETE FROM `ai...')
+#1 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php(280): parseAIML('./uploads/Test....', '<?xml version="...')
+#2 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php(16): processUpload()
+#3 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php(157): include('/Users/AdrienBo...')
+#4 {main}
+  thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 246
+[05-Dec-2013 13:51:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Exception' with message 'Table 'jarvis.aiml' doesn't exist' in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php:297
+Stack trace:
+#0 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php(85): getAIML_List()
+#1 /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/index.php(157): include('/Users/AdrienBo...')
+#2 {main}
+  thrown in /Users/AdrienBouichou/Documents/M1/TER/ChatBotCore/admin/upload.php on line 297

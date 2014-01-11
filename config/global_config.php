@@ -166,7 +166,7 @@
     // Set Misc Data
     //------------------------------------------------------------------------
 
-    $botmaster_name = 'rosn';
+    $botmaster_name = '';
     $charset = 'ISO-8859-1';
     $charset = 'UTF-8';
 
