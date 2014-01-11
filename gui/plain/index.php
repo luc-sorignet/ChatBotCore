@@ -30,7 +30,7 @@
   $convo_id = session_id();
   $format = (!empty($form_vars['format'])) ? $form_vars['format'] : 'html';
   if($display==""){
-    $display="Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte à coté.";
+    $display="<strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte à coté.";
   }
 ?>
 
