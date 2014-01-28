@@ -46,12 +46,13 @@
   <div class="container">
  
     <embed src="jarvis.swf" width="750 " height="250">
-       <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte à coté.
+      
     <form class="form" method="get" action="index.php#end">
       <div id="input">
         <label for="say">Question:</label>
         <input type="text" name="say" id="say" size="70" placeholder="Entrez votre question ici" x-webkit-speech/>
         <input  class="btn btn-primary" type="submit" name="submit" id="say" value="Envoyer" />
+         <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte au dessus.
         <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id;?>" />
         <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id;?>" />
         <input type="hidden" name="format" id="format" value="<?php echo $format;?>" />
