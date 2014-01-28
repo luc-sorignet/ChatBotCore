@@ -48,9 +48,9 @@
     <embed src="jarvis.swf" width="750 " height="250">
       
     <form class="form" method="get" action="index.php#end">
-     <div >
-    <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte au dessus.
-      <?php echo $display . '<a id="end"/>' ?>
+     <div>
+    <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte au dessous.
+   
     </div>
       <div id="input">
         <label for="say">Question:</label>
@@ -63,8 +63,8 @@
       </div>
     </form>
     <div id="responses">
-    <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte au dessus.
-      <?php echo $display . '<a id="end"/>' ?>
+    
+      <?php echo $display . '<a id="end"> </a>' ?>
     </div>
 
   </div>
