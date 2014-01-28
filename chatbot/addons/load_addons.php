@@ -14,6 +14,7 @@ include("custom_tags/custom_tags.php");
 include("word_censor/word_censor.php");
 include('spell_checker/spell_checker.php');
 include('actionCommand/actionCommand.php');
+include('killDash/killDash.php');
 include("parseBBCode/parseBBCode.php"); // A new addon to allow parsing of output that's consistent with BBCode tags
 //include("checkForBan/checkForBan.php"); // A new addon for verifying that a user has not been banned by IP address
 
@@ -22,6 +23,7 @@ runDebug( __FILE__, __FUNCTION__, __LINE__, "Loading addons",4);
 function run_pre_input_addons(&$convoArr, $say) {
   global $format;
   $say = (USE_SPELL_CHECKER) ? run_spell_checker_say($say) : $say;
+  $say = killDash($say);
   //$convoArr = checkIP($convoArr);
   #if ($format == 'html') $say =  parseInput($say);
   return $say;
