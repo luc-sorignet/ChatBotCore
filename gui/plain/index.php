@@ -48,6 +48,10 @@
     <embed src="jarvis.swf" width="750 " height="250">
       
     <form class="form" method="get" action="index.php#end">
+     <div >
+    <strong>JARVIS: </strong>Bonjour mon nom est jarvis vous pouvez me poser des questions concernant la formation SMI en utilisant la barre de texte au dessus.
+      <?php echo $display . '<a id="end"/>' ?>
+    </div>
       <div id="input">
         <label for="say">Question:</label>
         <input type="text" name="say" id="say" size="70" placeholder="Entrez votre question ici" x-webkit-speech/>
