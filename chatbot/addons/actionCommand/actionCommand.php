@@ -48,7 +48,7 @@ curl_close($ch);
 $res=json_decode($body);
 $res=$res->responseData->results;
 //var_dump($res);
-$result="Voici quelques liens qui pourront vous être utiles sur : <strong>".$item."</strong>";
+$result="Voici les resultats que j'ai trouvé sur Google (il se peut que les réponses ne soit pas pertinantes): <strong>".$item."</strong>";
 $result.='<br><div class="media">';
 foreach($res as $r){
 //$result.= '<a class="pull-left" href="#"><img class="media-object" src="http://lorempixel.com/50/50/technics" alt="result"></a>';
